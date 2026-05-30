@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: frontend_js
+    ports:
+      - "6336:4000"
+    networks:
+      - no-internet
+      - internet
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    container_name: backend_python
+    networks:
+      - no-internet
+networks:
+  internet: {}
+  no-internet:
+    internal: true

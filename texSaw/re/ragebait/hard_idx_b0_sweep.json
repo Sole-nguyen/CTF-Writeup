@@ -1,0 +1,4086 @@
+{
+  "304": [
+    {
+      "b0": 1,
+      "found": true,
+      "pre9_hex": "0158576c615a456b7a",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 2,
+      "found": true,
+      "pre9_hex": "02693c353048722c21",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 3,
+      "found": true,
+      "pre9_hex": "03375e2b5e71465927",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 4,
+      "found": true,
+      "pre9_hex": "04464a2e305a205664",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 5,
+      "found": true,
+      "pre9_hex": "054a7c414a76787b47",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 6,
+      "found": true,
+      "pre9_hex": "065d225f49543f5a69",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 7,
+      "found": true,
+      "pre9_hex": "0779537536463e772f",
+      "out": "bash: syntax error: \u0007ySu6F>w/AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 8,
+      "found": true,
+      "pre9_hex": "087b74354f4058425e",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 9,
+      "found": true,
+      "pre9_hex": "094f425124346d343a",
+      "out": "bash: syntax error: \tOBQ$4m4:AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 10,
+      "found": true,
+      "pre9_hex": "0a6d35695f43712f45",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 11,
+      "found": true,
+      "pre9_hex": "0b5f552350515e4241",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 12,
+      "found": true,
+      "pre9_hex": "0c5e4d6b3e294d4931",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 13,
+      "found": true,
+      "pre9_hex": "0d4d563322503d5073",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 14,
+      "found": true,
+      "pre9_hex": "0e483069475c557e54",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 15,
+      "found": true,
+      "pre9_hex": "0f4c6e3e264d205265",
+      "out": "bash: Permission denied: \u000fLn>&M ReAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 16,
+      "found": true,
+      "pre9_hex": "10624c5c7633413920",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 17,
+      "found": true,
+      "pre9_hex": "116e5b5d646d542b54",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 18,
+      "found": true,
+      "pre9_hex": "12372b327a4f776633",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 19,
+      "found": true,
+      "pre9_hex": "13262073206b5c4270",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 20,
+      "found": true,
+      "pre9_hex": "1455466f446d232731",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 21,
+      "found": true,
+      "pre9_hex": "152636552932583e33",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 22,
+      "found": true,
+      "pre9_hex": "163d666350232f3742",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 23,
+      "found": true,
+      "pre9_hex": "177744202c43757c5a",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 24,
+      "found": true,
+      "pre9_hex": "18677027483f3e2b53",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 25,
+      "found": true,
+      "pre9_hex": "19437a2e2957273e33",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 26,
+      "found": true,
+      "pre9_hex": "1a20286262494f3820",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 27,
+      "found": true,
+      "pre9_hex": "1b7721277c3e2a4f6d",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 28,
+      "found": true,
+      "pre9_hex": "1c4d4c3f376c2d7251",
+      "out": "ML?7l-rQAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 29,
+      "found": true,
+      "pre9_hex": "1d227b23416a275826",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 30,
+      "found": true,
+      "pre9_hex": "1e7d59752e30664c7b",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 31,
+      "found": true,
+      "pre9_hex": "1f625e5e52763e3d35",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 32,
+      "found": true,
+      "pre9_hex": "202f2670465c777220",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 33,
+      "found": true,
+      "pre9_hex": "21632850406e47776d",
+      "out": "bash: command not found: !c(P@nGwmAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 34,
+      "found": true,
+      "pre9_hex": "22445932704d677d3e",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 35,
+      "found": true,
+      "pre9_hex": "23302455734831773a",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 36,
+      "found": true,
+      "pre9_hex": "246b6e513f6f4a7237",
+      "out": "bash: command not found: $knQ?oJr7AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 37,
+      "found": true,
+      "pre9_hex": "2557272b2025642e74",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 38,
+      "found": true,
+      "pre9_hex": "26227820215a33563b",
+      "out": "bash: Permission denied: &\"x !Z3V;AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 39,
+      "found": true,
+      "pre9_hex": "27425e59215432586c",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 40,
+      "found": true,
+      "pre9_hex": "284274735a28776e6c",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 41,
+      "found": true,
+      "pre9_hex": "297e5b777220297420",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 42,
+      "found": true,
+      "pre9_hex": "2a6a6c4f6b773f3024",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 43,
+      "found": true,
+      "pre9_hex": "2b5d47245c56315f43",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 44,
+      "found": true,
+      "pre9_hex": "2c63274e622e2b202e",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 45,
+      "found": true,
+      "pre9_hex": "2d2371745e4d6a6620",
+      "out": "bash: command not found: -#qt^Mjf AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 46,
+      "found": true,
+      "pre9_hex": "2e457e504b244e4f43",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 47,
+      "found": true,
+      "pre9_hex": "2f425a48354765472c",
+      "out": "bash: command not found: /BZH5GeG,AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 48,
+      "found": true,
+      "pre9_hex": "30773d5e3955212e30",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 49,
+      "found": true,
+      "pre9_hex": "312d6c4b3f392a617a",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 50,
+      "found": true,
+      "pre9_hex": "32742b7d5e5f61286e",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 51,
+      "found": true,
+      "pre9_hex": "33214b6966315c5b34",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 52,
+      "found": true,
+      "pre9_hex": "346b284d5062212756",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 53,
+      "found": true,
+      "pre9_hex": "355d2b3e794c2f2a4b",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 54,
+      "found": true,
+      "pre9_hex": "367e586253763a7651",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 55,
+      "found": true,
+      "pre9_hex": "372e695e3079343d6f",
+      "out": "bash: Permission denied: 7.i^0y4=oAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 56,
+      "found": true,
+      "pre9_hex": "38436e6520512f4237",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 57,
+      "found": true,
+      "pre9_hex": "393f6f55243f44472c",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 58,
+      "found": true,
+      "pre9_hex": "3a6d5a287b2e31343c",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 59,
+      "found": true,
+      "pre9_hex": "3b25306c443e21326d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 60,
+      "found": true,
+      "pre9_hex": "3c543a36666a395a45",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 61,
+      "found": true,
+      "pre9_hex": "3d762a73513f415e70",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 62,
+      "found": true,
+      "pre9_hex": "3e50673e603323636c",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 63,
+      "found": true,
+      "pre9_hex": "3f454a66542b2d4667",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 64,
+      "found": true,
+      "pre9_hex": "404f416f6b324f6569",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 65,
+      "found": true,
+      "pre9_hex": "41452242665f662373",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 66,
+      "found": true,
+      "pre9_hex": "42757154636e733944",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 67,
+      "found": true,
+      "pre9_hex": "436a4b2c5e21706a2d",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 68,
+      "found": true,
+      "pre9_hex": "44664e362745284e37",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 69,
+      "found": true,
+      "pre9_hex": "45253b795e58477155",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 70,
+      "found": true,
+      "pre9_hex": "466b2f754e265f4f44",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 71,
+      "found": true,
+      "pre9_hex": "476c22602253784769",
+      "out": "bash: syntax error: Gl\"`\"SxGiAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 72,
+      "found": true,
+      "pre9_hex": "484e6e375357255722",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 73,
+      "found": true,
+      "pre9_hex": "492845775362395b3d",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 74,
+      "found": true,
+      "pre9_hex": "4a37553f326d334670",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 75,
+      "found": true,
+      "pre9_hex": "4b655a666e455f5e51",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 76,
+      "found": true,
+      "pre9_hex": "4c286e5741695f3033",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 77,
+      "found": true,
+      "pre9_hex": "4d20563f2e7c265a3d",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 78,
+      "found": true,
+      "pre9_hex": "4e324d796e3f255774",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 79,
+      "found": true,
+      "pre9_hex": "4f3a337247367c7034",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 80,
+      "found": true,
+      "pre9_hex": "506874576971772e75",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 81,
+      "found": true,
+      "pre9_hex": "51432a4c6643525f3d",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 82,
+      "found": true,
+      "pre9_hex": "522031752e6433507a",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 83,
+      "found": true,
+      "pre9_hex": "5331653b3e4e703f71",
+      "out": "bash: command not found: S1e;>Np?qAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 84,
+      "found": true,
+      "pre9_hex": "5426363b246c3c7124",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 85,
+      "found": true,
+      "pre9_hex": "55404d53693f706861",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 86,
+      "found": true,
+      "pre9_hex": "56433d516c2c5d4d73",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 87,
+      "found": true,
+      "pre9_hex": "574e72204248606267",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 88,
+      "found": true,
+      "pre9_hex": "58473d5a36223c7c64",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 89,
+      "found": true,
+      "pre9_hex": "595425606f46256050",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 90,
+      "found": true,
+      "pre9_hex": "5a5743444471703457",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 91,
+      "found": true,
+      "pre9_hex": "5b41427b566d337125",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 92,
+      "found": true,
+      "pre9_hex": "5c4f5c5552665e7e54",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 93,
+      "found": true,
+      "pre9_hex": "5d4f2a413b7d7e432f",
+      "out": "bash: command not found: ]O*A;}~C/AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 94,
+      "found": true,
+      "pre9_hex": "5e37386b6e4d7a582d",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 95,
+      "found": true,
+      "pre9_hex": "5f472231207d716160",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 96,
+      "found": true,
+      "pre9_hex": "60782f332c515a6c7b",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 97,
+      "found": true,
+      "pre9_hex": "61775253366f515335",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 98,
+      "found": true,
+      "pre9_hex": "625051343347602023",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 99,
+      "found": true,
+      "pre9_hex": "63205d40723f457179",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 100,
+      "found": true,
+      "pre9_hex": "644279375a274a4a71",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 101,
+      "found": true,
+      "pre9_hex": "656c5628475a3f2377",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 102,
+      "found": true,
+      "pre9_hex": "66786c676550586478",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 103,
+      "found": true,
+      "pre9_hex": "6733446e693c4c3470",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 104,
+      "found": true,
+      "pre9_hex": "686a225d2666644978",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 105,
+      "found": true,
+      "pre9_hex": "696248547055384b4c",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 106,
+      "found": true,
+      "pre9_hex": "6a4f416d217146664e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 107,
+      "found": true,
+      "pre9_hex": "6b57686639286c6f60",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 108,
+      "found": true,
+      "pre9_hex": "6c786630723b597c2d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 109,
+      "found": true,
+      "pre9_hex": "6d71754a2d2d403273",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 110,
+      "found": true,
+      "pre9_hex": "6e763123675459557d",
+      "out": "bash: syntax error: nv1#gTYU}AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 111,
+      "found": true,
+      "pre9_hex": "6f273d37235c467334",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 112,
+      "found": true,
+      "pre9_hex": "70797c4f4e57606d77",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 113,
+      "found": true,
+      "pre9_hex": "7159593c3741782f7c",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 114,
+      "found": true,
+      "pre9_hex": "7220205f406e5b2a42",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 115,
+      "found": true,
+      "pre9_hex": "736d5e2b2270757226",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 116,
+      "found": true,
+      "pre9_hex": "7465727c4e57652d7d",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 117,
+      "found": true,
+      "pre9_hex": "75213464676b264279",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 118,
+      "found": true,
+      "pre9_hex": "764f35342c49524966",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 119,
+      "found": true,
+      "pre9_hex": "77777b3430586e613a",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 120,
+      "found": true,
+      "pre9_hex": "782725203b3d6a7a4b",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 121,
+      "found": true,
+      "pre9_hex": "794d5d337c6a366a6b",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 122,
+      "found": true,
+      "pre9_hex": "7a2a7a76515276246c",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 123,
+      "found": true,
+      "pre9_hex": "7b694428322d2b5436",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 124,
+      "found": true,
+      "pre9_hex": "7c7767797c2a40562f",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 125,
+      "found": true,
+      "pre9_hex": "7d314a7b5f3e38745d",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 126,
+      "found": true,
+      "pre9_hex": "7e55743e4a26212327",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 127,
+      "found": true,
+      "pre9_hex": "7f6a7b3c372e48232e",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 128,
+      "found": true,
+      "pre9_hex": "80306d25377e4d2c57",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 129,
+      "found": true,
+      "pre9_hex": "812d7a332e6d5d6d3a",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 130,
+      "found": true,
+      "pre9_hex": "82375c6e2d5f52472b",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 131,
+      "found": true,
+      "pre9_hex": "835579393968325c6e",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 132,
+      "found": true,
+      "pre9_hex": "84207c485e5b3e4a36",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 133,
+      "found": true,
+      "pre9_hex": "855c5c487772552530",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 134,
+      "found": true,
+      "pre9_hex": "86716532572a7a6a35",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 135,
+      "found": true,
+      "pre9_hex": "87667d307d6650683e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 136,
+      "found": true,
+      "pre9_hex": "885a29385d6b392f4a",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 137,
+      "found": true,
+      "pre9_hex": "89502f7c753f36695f",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 138,
+      "found": true,
+      "pre9_hex": "8a40387739722f5838",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 139,
+      "found": true,
+      "pre9_hex": "8b557a6a334d295e2f",
+      "out": "bash: Permission denied: \u008bUzj3M)^/AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 140,
+      "found": true,
+      "pre9_hex": "8c7631675a75512b6b",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 141,
+      "found": true,
+      "pre9_hex": "8d6d602f4126533a5d",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 142,
+      "found": true,
+      "pre9_hex": "8e3127383a35476046",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 143,
+      "found": true,
+      "pre9_hex": "8f322739666f38745b",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 144,
+      "found": true,
+      "pre9_hex": "906e6821214031662f",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 145,
+      "found": true,
+      "pre9_hex": "915825494c26296a6f",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 146,
+      "found": true,
+      "pre9_hex": "92714b495d4e452e22",
+      "out": "bash: syntax error: \u0092qKI]NE.\"AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 147,
+      "found": true,
+      "pre9_hex": "93323441224a743d2b",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 148,
+      "found": true,
+      "pre9_hex": "9455374d3e272b2b56",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 149,
+      "found": true,
+      "pre9_hex": "954367483750253f62",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 150,
+      "found": true,
+      "pre9_hex": "9660575c573a2a6c30",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 151,
+      "found": true,
+      "pre9_hex": "97285720647c334b7d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 152,
+      "found": true,
+      "pre9_hex": "984f2c6d3051523337",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 153,
+      "found": true,
+      "pre9_hex": "9961702258323a2866",
+      "out": "bash: syntax error: \u0099ap\"X2:(fAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 154,
+      "found": true,
+      "pre9_hex": "9a5b555b466a426829",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 155,
+      "found": true,
+      "pre9_hex": "9b773e385756457d50",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 156,
+      "found": true,
+      "pre9_hex": "9c2357713475236e7e",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 157,
+      "found": true,
+      "pre9_hex": "9d534c295544264738",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 158,
+      "found": true,
+      "pre9_hex": "9e7223787764245e45",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 159,
+      "found": true,
+      "pre9_hex": "9f54252c234d412c5f",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 160,
+      "found": true,
+      "pre9_hex": "a050375b5b2725475b",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 161,
+      "found": true,
+      "pre9_hex": "a165536e5e41596075",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 162,
+      "found": true,
+      "pre9_hex": "a23058227c665e7920",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 163,
+      "found": true,
+      "pre9_hex": "a33d5c2c50546e7a48",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 164,
+      "found": true,
+      "pre9_hex": "a46631554f62372166",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 165,
+      "found": true,
+      "pre9_hex": "a53946616d78555e6a",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 166,
+      "found": true,
+      "pre9_hex": "a6273c24467e494028",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 167,
+      "found": true,
+      "pre9_hex": "a7363951467535565a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 168,
+      "found": true,
+      "pre9_hex": "a85a20792852694c5f",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 169,
+      "found": true,
+      "pre9_hex": "a9595b3b4766347d27",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 170,
+      "found": true,
+      "pre9_hex": "aa4e5f387c7e492c62",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 171,
+      "found": true,
+      "pre9_hex": "ab5a657757767b223b",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 172,
+      "found": true,
+      "pre9_hex": "ac71494d6339426930",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 173,
+      "found": true,
+      "pre9_hex": "ad5f4d6257663a2f36",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 174,
+      "found": true,
+      "pre9_hex": "ae3d2274737057733a",
+      "out": "bash: command not found: \u00ae=\"tspWs:AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 175,
+      "found": true,
+      "pre9_hex": "af70505f4167556a36",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 176,
+      "found": true,
+      "pre9_hex": "b05e5178797e365532",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 177,
+      "found": true,
+      "pre9_hex": "b1222a4b513f3f625f",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 178,
+      "found": true,
+      "pre9_hex": "b23e693b5539663572",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 179,
+      "found": true,
+      "pre9_hex": "b36234733775543054",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 180,
+      "found": true,
+      "pre9_hex": "b452547c2e3771524a",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 181,
+      "found": true,
+      "pre9_hex": "b57474763b262a6954",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 182,
+      "found": true,
+      "pre9_hex": "b62d7255244665363e",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 183,
+      "found": true,
+      "pre9_hex": "b7235d36454d2f386a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 184,
+      "found": true,
+      "pre9_hex": "b8342b3042225a3933",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 185,
+      "found": true,
+      "pre9_hex": "b93e7b314b7d613834",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 186,
+      "found": true,
+      "pre9_hex": "ba452a29584626275d",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 187,
+      "found": true,
+      "pre9_hex": "bb4328713a773e5820",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 188,
+      "found": true,
+      "pre9_hex": "bc5f68543b4b443b7e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 189,
+      "found": true,
+      "pre9_hex": "bd595f4d454958567b",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 190,
+      "found": true,
+      "pre9_hex": "be68375451343a6e34",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 191,
+      "found": true,
+      "pre9_hex": "bf5447514638477676",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 192,
+      "found": true,
+      "pre9_hex": "c072607c40704d4d24",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 193,
+      "found": true,
+      "pre9_hex": "c14f7160306d754650",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 194,
+      "found": true,
+      "pre9_hex": "c2614d39297260365d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 195,
+      "found": true,
+      "pre9_hex": "c33e2671214a2b2827",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 196,
+      "found": true,
+      "pre9_hex": "c4224a585464785348",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 197,
+      "found": true,
+      "pre9_hex": "c5713c6f3a5229672a",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 198,
+      "found": true,
+      "pre9_hex": "c6772b70725b2b6a41",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 199,
+      "found": true,
+      "pre9_hex": "c76026607b5d4c713a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 200,
+      "found": true,
+      "pre9_hex": "c86f557039697e6854",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 201,
+      "found": true,
+      "pre9_hex": "c94e3345793a284658",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 202,
+      "found": true,
+      "pre9_hex": "ca5c5e64296f743c5b",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 203,
+      "found": true,
+      "pre9_hex": "cb4d7b2a5849246070",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 204,
+      "found": true,
+      "pre9_hex": "cc3f25575826393163",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 205,
+      "found": true,
+      "pre9_hex": "cd6f524271495b703b",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 206,
+      "found": true,
+      "pre9_hex": "ce6527494536443478",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 207,
+      "found": true,
+      "pre9_hex": "cf573f432b7c52563d",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 208,
+      "found": true,
+      "pre9_hex": "d06a623a313b676d6a",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 209,
+      "found": true,
+      "pre9_hex": "d177505533724c5f49",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 210,
+      "found": true,
+      "pre9_hex": "d2712b7b5b446c392a",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 211,
+      "found": true,
+      "pre9_hex": "d3496d2e5d74553256",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 212,
+      "found": true,
+      "pre9_hex": "d43f6f3f5c68594178",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 213,
+      "found": true,
+      "pre9_hex": "d53954466d2b7e7526",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 214,
+      "found": true,
+      "pre9_hex": "d6515c5c4a42692f51",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 215,
+      "found": true,
+      "pre9_hex": "d77a6449276c3f2349",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 216,
+      "found": true,
+      "pre9_hex": "d8336e3c77657b3625",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 217,
+      "found": true,
+      "pre9_hex": "d96d21644b64753653",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 218,
+      "found": true,
+      "pre9_hex": "da4a5228554e203253",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 219,
+      "found": true,
+      "pre9_hex": "db32652c334a372030",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 220,
+      "found": true,
+      "pre9_hex": "dc5e3e3c67333c3363",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 221,
+      "found": true,
+      "pre9_hex": "dd485c5741575c222c",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 222,
+      "found": true,
+      "pre9_hex": "de2c6a513223495965",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 223,
+      "found": true,
+      "pre9_hex": "df7d626922294d403e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 224,
+      "found": true,
+      "pre9_hex": "e05c493578786c285c",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 225,
+      "found": true,
+      "pre9_hex": "e14d2f67556b5d306f",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 226,
+      "found": true,
+      "pre9_hex": "e24f5a714d77493545",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 227,
+      "found": true,
+      "pre9_hex": "e356753662323a6c25",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 228,
+      "found": true,
+      "pre9_hex": "e4272b43427a4c522a",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 229,
+      "found": true,
+      "pre9_hex": "e54e6975527d5d4822",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 230,
+      "found": true,
+      "pre9_hex": "e65526346f3b39277e",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 231,
+      "found": true,
+      "pre9_hex": "e770646542623a5065",
+      "out": "bash: command not found: \u00e7pdeBb:PeAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 232,
+      "found": true,
+      "pre9_hex": "e825745071702d2e71",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 233,
+      "found": true,
+      "pre9_hex": "e94f3e402c7a243a7b",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 234,
+      "found": true,
+      "pre9_hex": "ea2d355b2656276262",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 235,
+      "found": true,
+      "pre9_hex": "eb47383f584b69747a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 236,
+      "found": true,
+      "pre9_hex": "ec4055204b4d41556e",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 237,
+      "found": true,
+      "pre9_hex": "ed324c752b42572e5f",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 238,
+      "found": true,
+      "pre9_hex": "ee59782b37234f366b",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 239,
+      "found": true,
+      "pre9_hex": "ef764726297a37246b",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 240,
+      "found": true,
+      "pre9_hex": "f05755415b60314c5e",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 241,
+      "found": true,
+      "pre9_hex": "f17a34435c6e594c34",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 242,
+      "found": true,
+      "pre9_hex": "f2497d756929232977",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 243,
+      "found": true,
+      "pre9_hex": "f37757732f34234e61",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 244,
+      "found": true,
+      "pre9_hex": "f4674e28684f695b56",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 245,
+      "found": true,
+      "pre9_hex": "f5563f5879475a7a24",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 246,
+      "found": true,
+      "pre9_hex": "f64d6b7e597621343f",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 247,
+      "found": true,
+      "pre9_hex": "f7795f5e4c7e333449",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 248,
+      "found": true,
+      "pre9_hex": "f868345d467c4f267b",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 249,
+      "found": true,
+      "pre9_hex": "f928374a462c727322",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 250,
+      "found": true,
+      "pre9_hex": "fa30685e613d4b5030",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 251,
+      "found": true,
+      "pre9_hex": "fb41715b7c6f794e21",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 252,
+      "found": true,
+      "pre9_hex": "fc7d4e6a4a3232286c",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 253,
+      "found": true,
+      "pre9_hex": "fd4f4558374f385529",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 254,
+      "found": true,
+      "pre9_hex": "fe5a63672e56596d37",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 255,
+      "found": true,
+      "pre9_hex": "ff762c6c4f39444d36",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    }
+  ],
+  "353": [
+    {
+      "b0": 1,
+      "found": true,
+      "pre9_hex": "014b2b4d772a63315c",
+      "out": "bash: Permission denied: \u0001K+Mw*c1\\AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 2,
+      "found": true,
+      "pre9_hex": "022a4e727e234a7670",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 3,
+      "found": true,
+      "pre9_hex": "0321483160402b4539",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 4,
+      "found": true,
+      "pre9_hex": "046e5e352658423d23",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 5,
+      "found": true,
+      "pre9_hex": "05795d73345276512a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 6,
+      "found": true,
+      "pre9_hex": "063f635a41392a6b50",
+      "out": "bash: syntax error: \u0006?cZA9*kPAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 7,
+      "found": true,
+      "pre9_hex": "0756582e233f413161",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 8,
+      "found": true,
+      "pre9_hex": "0849616f464a656742",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 9,
+      "found": true,
+      "pre9_hex": "096634316959773d51",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 10,
+      "found": true,
+      "pre9_hex": "0a523b5c3477622d6c",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 11,
+      "found": true,
+      "pre9_hex": "0b2e2a4b7726715e41",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 12,
+      "found": true,
+      "pre9_hex": "0c2762744e7a604b63",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 13,
+      "found": true,
+      "pre9_hex": "0d2c60544c6a3c296b",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 14,
+      "found": true,
+      "pre9_hex": "0e32507073772b3d30",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 15,
+      "found": true,
+      "pre9_hex": "0f377232706c5e512f",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 16,
+      "found": true,
+      "pre9_hex": "1028686e5c4e675c6c",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 17,
+      "found": true,
+      "pre9_hex": "117131487426595d57",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 18,
+      "found": true,
+      "pre9_hex": "124e623d2554624648",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 19,
+      "found": true,
+      "pre9_hex": "13512c6041643c7c75",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 20,
+      "found": true,
+      "pre9_hex": "147150224a2e79515e",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 21,
+      "found": true,
+      "pre9_hex": "15692f25257a275a49",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 22,
+      "found": true,
+      "pre9_hex": "167651404c7b3a2d4c",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 23,
+      "found": true,
+      "pre9_hex": "17366d7b5c69696d45",
+      "out": "bash: command not found: \u00176m{\\iimEAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 24,
+      "found": true,
+      "pre9_hex": "18255274693e727349",
+      "out": "bash: Permission denied: \u0018%Rti>rsIAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 25,
+      "found": true,
+      "pre9_hex": "196b2f476f28592860",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 26,
+      "found": true,
+      "pre9_hex": "1a545a2b6e502b6f4d",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 27,
+      "found": true,
+      "pre9_hex": "1b494567604b647d6d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 28,
+      "found": true,
+      "pre9_hex": "1c754a386e2d4f4637",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 29,
+      "found": true,
+      "pre9_hex": "1d612550276f34267a",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 30,
+      "found": true,
+      "pre9_hex": "1e507e763966763425",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 31,
+      "found": true,
+      "pre9_hex": "1f4d4e5d2b39452863",
+      "out": "bash: Permission denied: \u001fMN]+9E(cAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 32,
+      "found": true,
+      "pre9_hex": "20783a3a485862605f",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 33,
+      "found": true,
+      "pre9_hex": "215f43222d39386373",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 34,
+      "found": true,
+      "pre9_hex": "225d4d3d2a23246543",
+      "out": "bash: Permission denied: \"]M=*#$eCAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 35,
+      "found": true,
+      "pre9_hex": "233a667d5a3575746e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 36,
+      "found": true,
+      "pre9_hex": "245b60703754357666",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 37,
+      "found": true,
+      "pre9_hex": "256a772e637a6a3568",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 38,
+      "found": true,
+      "pre9_hex": "267a382b733743533b",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 39,
+      "found": true,
+      "pre9_hex": "276d6a533f4b567c40",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 40,
+      "found": true,
+      "pre9_hex": "28742e20447876643b",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 41,
+      "found": true,
+      "pre9_hex": "29613b515472287b22",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 42,
+      "found": true,
+      "pre9_hex": "2a63395b277956493d",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 43,
+      "found": true,
+      "pre9_hex": "2b426e533c5459566d",
+      "out": "bash: Permission denied: +BnS<TYVmAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 44,
+      "found": true,
+      "pre9_hex": "2c2f764f764c405024",
+      "out": "bash: syntax error: ,/vOvL@P$AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 45,
+      "found": true,
+      "pre9_hex": "2d53316e3e447e762b",
+      "out": "bash: command not found: -S1n>D~v+AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 46,
+      "found": true,
+      "pre9_hex": "2e35597c205426574c",
+      "out": "bash: Permission denied: .5Y| T&WLAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 47,
+      "found": true,
+      "pre9_hex": "2f6c6366436760684c",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 48,
+      "found": true,
+      "pre9_hex": "30294e3130744c327a",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 49,
+      "found": true,
+      "pre9_hex": "315f4a666422614c6e",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 50,
+      "found": true,
+      "pre9_hex": "327575456a2140764a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 51,
+      "found": true,
+      "pre9_hex": "33753c673c453a5d6e",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 52,
+      "found": true,
+      "pre9_hex": "34337e2e30355c5e65",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 53,
+      "found": true,
+      "pre9_hex": "353762296b29767c74",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 54,
+      "found": true,
+      "pre9_hex": "366461476960214964",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 55,
+      "found": true,
+      "pre9_hex": "372f61643137237a65",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 56,
+      "found": true,
+      "pre9_hex": "385b3d75366d5c7e5a",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 57,
+      "found": true,
+      "pre9_hex": "39623264335438577b",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 58,
+      "found": true,
+      "pre9_hex": "3a74742263674a575f",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 59,
+      "found": true,
+      "pre9_hex": "3b5d5f5e3f6d34737a",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 60,
+      "found": true,
+      "pre9_hex": "3c4f5f365e61553562",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 61,
+      "found": true,
+      "pre9_hex": "3d274b7e226e57376a",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 62,
+      "found": true,
+      "pre9_hex": "3e56434e7d6f35486c",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 63,
+      "found": true,
+      "pre9_hex": "3f28746a2f35616939",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 64,
+      "found": true,
+      "pre9_hex": "403c7c6c3d6b26316d",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 65,
+      "found": true,
+      "pre9_hex": "414f587c2869785d54",
+      "out": "bash: Permission denied: AOX|(ix]TAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 66,
+      "found": true,
+      "pre9_hex": "4221487c7c777e655d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 67,
+      "found": true,
+      "pre9_hex": "43727a7c7e44522436",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 68,
+      "found": true,
+      "pre9_hex": "444d73204436722c44",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 69,
+      "found": true,
+      "pre9_hex": "45227c78647a755f5e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 70,
+      "found": true,
+      "pre9_hex": "4655694250247e5d3b",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 71,
+      "found": true,
+      "pre9_hex": "47203a637577774534",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 72,
+      "found": true,
+      "pre9_hex": "484d5d723e542a5c64",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 73,
+      "found": true,
+      "pre9_hex": "4939774c317a767549",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 74,
+      "found": true,
+      "pre9_hex": "4a2c6d37324d703e7c",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 75,
+      "found": true,
+      "pre9_hex": "4b57284855296a2d51",
+      "out": "bash: command not found: KW(HU)j-QAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 76,
+      "found": true,
+      "pre9_hex": "4c4d5a4b4d4f575f49",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 77,
+      "found": true,
+      "pre9_hex": "4d5b274a436e25203a",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 78,
+      "found": true,
+      "pre9_hex": "4e6e21654c683b757d",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 79,
+      "found": true,
+      "pre9_hex": "4f2f4b3877494c396f",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 80,
+      "found": true,
+      "pre9_hex": "5033665c4f2b775c74",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 81,
+      "found": true,
+      "pre9_hex": "5155402f656525683d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 82,
+      "found": true,
+      "pre9_hex": "527e3a27343f643a3d",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 83,
+      "found": true,
+      "pre9_hex": "53473c2e764d77702a",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 84,
+      "found": true,
+      "pre9_hex": "54623a4d3b5244272f",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 85,
+      "found": true,
+      "pre9_hex": "553a6d2142314c396f",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 86,
+      "found": true,
+      "pre9_hex": "563d6d235f60302579",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 87,
+      "found": true,
+      "pre9_hex": "576f5743554c2d2a29",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 88,
+      "found": true,
+      "pre9_hex": "58622269486c602831",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 89,
+      "found": true,
+      "pre9_hex": "596e2b3d367c635f4e",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 90,
+      "found": true,
+      "pre9_hex": "5a626f424624312e4e",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 91,
+      "found": true,
+      "pre9_hex": "5b54674d2f64722937",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 92,
+      "found": true,
+      "pre9_hex": "5c3f764c3b7823242f",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 93,
+      "found": true,
+      "pre9_hex": "5d2d2550596c397267",
+      "out": "bash: syntax error: ]-%PYl9rgAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 94,
+      "found": true,
+      "pre9_hex": "5e477e663b24637272",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 95,
+      "found": true,
+      "pre9_hex": "5f312c2e574473353d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 96,
+      "found": true,
+      "pre9_hex": "6056544f3a2c6c526d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 97,
+      "found": true,
+      "pre9_hex": "615f4624382b693f36",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 98,
+      "found": true,
+      "pre9_hex": "62233c5a6a2c47295c",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 99,
+      "found": true,
+      "pre9_hex": "637232502336497257",
+      "out": "bash: Permission denied: cr2P#6IrWAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 100,
+      "found": true,
+      "pre9_hex": "646530296954722d64",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 101,
+      "found": true,
+      "pre9_hex": "657267334f7a515d63",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 102,
+      "found": true,
+      "pre9_hex": "662f3927643f2e5878",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 103,
+      "found": true,
+      "pre9_hex": "67332a31362b3e3978",
+      "out": "bash: Permission denied: g3*16+>9xAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 104,
+      "found": true,
+      "pre9_hex": "68683428493c613a50",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 105,
+      "found": true,
+      "pre9_hex": "697024775d487e5c7a",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 106,
+      "found": true,
+      "pre9_hex": "6a29507a442c2c6524",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 107,
+      "found": true,
+      "pre9_hex": "6b23696e5f552e7324",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 108,
+      "found": true,
+      "pre9_hex": "6c21495b2b2a666c47",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 109,
+      "found": true,
+      "pre9_hex": "6d3e56567622484861",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 110,
+      "found": true,
+      "pre9_hex": "6e574d38713b7a6a6f",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 111,
+      "found": true,
+      "pre9_hex": "6f2d7138417e662875",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 112,
+      "found": true,
+      "pre9_hex": "705a7d6242376a7944",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 113,
+      "found": true,
+      "pre9_hex": "71202b34296e3f2b2a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 114,
+      "found": true,
+      "pre9_hex": "725274546e645b5c51",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 115,
+      "found": true,
+      "pre9_hex": "7342442624683a4c41",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 116,
+      "found": true,
+      "pre9_hex": "7467457b6469514751",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 117,
+      "found": true,
+      "pre9_hex": "7551622e6e66356e48",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 118,
+      "found": true,
+      "pre9_hex": "764c27295839573d5a",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 119,
+      "found": true,
+      "pre9_hex": "77503c406d6a58317a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 120,
+      "found": true,
+      "pre9_hex": "783640282d61556163",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 121,
+      "found": true,
+      "pre9_hex": "797a4a6556495d4e77",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 122,
+      "found": true,
+      "pre9_hex": "7a61573c7561624431",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 123,
+      "found": true,
+      "pre9_hex": "7b4d42637e6a7e5a54",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 124,
+      "found": true,
+      "pre9_hex": "7c4a26457b5c4e4322",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 125,
+      "found": true,
+      "pre9_hex": "7d7d6f726854505c3b",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 126,
+      "found": true,
+      "pre9_hex": "7e205d3330237d2654",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 127,
+      "found": true,
+      "pre9_hex": "7f7d3b375e6e75474a",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 128,
+      "found": true,
+      "pre9_hex": "80316f72777d594553",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 129,
+      "found": true,
+      "pre9_hex": "81747b6b337d706f42",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 130,
+      "found": true,
+      "pre9_hex": "824956253564593b25",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 131,
+      "found": true,
+      "pre9_hex": "835e3163362d2b7963",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 132,
+      "found": true,
+      "pre9_hex": "8478226d55456e6947",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 133,
+      "found": true,
+      "pre9_hex": "85545032547b3b2f45",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 134,
+      "found": true,
+      "pre9_hex": "863e594f25474d5c73",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 135,
+      "found": true,
+      "pre9_hex": "873568616e653d392f",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 136,
+      "found": true,
+      "pre9_hex": "88676e213c78652a65",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 137,
+      "found": true,
+      "pre9_hex": "895323676d48267b5f",
+      "out": "bash: command not found: \u0089S#gmH&{_AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 138,
+      "found": true,
+      "pre9_hex": "8a30263073336d2f41",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 139,
+      "found": true,
+      "pre9_hex": "8b3240293f4e4a7866",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 140,
+      "found": true,
+      "pre9_hex": "8c78424628282b6c40",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 141,
+      "found": true,
+      "pre9_hex": "8d5863473852742254",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 142,
+      "found": true,
+      "pre9_hex": "8e693c4748732d3e5c",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 143,
+      "found": true,
+      "pre9_hex": "8f252520347c596664",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 144,
+      "found": true,
+      "pre9_hex": "90445b6c255549496d",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 145,
+      "found": true,
+      "pre9_hex": "9160723a54756d7d78",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 146,
+      "found": true,
+      "pre9_hex": "927a7b747d612f7933",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 147,
+      "found": true,
+      "pre9_hex": "934d3370693b2f3f22",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 148,
+      "found": true,
+      "pre9_hex": "943934342559565263",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 149,
+      "found": true,
+      "pre9_hex": "95772e722878516e6a",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 150,
+      "found": true,
+      "pre9_hex": "967e3a6e7029696c5c",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 151,
+      "found": true,
+      "pre9_hex": "97734c656a3822406d",
+      "out": "bash: Permission denied: \u0097sLej8\"@mAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 152,
+      "found": true,
+      "pre9_hex": "9859315c5a5c642b7e",
+      "out": "bash: Permission denied: \u0098Y1\\Z\\d+~AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 153,
+      "found": true,
+      "pre9_hex": "99377473583e263b26",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 154,
+      "found": true,
+      "pre9_hex": "9a7346597735667534",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 155,
+      "found": true,
+      "pre9_hex": "9b687a40614e2d6e55",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 156,
+      "found": true,
+      "pre9_hex": "9c356628673e3e4648",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 157,
+      "found": true,
+      "pre9_hex": "9d566526242c5a7066",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 158,
+      "found": true,
+      "pre9_hex": "9e507c77295642247c",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 159,
+      "found": true,
+      "pre9_hex": "9f2825284f69627371",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 160,
+      "found": true,
+      "pre9_hex": "a05e2a4c7278745875",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 161,
+      "found": true,
+      "pre9_hex": "a178226d462d385438",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 162,
+      "found": true,
+      "pre9_hex": "a26734416b4a275733",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 163,
+      "found": true,
+      "pre9_hex": "a36e6d4b4d35207b6e",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 164,
+      "found": true,
+      "pre9_hex": "a4296b44654c393d3b",
+      "out": "bash: command not found: \u00a4)kDeL9=;AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 165,
+      "found": true,
+      "pre9_hex": "a5265b5b3d6649755a",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 166,
+      "found": true,
+      "pre9_hex": "a64721634b3d564254",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 167,
+      "found": true,
+      "pre9_hex": "a762676153256e6623",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 168,
+      "found": true,
+      "pre9_hex": "a8293c6c2d52235f47",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 169,
+      "found": true,
+      "pre9_hex": "a9784378647242496f",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 170,
+      "found": true,
+      "pre9_hex": "aa6c33652c332e3a63",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 171,
+      "found": true,
+      "pre9_hex": "ab4e7d3a35776f3721",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 172,
+      "found": true,
+      "pre9_hex": "ac6871635768446579",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 173,
+      "found": true,
+      "pre9_hex": "ad3361393272236127",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 174,
+      "found": true,
+      "pre9_hex": "ae535c786b215d5c2f",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 175,
+      "found": true,
+      "pre9_hex": "af7a20727246535437",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 176,
+      "found": true,
+      "pre9_hex": "b035252151746b7d27",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 177,
+      "found": true,
+      "pre9_hex": "b142527d564521467c",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 178,
+      "found": true,
+      "pre9_hex": "b23b4c7b703f3e4f25",
+      "out": "bash: command not found: \u00b2;L{p?>O%AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 179,
+      "found": true,
+      "pre9_hex": "b3383e3b20745c7b3f",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 180,
+      "found": true,
+      "pre9_hex": "b4422d595c65785835",
+      "out": "",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 181,
+      "found": true,
+      "pre9_hex": "b5452f726b37724c35",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 182,
+      "found": true,
+      "pre9_hex": "b65d586137466a614e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 183,
+      "found": true,
+      "pre9_hex": "b7623448203b2c3a62",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 184,
+      "found": true,
+      "pre9_hex": "b845323e344a5d283f",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 185,
+      "found": true,
+      "pre9_hex": "b92836517752433d45",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 186,
+      "found": true,
+      "pre9_hex": "ba7c5b5d226c422d66",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 187,
+      "found": true,
+      "pre9_hex": "bb515b3a64694b3c5a",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 188,
+      "found": true,
+      "pre9_hex": "bc35653c36443b216f",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 189,
+      "found": true,
+      "pre9_hex": "bd41793220365e425d",
+      "out": "bash: Permission denied: \u00bdAy2 6^B]AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 190,
+      "found": true,
+      "pre9_hex": "be3a62393a792a7c7b",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 191,
+      "found": true,
+      "pre9_hex": "bf595e4f405f23246c",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 192,
+      "found": true,
+      "pre9_hex": "c0796277704d426c37",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 193,
+      "found": true,
+      "pre9_hex": "c15c7d4953712b7a4f",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 194,
+      "found": true,
+      "pre9_hex": "c2304643657c202c7b",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 195,
+      "found": true,
+      "pre9_hex": "c353572d7752413c4c",
+      "out": "bash: Permission denied: \u00c3SW-wRA<LAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 196,
+      "found": true,
+      "pre9_hex": "c42f237e34496e243a",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 197,
+      "found": true,
+      "pre9_hex": "c5523d412e43355a6f",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 198,
+      "found": true,
+      "pre9_hex": "c64361585932387a27",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 199,
+      "found": true,
+      "pre9_hex": "c737667b372e255223",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 200,
+      "found": true,
+      "pre9_hex": "c87842314d50637a53",
+      "out": "bash: Permission denied: \u00c8xB1MPczSAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 201,
+      "found": true,
+      "pre9_hex": "c9786f255958376b67",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 202,
+      "found": true,
+      "pre9_hex": "ca6e7369397e37357c",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 203,
+      "found": true,
+      "pre9_hex": "cb56404f4c6f403059",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 204,
+      "found": true,
+      "pre9_hex": "cc7a5239265352797e",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 205,
+      "found": true,
+      "pre9_hex": "cd363d4271416e5a3b",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 206,
+      "found": true,
+      "pre9_hex": "ce574a335c2c5f654e",
+      "out": "bash: syntax error: \u00ceWJ3\\,_eNAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 207,
+      "found": true,
+      "pre9_hex": "cf5733665629302b54",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 208,
+      "found": true,
+      "pre9_hex": "d05b42452178752a47",
+      "out": "bash: command not found: \u00d0[BE!xu*GAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 209,
+      "found": true,
+      "pre9_hex": "d13a34223e4e337b62",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 210,
+      "found": true,
+      "pre9_hex": "d27c4d5d5e74252437",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 211,
+      "found": true,
+      "pre9_hex": "d37465454e6e6c777c",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 212,
+      "found": true,
+      "pre9_hex": "d4733060386f5a683e",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 213,
+      "found": true,
+      "pre9_hex": "d5367e42522a7c2d76",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 214,
+      "found": true,
+      "pre9_hex": "d673624b7a50696f4e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 215,
+      "found": true,
+      "pre9_hex": "d7442e474523345336",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 216,
+      "found": true,
+      "pre9_hex": "d852293b4273343a3a",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 217,
+      "found": true,
+      "pre9_hex": "d95b2534575f643a59",
+      "out": "bash: Permission denied: \u00d9[%4W_d:YAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 218,
+      "found": true,
+      "pre9_hex": "da3842617a42303331",
+      "out": "bash: syntax error: \u00da8BazB031AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 219,
+      "found": true,
+      "pre9_hex": "db69452b626d42742d",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 220,
+      "found": true,
+      "pre9_hex": "dc4866656e25767730",
+      "out": "bash: command not found: \u00dcHfen%vw0AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 221,
+      "found": true,
+      "pre9_hex": "dd31704159677e5478",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 222,
+      "found": true,
+      "pre9_hex": "de50257c5041297c57",
+      "out": "It's not a bug, it's a feature!",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 223,
+      "found": true,
+      "pre9_hex": "df36316f4a6e782e37",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 224,
+      "found": true,
+      "pre9_hex": "e0427166283c507922",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 225,
+      "found": true,
+      "pre9_hex": "e13b582a474176773a",
+      "out": "bash: syntax error: \u00e1;X*GAvw:AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 226,
+      "found": true,
+      "pre9_hex": "e25a456e6b2c5a7757",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 227,
+      "found": true,
+      "pre9_hex": "e3707c497d3b2d6a33",
+      "out": "bash: syntax error: \u00e3p|I};-j3AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 228,
+      "found": true,
+      "pre9_hex": "e4276b4824683d764c",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 229,
+      "found": true,
+      "pre9_hex": "e569556f2656343648",
+      "out": "bash: command not found: \u00e5iUo&V46HAAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 230,
+      "found": true,
+      "pre9_hex": "e6666d415f6c2b3b52",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 231,
+      "found": true,
+      "pre9_hex": "e73b66232f22212928",
+      "out": "bash: command not found: \u00e7;f#/\"!)(AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 232,
+      "found": true,
+      "pre9_hex": "e84e453f3b2e3d286a",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 233,
+      "found": true,
+      "pre9_hex": "e935766b2466495d4d",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 234,
+      "found": true,
+      "pre9_hex": "ea593a2d6041256327",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 235,
+      "found": true,
+      "pre9_hex": "eb406953794d4e7c7b",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 236,
+      "found": true,
+      "pre9_hex": "ec6a79776c5d37695e",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 237,
+      "found": true,
+      "pre9_hex": "ed663e75207e453140",
+      "out": "bash: Permission denied: \u00edf>u ~E1@AAAAAAAAAAAAAAAAAAAAAAA",
+      "timeout": false,
+      "rc": 127
+    },
+    {
+      "b0": 238,
+      "found": true,
+      "pre9_hex": "ee7733602b2765433d",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 239,
+      "found": true,
+      "pre9_hex": "ef50753e6f5a7d3c22",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 240,
+      "found": true,
+      "pre9_hex": "f03c4f6b473420497c",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 241,
+      "found": true,
+      "pre9_hex": "f12c5c67747a5e2125",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 242,
+      "found": true,
+      "pre9_hex": "f25a513e6835503921",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 243,
+      "found": true,
+      "pre9_hex": "f3406e4a6c4b233239",
+      "out": "",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 244,
+      "found": true,
+      "pre9_hex": "f42d634d7264496c59",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 245,
+      "found": true,
+      "pre9_hex": "f5616035706645724e",
+      "out": "Did you mean to do that?",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 246,
+      "found": true,
+      "pre9_hex": "f645227877275d475e",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 247,
+      "found": true,
+      "pre9_hex": "f779285724485a2769",
+      "out": "Sir, this is a Wendy's.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 248,
+      "found": true,
+      "pre9_hex": "f8282f473251267c3c",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 249,
+      "found": true,
+      "pre9_hex": "f9733c526a595b3d20",
+      "out": "\u001b[0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}\u001b[0m",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 250,
+      "found": true,
+      "pre9_hex": "fa2e5c49282847217a",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 251,
+      "found": true,
+      "pre9_hex": "fb2343262e4175705e",
+      "out": "<timeout>",
+      "timeout": true,
+      "rc": null
+    },
+    {
+      "b0": 252,
+      "found": true,
+      "pre9_hex": "fc5f4841312e2d465d",
+      "out": "",
+      "timeout": false,
+      "rc": 0
+    },
+    {
+      "b0": 253,
+      "found": true,
+      "pre9_hex": "fd2f45703577707a4f",
+      "out": "Error: Layer 8 problem.",
+      "timeout": false,
+      "rc": -11
+    },
+    {
+      "b0": 254,
+      "found": true,
+      "pre9_hex": "fe5f484d6329456a2d",
+      "out": "Task failed successfully.",
+      "timeout": false,
+      "rc": 1
+    },
+    {
+      "b0": 255,
+      "found": true,
+      "pre9_hex": "ff7a6354774d2b443e",
+      "out": "Error 418: I'm a teapot.",
+      "timeout": false,
+      "rc": 1
+    }
+  ]
+}

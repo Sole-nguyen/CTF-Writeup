@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /app/midnight_relay

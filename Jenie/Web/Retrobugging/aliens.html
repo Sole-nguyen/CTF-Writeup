@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Galactic Invaders</title>
+    <link rel="stylesheet" href="aliens.css">
+</head>
+
+<body>
+    <script src="aliens.js"></script>
+    <header class="site-header">
+        <div class="container">
+            <div class="brand">
+                <div class="logo" title="Jeanne d'Hack CTF 2026"></div>
+                <h1 class="title">Galactic Invaders</h1>
+            </div>
+            <div class="hud">
+                <div class="hud-item"><span>Score</span><strong id="hud-score">0</strong></div>
+                <div class="hud-item"><span>Lives</span><strong id="hud-lives">3</strong></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="game-area">
+        <div class="game-frame">
+            <canvas id="game" width="800" height="700"></canvas>
+            <div class="game-controls">
+                <button id="pause-btn" class="control-btn">Pause</button>
+                <button id="new-game-btn" class="control-btn" style="display: none;">New Game</button>
+            </div>
+            <div class="navigation-buttons">
+                <a href="index.html" class="nav-btn secondary">🏠 Home</a>
+                <a href="rules.html" class="nav-btn secondary">📖 Rules</a>
+            </div>
+        </div>
+    </main>
+
+    <div class="site-footer">© Galactic Invaders — Jeanne d'Hack CTF 2026</div>
+</body>
+
+</html>

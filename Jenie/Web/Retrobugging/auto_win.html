@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Auto Win - Galactic Invaders</title>
+</head>
+<body>
+    <h1>Auto-Win Exploit</h1>
+    <p>Open aliens.html, then paste this in console:</p>
+    <pre id="exploit-code">
+// Fast win exploit - simulates hitting 100,000 aliens
+function fastWin() {
+    console.log("Starting fast win exploit...");
+    console.log("Initial score:", score, "previousScore:", previousScore);
+    
+    // Increment score in steps of 10, maintaining the anti-cheat relationship
+    let hits = 0;
+    const targetScore = 1000000;
+    
+    const winInterval = setInterval(() => {
+        if (score >= targetScore) {
+            clearInterval(winInterval);
+            console.log("Reached target! Score:", score, "previousScore:", previousScore);
+            console.log("Waiting for flag check...");
+            return;
+        }
+        
+        // Simulate alien kill: previousScore = old score, then score += 10
+        previousScore = score;
+        score += 10;
+        hits++;
+        
+        if (hits % 10000 === 0) {
+            console.log(`Progress: ${score} / ${targetScore} (${(score/targetScore*100).toFixed(1)}%)`);
+        }
+    }, 1);
+}
+
+// Run it
+fastWin();
+    </pre>
+    <button onclick="copyToClipboard()">Copy to Clipboard</button>
+    
+    <script>
+        function copyToClipboard() {
+            const code = document.getElementById('exploit-code').textContent;
+            navigator.clipboard.writeText(code).then(() => {
+                alert('Copied to clipboard! Now paste in browser console on aliens.html');
+            });
+        }
+    </script>
+</body>
+</html>

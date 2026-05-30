@@ -1,0 +1,5 @@
+I don't have a witty description for this one...
+
+$2b$10$Ni0U3D5ibg1NY6G/k8CDHuXG7m/WNZzuV/9PDPnRzgKs4wUjaTwGO
+
+FLAG FORMAT: CIT{password}

@@ -1,0 +1,10 @@
+# Load the game
+file jdhack-rpg
+set args --levels ./levels/ --no-sound
+
+# Set a breakpoint at the memcmp that checks the hash
+# Address 0x20b7 in level_2.so (memcmp call)
+# We need to find where level_2.so is loaded first
+
+# Just try to run and see what happens
+run

@@ -1,0 +1,4 @@
+break main
+run < <(echo -e "AAAA\nBBBB")
+x/100s $rsp
+quit

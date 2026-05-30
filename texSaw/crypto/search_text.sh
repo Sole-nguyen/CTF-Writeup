@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Try different search queries to find the source
+echo "Searching for unique phrases from the decoded text..."
+echo ""
+echo "Key phrases to search:"
+echo "1. 'Augustus who has had a bad night'"
+echo "2. 'whirlwind of a cord, a whiplash of a cord'"
+echo "3. 'vacillating frisson of illumination'"
+echo "4. 'Noon rings out wasp Augustus'"
+echo ""
+echo "This appears to be from 'A Void' but let me verify the exact source..."
+echo ""
+echo "The text is written without the letter 'e' (lipogram)"
+echo "Character: Augustus"
+echo ""
+echo "Could this be from a different translator or adaptation?"
+echo "- Original French: Georges Perec"
+echo "- English translator: Gilbert Adair"
+echo ""
+echo "Let me check if there are other related authors..."

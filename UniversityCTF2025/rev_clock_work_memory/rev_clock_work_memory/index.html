@@ -1,0 +1,7 @@
+<script>
+    WebAssembly.instantiateStreaming(fetch('pocketwatch.wasm'))
+    .then(obj => {
+        window.wasm = obj.instance.exports;
+        console.log("WASM loaded. Call wasm.check_flag('HTB{...}')");
+    });
+</script>

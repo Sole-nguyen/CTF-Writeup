@@ -1,0 +1,23 @@
+services:
+  api:
+    build: ./public/chall
+    container_name: gowarmup-api
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+    environment:
+      MONGO_URI: "mongodb://mongo:27017"
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:5.0
+    container_name: gowarmup-mongo
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+      - ./public/mongo-init:/docker-entrypoint-initdb.d
+
+volumes:
+  mongo_data:
+

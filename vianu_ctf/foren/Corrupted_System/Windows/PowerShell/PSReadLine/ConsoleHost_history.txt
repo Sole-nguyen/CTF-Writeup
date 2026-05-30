@@ -1,0 +1,10 @@
+[System.Windows.MessageBox]::Show("U hacked")
+Get-ExecutionPolicy
+Set-ExecutionPolicy RemoteSigned
+Get-ExecutionPolicy
+Set-ExecutionPolicy Unrestricted
+Get-ExecutionPolicy
+exit
+.\popup.ps1
+.\.edge.ps1.
+.\.edge.ps1

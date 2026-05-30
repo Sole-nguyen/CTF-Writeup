@@ -1,0 +1,438 @@
+#!/usr/bin/env sage
+# -*- coding: utf-8 -*-
+"""
+Kiss ASIS Solver v2 - SageMath with Lattice attacks
+
+Run with: sage solve_sage_v2.sage
+
+Key relationships:
+- e = d^(-1) mod phi_k  OR  e = (-d)^(-1) mod phi_k
+- phi_k = (p^k - 1)(q^k - 1)
+- d is PRIME with ~1024 bits
+- For k=1: phi_1 = (p-1)(q-1), e ≈ N/2
+
+Attack strategies:
+1. For k=1: e ≈ phi/2, so 2e ≈ phi, can estimate S = p+q
+2. Coppersmith's method for small roots
+3. Lattice-based attacks using LLL
+"""
+
+from sage.all import *
+import socket
+import re
+
+# PyCryptodome might not be installed in sage env
+try:
+    from Crypto.Util.number import long_to_bytes
+except ImportError:
+    def long_to_bytes(n):
+        return n.to_bytes((n.bit_length() + 7) // 8, 'big')
+
+HOST = "65.109.214.93"
+PORT = 13137
+
+def connect():
+    """Connect to server and get parameters"""
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.settimeout(30)
+    s.connect((HOST, PORT))
+    
+    # Receive banner
+    data = b""
+    while b"[Q]uit" not in data:
+        data += s.recv(4096)
+    
+    # Get encrypted message
+    s.send(b"e\n")
+    data = b""
+    while b"[Q]uit" not in data:
+        data += s.recv(4096)
+    data_str = data.decode('utf-8', errors='ignore')
+    enc_match = re.search(r"enc = (\d+)", data_str)
+    enc = int(enc_match.group(1))
+    
+    # Get public key
+    s.send(b"p\n")
+    data = b""
+    while b"[Q]uit" not in data:
+        data += s.recv(4096)
+    data_str = data.decode('utf-8', errors='ignore')
+    N_match = re.search(r"N = (\d+)", data_str)
+    e_match = re.search(r"e = (\d+)", data_str)
+    N = int(N_match.group(1))
+    e = int(e_match.group(1))
+    
+    return s, N, e, enc
+
+def send_message(s, msg):
+    """Send decrypted message to server"""
+    s.send(b"s\n")
+    data = b""
+    while b"message:" not in data.lower():
+        data += s.recv(4096)
+    
+    s.send(msg.encode() + b"\n")
+    response = s.recv(4096).decode()
+    return response
+
+def estimate_k(N, e):
+    """Estimate k from e/N ratio"""
+    nbits = Integer(N).nbits()
+    ebits = Integer(e).nbits()
+    k_est = round(ebits / nbits)
+    return max(1, min(6, k_est))
+
+def factor_from_sum(N, S):
+    """
+    Given N = p*q and S = p+q, find p and q.
+    Solve: x^2 - S*x + N = 0
+    """
+    discriminant = S*S - 4*N
+    if discriminant < 0:
+        return None, None
+    
+    sqrt_disc = isqrt(discriminant)
+    if sqrt_disc * sqrt_disc != discriminant:
+        return None, None
+    
+    p = (S + sqrt_disc) // 2
+    q = (S - sqrt_disc) // 2
+    
+    if p * q == N:
+        return int(p), int(q)
+    return None, None
+
+def attack_k1_phi_approx(N, e, enc, max_correction=50000):
+    """
+    For k=1: e * d ≡ ±1 (mod phi)
+    
+    Observation: e ≈ phi/2 in many cases
+    So: 2*e ≈ phi = N - S + 1
+    Therefore: S ≈ N - 2*e + 1
+    
+    Try small corrections to find exact S.
+    """
+    print("[*] Trying phi approximation attack for k=1...")
+    
+    base_S = N - 2*e + 1
+    
+    for correction in range(-max_correction, max_correction + 1):
+        S = base_S + correction
+        
+        if S <= 0 or S >= N:
+            continue
+        
+        p, q = factor_from_sum(N, S)
+        
+        if p is not None and q is not None:
+            print(f"[!] Factored N! correction = {correction}")
+            print(f"    p = {p}")
+            print(f"    q = {q}")
+            
+            phi = (p - 1) * (q - 1)
+            
+            if gcd(e, phi) != 1:
+                print(f"    gcd(e, phi) = {gcd(e, phi)} != 1, trying next...")
+                continue
+            
+            d_decrypt = inverse_mod(e, phi)
+            m = power_mod(enc, d_decrypt, N)
+            
+            try:
+                msg_bytes = long_to_bytes(int(m))
+                if all(32 <= b < 127 for b in msg_bytes) and len(msg_bytes) >= 14:
+                    msg = msg_bytes.decode()
+                    print(f"[!] Decrypted message: {msg}")
+                    return msg
+            except:
+                pass
+    
+    print("    failed")
+    return None
+
+def attack_coppersmith_k1(N, e, enc):
+    """
+    Coppersmith-based attack for k=1.
+    
+    For k=1: e * d = ±1 + t * phi
+    With phi = N - S + 1, S = p + q ~ 2*sqrt(N)
+    
+    We suspect S ≈ N - 2*e + 1 + delta for small delta.
+    Use Coppersmith to find delta.
+    """
+    print("[*] Trying Coppersmith attack for k=1...")
+    
+    # Base approximation
+    S_base = N - 2*e + 1
+    
+    # We need (S_base + x)^2 - 4*N to be a perfect square
+    # Let f(x) = (S_base + x)^2 - 4*N
+    # We want x such that f(x) = y^2
+    
+    # This is not directly a polynomial root problem mod N.
+    # But we can use Coppersmith if we have additional structure.
+    
+    # Alternative: Use Howgrave-Graham's method
+    # f(x) = x^2 + 2*S_base*x + (S_base^2 - 4*N)
+    # We want x small such that f(x) is a perfect square.
+    
+    # Actually, let's try a different formulation.
+    # For the equation e*d - t*phi = ±1:
+    # e*d - t*(N - S + 1) = ±1
+    # e*d - t*N + t*S - t = ±1
+    # e*d - t*N - t ± 1 = -t*S
+    
+    # We know e*d ≈ t*phi ≈ t*N (since phi ≈ N)
+    # So t ≈ e*d/N ≈ e*d/N
+    
+    # Since we don't know d, let's try a lattice approach.
+    
+    return None
+
+def attack_lattice_k1(N, e, enc):
+    """
+    Lattice attack for k=1 using LLL.
+    
+    Build a 2D lattice from the relationship:
+    e * d ≈ t * N (approximation since phi ≈ N)
+    """
+    print("[*] Trying lattice attack for k=1...")
+    
+    # Build lattice basis
+    # We want to find (d, -t) such that e*d - t*N is small
+    
+    # Matrix: [[e, 1], [N, 0]]
+    # LLL will find short vector (a, b) such that a*e + b*N is small
+    
+    M = matrix(ZZ, [[e, 1], [N, 0]])
+    L = M.LLL()
+    
+    for row in L:
+        d_cand = abs(row[0])
+        
+        if d_cand > 0 and 1020 <= Integer(d_cand).nbits() <= 1025:
+            print(f"    Trying candidate d with {Integer(d_cand).nbits()} bits...")
+            
+            # Try to decrypt
+            try:
+                m = power_mod(enc, d_cand, N)
+                msg_bytes = long_to_bytes(int(m))
+                if all(32 <= b < 127 for b in msg_bytes) and len(msg_bytes) >= 14:
+                    msg = msg_bytes.decode()
+                    print(f"[!] Lattice attack succeeded!")
+                    return msg
+            except:
+                pass
+    
+    print("    failed")
+    return None
+
+def attack_wiener_variant(N, e, enc):
+    """
+    Wiener-style attack with phi approximations.
+    """
+    print("[*] Trying Wiener variant attack...")
+    
+    sqrt_N = isqrt(N)
+    
+    # Try different phi approximations
+    for S_offset in range(-200, 201):
+        S = 2 * sqrt_N + S_offset
+        phi_approx = N - S + 1
+        
+        if phi_approx <= 0:
+            continue
+        
+        # Use continued fractions on e/phi_approx
+        cf = continued_fraction(e / phi_approx)
+        convergents = cf.convergents()
+        
+        for conv in convergents[:3000]:
+            t_cand = conv.numerator()
+            d_cand = conv.denominator()
+            
+            if d_cand <= 0:
+                continue
+            
+            # Check bit length
+            if Integer(d_cand).nbits() < 1020 or Integer(d_cand).nbits() > 1025:
+                continue
+            
+            # Try both signs for e*d ≡ ±1 (mod phi)
+            for sign in [1, -1]:
+                if t_cand == 0:
+                    continue
+                
+                # phi = (e*d - sign) / t
+                ed = e * d_cand
+                if (ed - sign) % t_cand != 0:
+                    continue
+                    
+                phi_cand = (ed - sign) // t_cand
+                if phi_cand <= 0:
+                    continue
+                
+                # Derive S from phi: S = N - phi + 1
+                S_cand = N - phi_cand + 1
+                
+                # Check if S_cand gives valid factorization
+                p, q = factor_from_sum(N, S_cand)
+                
+                if p is not None and q is not None:
+                    print(f"[!] Wiener variant found factors!")
+                    phi = (p - 1) * (q - 1)
+                    
+                    if gcd(e, phi) != 1:
+                        continue
+                        
+                    d_decrypt = inverse_mod(e, phi)
+                    m = power_mod(enc, d_decrypt, N)
+                    
+                    try:
+                        msg_bytes = long_to_bytes(int(m))
+                        if all(32 <= b < 127 for b in msg_bytes):
+                            msg = msg_bytes.decode()
+                            print(f"[!] Decrypted: {msg}")
+                            return msg
+                    except:
+                        pass
+    
+    print("    failed")
+    return None
+
+def attack_fermat(N, e, enc, max_iter=200000):
+    """Extended Fermat factorization"""
+    print(f"[*] Trying Fermat ({max_iter} iterations)...")
+    
+    a = isqrt(N)
+    if a * a < N:
+        a += 1
+    
+    for i in range(max_iter):
+        b2 = a*a - N
+        b = isqrt(b2)
+        if b * b == b2:
+            p = int(a + b)
+            q = int(a - b)
+            if p * q == N and p > 1 and q > 1:
+                print(f"[!] Fermat found factors at iteration {i}")
+                phi = (p - 1) * (q - 1)
+                if gcd(e, phi) == 1:
+                    d_decrypt = inverse_mod(e, phi)
+                    m = power_mod(enc, d_decrypt, N)
+                    try:
+                        msg = long_to_bytes(int(m)).decode()
+                        if all(32 <= ord(c) < 127 for c in msg):
+                            return msg
+                    except:
+                        pass
+        a += 1
+    
+    print("    failed")
+    return None
+
+def attack_gcd_analysis(N, e, enc):
+    """GCD-based analysis"""
+    print("[*] Trying GCD analysis...")
+    
+    g = gcd(e, N - 1)
+    if g > 1:
+        print(f"    gcd(e, N-1) = {g}")
+        
+        # Try using g to help factor
+        for d in divisors(g)[:100]:  # Limit divisors to check
+            if d <= 1:
+                continue
+            candidate = gcd(d, N)
+            if 1 < candidate < N:
+                p = int(candidate)
+                q = int(N // p)
+                print(f"[!] GCD found factor p = {p}")
+                
+                phi = (p - 1) * (q - 1)
+                if gcd(e, phi) == 1:
+                    d_decrypt = inverse_mod(e, phi)
+                    m = power_mod(enc, d_decrypt, N)
+                    try:
+                        msg = long_to_bytes(int(m)).decode()
+                        if all(32 <= ord(c) < 127 for c in msg):
+                            return msg
+                    except:
+                        pass
+    
+    print("    no useful gcd found")
+    return None
+
+def main():
+    print("=" * 60)
+    print("Kiss ASIS - SageMath Solver v2")
+    print("=" * 60)
+    
+    max_attempts = 100
+    
+    for attempt in range(1, max_attempts + 1):
+        try:
+            print(f"\n{'='*60}")
+            print(f"[Attempt {attempt}/{max_attempts}]")
+            
+            s, N, e, enc = connect()
+            k_est = estimate_k(N, e)
+            
+            print(f"  N: {Integer(N).nbits()} bits")
+            print(f"  e: {Integer(e).nbits()} bits")
+            print(f"  k (estimated): {k_est}")
+            
+            result = None
+            
+            # For k != 1, limited attacks
+            if k_est != 1:
+                print(f"  [*] k={k_est} - limited attacks")
+                result = attack_fermat(N, e, enc, 100000)
+            else:
+                # k=1 case - all attacks
+                print("  [*] k=1 detected - trying all attacks...")
+                
+                # Attack 1: Phi approximation (fastest for k=1)
+                result = attack_k1_phi_approx(N, e, enc, 100000)
+                
+                if not result:
+                    result = attack_gcd_analysis(N, e, enc)
+                
+                if not result:
+                    result = attack_wiener_variant(N, e, enc)
+                
+                if not result:
+                    result = attack_lattice_k1(N, e, enc)
+                
+                if not result:
+                    result = attack_fermat(N, e, enc, 200000)
+            
+            if result:
+                print(f"\n[!!!] SUCCESS!")
+                print(f"[!!!] Message: {result}")
+                response = send_message(s, result)
+                print(f"[!!!] Server response: {response}")
+                
+                if "flag" in response.lower() or "ASIS" in response:
+                    print("\n" + "="*60)
+                    print("FLAG CAPTURED!")
+                    print("="*60)
+                    return
+            else:
+                print("  [-] All attacks failed")
+            
+            s.close()
+            
+        except KeyboardInterrupt:
+            print("\n[!] Interrupted")
+            break
+        except Exception as ex:
+            print(f"  [!] Error: {ex}")
+            import traceback
+            traceback.print_exc()
+            continue
+    
+    print("\n[*] Finished all attempts")
+
+if __name__ == "__main__":
+    main()

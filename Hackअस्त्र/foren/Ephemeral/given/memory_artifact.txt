@@ -1,0 +1,30 @@
+==== strings -a browser_mem.bin ====
+https://cdn.newsroom.example/static/app.4f91b2.js
+https://portal.intra.example/login?redirect=%2Foverview
+https://status.example.net/incidents/2026-05-17
+file:///home/analyst/Downloads/briefing-final-v2.pdf
+window.__BOOTSTRAP__={"resumeToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYW5hbHlzdCIsInNlc3Npb24iOiJlcGhlbWVyYWwiLCJpYXQiOjE3MDAwMDAwMDB9","tab":"case-review","view":"overview"}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJ1c0B0ZXN0LmxhbiIsInJvbGUiOiJ2aXNpdG9yIiwiaWF0IjoxNjk5OTk5OTk5fQ.YmFkY2FmZV9zaWduYXR1cmU
+IndexedDB:volatile-auth:{"sigFragment":"c2lnbmF0dXJl","traceRef":"req-live-4821"}
+sessionStorage["recoveryNonce"]="nonce-ephemeral-browser-9f3c71"
+localStorage["theme"]="system"
+localStorage["draft-note"]="rotate API credentials after maintenance window"
+sessionStorage["lastVisited"]="/cases/ephemeral"
+IndexedDB:notifications-db:{"cursor":17,"channel":"ops"}
+IndexedDB:session-fragments:{"sigFragment":"noise_signature_fragment","traceRef":"req-archive-1138"}
+eyJhbGciOiJIUzI1NiIsImtpZCI6ImRldi1rZXktMiJ9.eyJhcHAiOiJkYXNoYm9hcmQiLCJlbnYiOiJzdGFnaW5nIiwiaWF0IjoxNjg4ODg4ODg4fQ.bm90dGhlcmlnaHRvbmU
+localStorage["jwt-cache"]="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6InJlYWRfb25seSIsImRldmljZSI6Imtpb3NrLTA3IiwiaWF0IjoxNjc3Nzc3Nzc3fQ.ZmFrZXNpZ25hdHVyZTEyMw"
+window.__CACHE__={"resumeToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJ1c0B0ZXN0LmxhbiIsInJvbGUiOiJ2aXNpdG9yIiwiaWF0IjoxNjk5OTk5OTk5fQ","sigFragment":"YmFkY2FmZV9zaWduYXR1cmU"}
+window.__TRACE__={"candidateRequestIds":["req-archive-1138","req-telemetry-2244","req-live-4821"],"active":"req-live-4821"}
+window.__NONCE_CACHE__=["nonce-archive-browser-1138","nonce-browser-shadow-4411","nonce-ephemeral-browser-9f3c71","nonce-telemetry-browser-2244"]
+Tab: Threat Intel - IOC Review
+Tab: Ephemeral Secure Portal
+eyJhbGciOiJIUzI1NiIsImtpZCI6ImF1ZGl0LTMifQ.eyJ0ZWFtIjoic2VjLW9wcyIsIm1vZGUiOiJyZWFkb25seSIsImlhdCI6MTY2NjY2NjY2Nn0.YXVkaXRfZGVjb3lfc2ln
+Tab: Inbox (14) - analyst@example.org
+ws://127.0.0.1:9222/devtools/browser/82ca9f4f-6308-4d50-aa16-89b045ec0a2c
+moz-extension://d07b96f3-6741-47e5-bf42-249bfc4a32b4/background.html
+window.__SESSION_MERGE__={"parts":["eyJhbGciOiJIUzI1NiIsImtpZCI6ImRldi1rZXktMiJ9","eyJhcHAiOiJkYXNoYm9hcmQiLCJlbnYiOiJzdGFnaW5nIiwiaWF0IjoxNjg4ODg4ODg4fQ","bm90dGhlcmlnaHRvbmU"]}
+recentSearch=packet websocket memory browser token gzip chunked
+clipboard=ssh analyst@jumpbox
+prefers-color-scheme=light
+recentTrace=telemetry archive live

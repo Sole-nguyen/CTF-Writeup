@@ -1,0 +1,200 @@
+Testing different inputs to find the real flag...
+============================================================
+Index  964: bash: syntax error: texsaw{hcZfdIolMoI8XvMbzrILmClH}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{hcZfdIolMoI8XvMbzrILmClH}
+Output: bash: syntax error: texsaw{hcZfdIolMoI8XvMbzrILmClH}
+============================================================
+
+Progress: 0 attempts, 1 unique indices tested, 1 unique outputs
+Index  378: [0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}[0m
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{IqQb2hYCagfjxJqCJ5Zdw6Jh}
+Output: [0;32m[SUCCESS] Flag: texsaw{fake_flag_do_not_submit}[0m
+============================================================
+
+Index  444: Error 418: I'm a teapot.
+Index  931: Did you mean to do that?
+Index  861: Error: Layer 8 problem.
+Index 1003: Task failed successfully.
+Index  251: bash: Permission denied: texsaw{xlalhSKHac_S_heWiXrBwgZj}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{xlalhSKHac_S_heWiXrBwgZj}
+Output: bash: Permission denied: texsaw{xlalhSKHac_S_heWiXrBwgZj}
+============================================================
+
+Index  739: [0;32m[SUCCESS] Flag: texsaw{n0t_th3_fl4g_lol}[0m
+Index  772: [0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}[0m
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{FxAHlNDnklZRUzGvKlfTosJe}
+Output: [0;32m[SUCCESS] Flag: texsaw{maybe_the_real_fake_flag_was_the_friends_we_made}[0m
+============================================================
+
+Index  663: It's not a bug, it's a feature!
+Index  544: bash: Permission denied: texsaw{xEwDGTC2ayyJk59Z5vTxShWl}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{xEwDGTC2ayyJk59Z5vTxShWl}
+Output: bash: Permission denied: texsaw{xEwDGTC2ayyJk59Z5vTxShWl}
+============================================================
+
+Index  382: Sir, this is a Wendy's.
+Index  880: bash: syntax error: texsaw{Y_tida9DtLThzdJ_AtoRlUmm}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{Y_tida9DtLThzdJ_AtoRlUmm}
+Output: bash: syntax error: texsaw{Y_tida9DtLThzdJ_AtoRlUmm}
+============================================================
+
+Index  497: bash: syntax error: texsaw{SIVqZA2nnIJPSKX8WekO4HQG}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{SIVqZA2nnIJPSKX8WekO4HQG}
+Output: bash: syntax error: texsaw{SIVqZA2nnIJPSKX8WekO4HQG}
+============================================================
+
+Index  975: bash: syntax error: texsaw{58lwztJ5jXMBb6i5B0CltCYr}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{58lwztJ5jXMBb6i5B0CltCYr}
+Output: bash: syntax error: texsaw{58lwztJ5jXMBb6i5B0CltCYr}
+============================================================
+
+Index   91: bash: Permission denied: texsaw{BsmKxqhr4TQXMhWMbF2WZTdc}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{BsmKxqhr4TQXMhWMbF2WZTdc}
+Output: bash: Permission denied: texsaw{BsmKxqhr4TQXMhWMbF2WZTdc}
+============================================================
+
+Index  375: bash: syntax error: texsaw{6fgJUY5Tew2xl4z_geEj1VtY}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{6fgJUY5Tew2xl4z_geEj1VtY}
+Output: bash: syntax error: texsaw{6fgJUY5Tew2xl4z_geEj1VtY}
+============================================================
+
+Index  449: bash: syntax error: texsaw{BgGCYzNvgQqceApvaKEJSSWT}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{BgGCYzNvgQqceApvaKEJSSWT}
+Output: bash: syntax error: texsaw{BgGCYzNvgQqceApvaKEJSSWT}
+============================================================
+
+Index  507: bash: syntax error: texsaw{1URkkYiOQcBr0x02OwIzfkno}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{1URkkYiOQcBr0x02OwIzfkno}
+Output: bash: syntax error: texsaw{1URkkYiOQcBr0x02OwIzfkno}
+============================================================
+
+Index  923: bash: syntax error: texsaw{Dyto0KLh9SwyqPA6vGv1eu4r}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{Dyto0KLh9SwyqPA6vGv1eu4r}
+Output: bash: syntax error: texsaw{Dyto0KLh9SwyqPA6vGv1eu4r}
+============================================================
+
+Index  946: bash: Permission denied: texsaw{FXC0Z2bDQq62R6c3jKV_H4E0}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{FXC0Z2bDQq62R6c3jKV_H4E0}
+Output: bash: Permission denied: texsaw{FXC0Z2bDQq62R6c3jKV_H4E0}
+============================================================
+
+Index  297: bash: syntax error: texsaw{56uUSje4yr_U0AJpmIoUKUnP}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{56uUSje4yr_U0AJpmIoUKUnP}
+Output: bash: syntax error: texsaw{56uUSje4yr_U0AJpmIoUKUnP}
+============================================================
+
+Index  653: bash: Permission denied: texsaw{P5xaVAnZLxesy1UUy2LJJ8tB}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{P5xaVAnZLxesy1UUy2LJJ8tB}
+Output: bash: Permission denied: texsaw{P5xaVAnZLxesy1UUy2LJJ8tB}
+============================================================
+
+Index  985: bash: Permission denied: texsaw{Pz9yK8oFSvn_Hyn2l15O6lg_}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{Pz9yK8oFSvn_Hyn2l15O6lg_}
+Output: bash: Permission denied: texsaw{Pz9yK8oFSvn_Hyn2l15O6lg_}
+============================================================
+
+Index  546: bash: command not found: texsaw{7oj3Zr7eg2osjT5N_ox77m8T}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{7oj3Zr7eg2osjT5N_ox77m8T}
+Output: bash: command not found: texsaw{7oj3Zr7eg2osjT5N_ox77m8T}
+============================================================
+
+Index  871: bash: Permission denied: texsaw{YUpv1F4BofQhpBSuYaH3EBCG}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{YUpv1F4BofQhpBSuYaH3EBCG}
+Output: bash: Permission denied: texsaw{YUpv1F4BofQhpBSuYaH3EBCG}
+============================================================
+
+Index  255: bash: command not found: texsaw{8jr7oL9ENzgSB8EQxcwxQfU1}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{8jr7oL9ENzgSB8EQxcwxQfU1}
+Output: bash: command not found: texsaw{8jr7oL9ENzgSB8EQxcwxQfU1}
+============================================================
+
+Index  180: bash: syntax error: texsaw{kGnhMuRV58HNfXx1riI4sCtg}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{kGnhMuRV58HNfXx1riI4sCtg}
+Output: bash: syntax error: texsaw{kGnhMuRV58HNfXx1riI4sCtg}
+============================================================
+
+Index  802: bash: command not found: texsaw{oe45rCfFKTRDvOB51XMKedbC}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{oe45rCfFKTRDvOB51XMKedbC}
+Output: bash: command not found: texsaw{oe45rCfFKTRDvOB51XMKedbC}
+============================================================
+
+Index  560: bash: syntax error: texsaw{DZHgo3kjyaQblmvfW5v9SWEX}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{DZHgo3kjyaQblmvfW5v9SWEX}
+Output: bash: syntax error: texsaw{DZHgo3kjyaQblmvfW5v9SWEX}
+============================================================
+
+Index  362: bash: syntax error: texsaw{9Z23W5ovnLBj1DXCLq_gOjkE}
+
+============================================================
+POTENTIAL REAL FLAG FOUND!
+Input: texsaw{9Z23W5ovnLBj1DXCLq_gOjkE}
+Output: bash: syntax error: texsaw{9Z23W5ovnLBj1DXCLq_gOjkE}

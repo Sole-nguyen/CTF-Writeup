@@ -1,0 +1,7 @@
+[*] Efficient flag extraction using ECB oracle...
+[*] Finding controllable block...
+    Found controllable block at index 1
+[*] Starting extraction from: uoftctf{
+  Byte 8: ? (0x1)
+      Flag: uoftctf{}
+  Byte 9: 

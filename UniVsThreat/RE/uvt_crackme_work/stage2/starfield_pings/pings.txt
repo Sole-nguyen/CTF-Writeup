@@ -1,0 +1,68 @@
+# STARFIELD PINGS (offline transcript)
+# hint: starfield is noisy; ignore everything but the long-lived probes
+# hint: the decoder is 5-bit wide
+
+reply: time=11ms ttl=42
+reply: time=30ms ttl=59
+reply: time=49ms ttl=76
+reply: time=68ms ttl=93
+reply: time=87ms ttl=110
+reply: time=106ms ttl=127
+reply: time=125ms ttl=144
+reply: time=144ms ttl=161
+reply: time=163ms ttl=178
+reply: time=182ms ttl=195
+reply: time=14ms ttl=212
+reply: time=33ms ttl=229
+reply: time=52ms ttl=246
+reply: time=71ms ttl=263
+reply: time=90ms ttl=280
+reply: time=109ms ttl=46
+reply: time=128ms ttl=63
+reply: time=147ms ttl=80
+reply: time=166ms ttl=97
+reply: time=185ms ttl=114
+reply: time=17ms ttl=131
+reply: time=36ms ttl=148
+reply: time=55ms ttl=165
+reply: time=74ms ttl=182
+reply: time=93ms ttl=199
+reply: time=112ms ttl=216
+reply: time=131ms ttl=233
+reply: time=150ms ttl=250
+reply: time=169ms ttl=267
+reply: time=188ms ttl=284
+reply: time=20ms ttl=50
+reply: time=39ms ttl=67
+reply: time=58ms ttl=84
+reply: time=77ms ttl=101
+reply: time=96ms ttl=118
+reply: time=115ms ttl=135
+reply: time=134ms ttl=152
+reply: time=153ms ttl=169
+reply: time=172ms ttl=186
+reply: time=191ms ttl=203
+
+reply: time=64ms ttl=1337
+reply: time=65ms ttl=1337
+reply: time=66ms ttl=1337
+reply: time=67ms ttl=1337
+reply: time=65ms ttl=1337
+reply: time=68ms ttl=1337
+reply: time=69ms ttl=1337
+reply: time=70ms ttl=1337
+reply: time=71ms ttl=1337
+reply: time=66ms ttl=1337
+reply: time=72ms ttl=1337
+reply: time=73ms ttl=1337
+reply: time=74ms ttl=1337
+reply: time=75ms ttl=1337
+reply: time=76ms ttl=1337
+
+# hint: decoder map is split by parity
+# hint: even-index chars were xor 0x52
+# hint: odd-index chars were xor 0x13 and reversed
+# map_even_xor52=270d62612a1c7f3036343a383e3c2220
+# map_odd_rev_xor13=60627c7e787a74767072574749716341
+# note: aux telemetry shard (decoy)
+# aux.shard.s2=1a2c3d382531d5c5d0c5ece9e8fffe9b98868ba9a9a9aaa85143

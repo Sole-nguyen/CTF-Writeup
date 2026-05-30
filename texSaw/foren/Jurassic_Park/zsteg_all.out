@@ -1,0 +1,277 @@
+imagedata           .. text: "\r\t/-)KOM"
+b1,r,lsb,xy         .. b1,r,msb,xy         .. text: "``BF`fvfF"
+b1,g,lsb,xy         .. b1,g,msb,xy         .. b1,b,lsb,xy         .. b1,b,msb,xy         .. b1,rgb,lsb,xy       .. text: "255)[46 53 88 243 57 43 156 6 46 53 5 10 243 1 77 39 77 243 54 166 57 46 243 54 23 313 51 136 53 6 87]<<END>>w"
+b1,rgb,msb,xy       .. b1,bgr,lsb,xy       .. b1,bgr,msb,xy       .. b2,r,lsb,xy         .. b2,r,msb,xy         .. text: "QlCeW4Vms"
+b2,g,lsb,xy         .. text: "?}3w i1j"
+b2,g,msb,xy         .. b2,b,lsb,xy         .. b2,b,msb,xy         .. b2,rgb,lsb,xy       .. b2,rgb,msb,xy       .. b2,bgr,lsb,xy       .. b2,bgr,msb,xy       .. b3,r,lsb,xy         .. b3,r,msb,xy         .. b3,g,lsb,xy         .. b3,g,msb,xy         .. b3,b,lsb,xy         .. b3,b,msb,xy         .. b3,rgb,lsb,xy       .. b3,rgb,msb,xy       .. b3,bgr,lsb,xy       .. b3,bgr,msb,xy       .. b3p,r,lsb,xy        .. b3p,r,msb,xy        .. b3p,g,lsb,xy        .. b3p,g,msb,xy        .. b3p,b,lsb,xy        .. b3p,b,msb,xy        .. b3p,rgb,lsb,xy      .. b3p,rgb,msb,xy      .. b3p,bgr,lsb,xy      .. b3p,bgr,msb,xy      .. b4,r,lsb,xy         .. b4,r,msb,xy         .. b4,g,lsb,xy         .. b4,g,msb,xy         .. b4,b,lsb,xy         .. file: OpenPGP Public Key
+b4,b,msb,xy         .. b4,rgb,lsb,xy       .. b4,rgb,msb,xy       .. b4,bgr,lsb,xy       .. b4,bgr,msb,xy       .. b5,r,lsb,xy         .. b5,r,msb,xy         .. b5,g,lsb,xy         .. b5,g,msb,xy         .. b5,b,lsb,xy         .. b5,b,msb,xy         .. b5,rgb,lsb,xy       .. b5,rgb,msb,xy       .. b5,bgr,lsb,xy       .. b5,bgr,msb,xy       .. b5p,r,lsb,xy        .. b5p,r,msb,xy        .. b5p,g,lsb,xy        .. file: OpenPGP Secret Key
+b5p,g,msb,xy        .. b5p,b,lsb,xy        .. b5p,b,msb,xy        .. b5p,rgb,lsb,xy      .. b5p,rgb,msb,xy      .. b5p,bgr,lsb,xy      .. b5p,bgr,msb,xy      .. b6,r,lsb,xy         .. b6,r,msb,xy         .. file: OpenPGP Secret Key
+b6,g,lsb,xy         .. b6,g,msb,xy         .. b6,b,lsb,xy         .. b6,b,msb,xy         .. b6,rgb,lsb,xy       .. b6,rgb,msb,xy       .. file: OpenPGP Secret Key
+b6,bgr,lsb,xy       .. b6,bgr,msb,xy       .. b6p,r,lsb,xy        .. b6p,r,msb,xy        .. text: "GW?kGo/}g"
+b6p,g,lsb,xy        .. b6p,g,msb,xy        .. b6p,b,lsb,xy        .. text: "Y]9H9}`Uln"
+b6p,b,msb,xy        .. b6p,rgb,lsb,xy      .. b6p,rgb,msb,xy      .. b6p,bgr,lsb,xy      .. text: "NND\\Xmpo"
+b6p,bgr,msb,xy      .. b7,r,lsb,xy         .. b7,r,msb,xy         .. b7,g,lsb,xy         .. b7,g,msb,xy         .. b7,b,lsb,xy         .. b7,b,msb,xy         .. b7,rgb,lsb,xy       .. b7,rgb,msb,xy       .. b7,bgr,lsb,xy       .. b7,bgr,msb,xy       .. b7p,r,lsb,xy        .. b7p,r,msb,xy        .. b7p,g,lsb,xy        .. text: "K\\ghQF@T"
+b7p,g,msb,xy        .. b7p,b,lsb,xy        .. text: ">2>H5DP^68CNI74=+5"
+b7p,b,msb,xy        .. b7p,rgb,lsb,xy      .. b7p,rgb,msb,xy      .. b7p,bgr,lsb,xy      .. text: "5>12A>DHE4/EHQY_D6P9=CFNMHC674A<#+?5"
+b7p,bgr,msb,xy      .. b8,r,lsb,xy         .. b8,r,msb,xy         .. b8,g,lsb,xy         .. b8,g,msb,xy         .. b8,b,lsb,xy         .. b8,b,msb,xy         .. b8,rgb,lsb,xy       .. b8,rgb,msb,xy       .. b8,bgr,lsb,xy       .. b8,bgr,msb,xy       .. b1,r,lsb,xy,prime   .. b1,r,msb,xy,prime   .. b1,g,lsb,xy,prime   .. b1,g,msb,xy,prime   .. b1,b,lsb,xy,prime   .. b1,b,msb,xy,prime   .. text: "%CBoe';;\n3"
+b1,rgb,lsb,xy,prime .. b1,rgb,msb,xy,prime .. b1,bgr,lsb,xy,prime .. <wbStego size=0xc8d ext=nil data="m\x91\fP\x9CY\x0F\xB6\xA8\x03"... even=false hdr=nil enc="wbStego 2.x/3.x" mix=nil controlbyte="\xBD">
+b1,bgr,msb,xy,prime .. b2,r,lsb,xy,prime   .. file: OpenPGP Public Key
+b2,r,msb,xy,prime   .. b2,g,lsb,xy,prime   .. b2,g,msb,xy,prime   .. b2,b,lsb,xy,prime   .. b2,b,msb,xy,prime   .. b2,rgb,lsb,xy,prime .. b2,rgb,msb,xy,prime .. b2,bgr,lsb,xy,prime .. b2,bgr,msb,xy,prime .. b3,r,lsb,xy,prime   .. b3,r,msb,xy,prime   .. b3,g,lsb,xy,prime   .. b3,g,msb,xy,prime   .. b3,b,lsb,xy,prime   .. b3,b,msb,xy,prime   .. b3,rgb,lsb,xy,prime .. b3,rgb,msb,xy,prime .. b3,bgr,lsb,xy,prime .. b3,bgr,msb,xy,prime .. b3p,r,lsb,xy,prime  .. file: OpenPGP Public Key
+b3p,r,msb,xy,prime  .. text: "#vy}*W_9"
+b3p,g,lsb,xy,prime  .. b3p,g,msb,xy,prime  .. b3p,b,lsb,xy,prime  .. b3p,b,msb,xy,prime  .. b3p,rgb,lsb,xy,prime.. b3p,rgb,msb,xy,prime.. b3p,bgr,lsb,xy,prime.. b3p,bgr,msb,xy,prime.. b4,r,lsb,xy,prime   .. b4,r,msb,xy,prime   .. file: PGP Secret Sub-key -
+b4,g,lsb,xy,prime   .. b4,g,msb,xy,prime   .. b4,b,lsb,xy,prime   .. b4,b,msb,xy,prime   .. b4,rgb,lsb,xy,prime .. b4,rgb,msb,xy,prime .. b4,bgr,lsb,xy,prime .. b4,bgr,msb,xy,prime .. b5,r,lsb,xy,prime   .. b5,r,msb,xy,prime   .. b5,g,lsb,xy,prime   .. b5,g,msb,xy,prime   .. b5,b,lsb,xy,prime   .. b5,b,msb,xy,prime   .. b5,rgb,lsb,xy,prime .. b5,rgb,msb,xy,prime .. b5,bgr,lsb,xy,prime .. b5,bgr,msb,xy,prime .. b5p,r,lsb,xy,prime  .. b5p,r,msb,xy,prime  .. b5p,g,lsb,xy,prime  .. b5p,g,msb,xy,prime  .. b5p,b,lsb,xy,prime  .. b5p,b,msb,xy,prime  .. b5p,rgb,lsb,xy,prime.. b5p,rgb,msb,xy,prime.. b5p,bgr,lsb,xy,prime.. b5p,bgr,msb,xy,prime.. b6,r,lsb,xy,prime   .. b6,r,msb,xy,prime   .. b6,g,lsb,xy,prime   .. b6,g,msb,xy,prime   .. b6,b,lsb,xy,prime   .. b6,b,msb,xy,prime   .. b6,rgb,lsb,xy,prime .. b6,rgb,msb,xy,prime .. b6,bgr,lsb,xy,prime .. b6,bgr,msb,xy,prime .. b6p,r,lsb,xy,prime  .. b6p,r,msb,xy,prime  .. b6p,g,lsb,xy,prime  .. b6p,g,msb,xy,prime  .. b6p,b,lsb,xy,prime  .. b6p,b,msb,xy,prime  .. b6p,rgb,lsb,xy,prime.. b6p,rgb,msb,xy,prime.. b6p,bgr,lsb,xy,prime.. text: "U/ep#3X\\q3z"
+b6p,bgr,msb,xy,prime.. b7,r,lsb,xy,prime   .. b7,r,msb,xy,prime   .. b7,g,lsb,xy,prime   .. b7,g,msb,xy,prime   .. text: "RIX)`k#:"
+b7,b,lsb,xy,prime   .. b7,b,msb,xy,prime   .. b7,rgb,lsb,xy,prime .. b7,rgb,msb,xy,prime .. b7,bgr,lsb,xy,prime .. b7,bgr,msb,xy,prime .. b7p,r,lsb,xy,prime  .. b7p,r,msb,xy,prime  .. b7p,g,lsb,xy,prime  .. text: "nG2]MYdt"
+b7p,g,msb,xy,prime  .. text: ">-6Av\n^Y"
+b7p,b,lsb,xy,prime  .. text: ">@.DGA; D]h"
+b7p,b,msb,xy,prime  .. b7p,rgb,lsb,xy,prime.. b7p,rgb,msb,xy,prime.. b7p,bgr,lsb,xy,prime.. text: ">1AD/HDPF7A"
+b7p,bgr,msb,xy,prime.. b8,r,lsb,xy,prime   .. b8,r,msb,xy,prime   .. b8,g,lsb,xy,prime   .. b8,g,msb,xy,prime   .. b8,b,lsb,xy,prime   .. b8,b,msb,xy,prime   .. b8,rgb,lsb,xy,prime .. b8,rgb,msb,xy,prime .. b8,bgr,lsb,xy,prime .. b8,bgr,msb,xy,prime .. b1,r,lsb,yx         .. b1,r,msb,yx         .. b1,g,lsb,yx         .. b1,g,msb,yx         .. b1,b,lsb,yx         .. file: OpenPGP Public Key
+b1,b,msb,yx         .. b1,rgb,lsb,yx       .. b1,rgb,msb,yx       .. b1,bgr,lsb,yx       .. b1,bgr,msb,yx       .. b2,r,lsb,yx         .. b2,r,msb,yx         .. b2,g,lsb,yx         .. b2,g,msb,yx         .. file: OpenPGP Secret Key
+b2,b,lsb,yx         .. b2,b,msb,yx         .. b2,rgb,lsb,yx       .. b2,rgb,msb,yx       .. b2,bgr,lsb,yx       .. text: "k{(@hRv3\t"
+b2,bgr,msb,yx       .. b3,r,lsb,yx         .. b3,r,msb,yx         .. b3,g,lsb,yx         .. b3,g,msb,yx         .. b3,b,lsb,yx         .. b3,b,msb,yx         .. b3,rgb,lsb,yx       .. b3,rgb,msb,yx       .. b3,bgr,lsb,yx       .. b3,bgr,msb,yx       .. text: "-E@\reFSy"
+b3p,r,lsb,yx        .. b3p,r,msb,yx        .. b3p,g,lsb,yx        .. b3p,g,msb,yx        .. b3p,b,lsb,yx        .. b3p,b,msb,yx        .. b3p,rgb,lsb,yx      .. b3p,rgb,msb,yx      .. b3p,bgr,lsb,yx      .. b3p,bgr,msb,yx      .. b4,r,lsb,yx         .. text: "P/LJa7,h-"
+b4,r,msb,yx         .. b4,g,lsb,yx         .. b4,g,msb,yx         .. b4,b,lsb,yx         .. file: OpenPGP Public Key
+b4,b,msb,yx         .. b4,rgb,lsb,yx       .. b4,rgb,msb,yx       .. b4,bgr,lsb,yx       .. b4,bgr,msb,yx       .. b5,r,lsb,yx         .. b5,r,msb,yx         .. b5,g,lsb,yx         .. b5,g,msb,yx         .. b5,b,lsb,yx         .. b5,b,msb,yx         .. b5,rgb,lsb,yx       .. b5,rgb,msb,yx       .. b5,bgr,lsb,yx       .. b5,bgr,msb,yx       .. b5p,r,lsb,yx        .. b5p,r,msb,yx        .. b5p,g,lsb,yx        .. b5p,g,msb,yx        .. b5p,b,lsb,yx        .. b5p,b,msb,yx        .. b5p,rgb,lsb,yx      .. b5p,rgb,msb,yx      .. b5p,bgr,lsb,yx      .. b5p,bgr,msb,yx      .. b6,r,lsb,yx         .. b6,r,msb,yx         .. file: OpenPGP Secret Key
+b6,g,lsb,yx         .. b6,g,msb,yx         .. b6,b,lsb,yx         .. b6,b,msb,yx         .. b6,rgb,lsb,yx       .. b6,rgb,msb,yx       .. file: OpenPGP Secret Key
+b6,bgr,lsb,yx       .. b6,bgr,msb,yx       .. b6p,r,lsb,yx        .. text: "lB~SdLp8"
+b6p,r,msb,yx        .. b6p,g,lsb,yx        .. b6p,g,msb,yx        .. b6p,b,lsb,yx        .. b6p,b,msb,yx        .. text: "#2GKi%Ez"
+b6p,rgb,lsb,yx      .. text: "<Qavz1S="
+b6p,rgb,msb,yx      .. b6p,bgr,lsb,yx      .. b6p,bgr,msb,yx      .. b7,r,lsb,yx         .. b7,r,msb,yx         .. b7,g,lsb,yx         .. b7,g,msb,yx         .. b7,b,lsb,yx         .. b7,b,msb,yx         .. b7,rgb,lsb,yx       .. b7,rgb,msb,yx       .. b7,bgr,lsb,yx       .. b7,bgr,msb,yx       .. b7p,r,lsb,yx        .. b7p,r,msb,yx        .. b7p,g,lsb,yx        .. text: "lJJ:vfQfCHzuR?"
+b7p,g,msb,yx        .. b7p,b,lsb,yx        .. b7p,b,msb,yx        .. b7p,rgb,lsb,yx      .. b7p,rgb,msb,yx      .. b7p,bgr,lsb,yx      .. text: "tY8';W]i$;5Ia"
+b7p,bgr,msb,yx      .. b8,r,lsb,yx         .. b8,r,msb,yx         .. b8,g,lsb,yx         .. b8,g,msb,yx         .. b8,b,lsb,yx         .. text: "ptk\\njgh``_atk_ecLWMFYth[w"
+b8,b,msb,yx         .. b8,rgb,lsb,yx       .. b8,rgb,msb,yx       .. text: "/M~wu~{%N;"
+b8,bgr,lsb,yx       .. b8,bgr,msb,yx       .. text: "=_~M/~uwN%{"
+b1,r,lsb,yx,prime   .. b1,r,msb,yx,prime   .. b1,g,lsb,yx,prime   .. b1,g,msb,yx,prime   .. b1,b,lsb,yx,prime   .. b1,b,msb,yx,prime   .. b1,rgb,lsb,yx,prime .. b1,rgb,msb,yx,prime .. b1,bgr,lsb,yx,prime .. b1,bgr,msb,yx,prime .. file: OpenPGP Public Key
+b2,r,lsb,yx,prime   .. b2,r,msb,yx,prime   .. b2,g,lsb,yx,prime   .. file: OpenPGP Secret Key
+b2,g,msb,yx,prime   .. b2,b,lsb,yx,prime   .. file: OpenPGP Public Key
+b2,b,msb,yx,prime   .. b2,rgb,lsb,yx,prime .. b2,rgb,msb,yx,prime .. b2,bgr,lsb,yx,prime .. b2,bgr,msb,yx,prime .. b3,r,lsb,yx,prime   .. file: OpenPGP Public Key
+b3,r,msb,yx,prime   .. b3,g,lsb,yx,prime   .. file: OpenPGP Public Key
+b3,g,msb,yx,prime   .. b3,b,lsb,yx,prime   .. b3,b,msb,yx,prime   .. b3,rgb,lsb,yx,prime .. file: OpenPGP Public Key
+b3,rgb,msb,yx,prime .. file: OpenPGP Public Key
+b3,bgr,lsb,yx,prime .. text: "5{r*K>7%"
+b3,bgr,msb,yx,prime .. text: "7+'q/!v."
+b3p,r,lsb,yx,prime  .. file: OpenPGP Public Key
+b3p,r,msb,yx,prime  .. b3p,g,lsb,yx,prime  .. file: OpenPGP Secret Key
+b3p,g,msb,yx,prime  .. b3p,b,lsb,yx,prime  .. b3p,b,msb,yx,prime  .. text: "?L[+ ]F:"
+b3p,rgb,lsb,yx,prime.. file: OpenPGP Public Key
+b3p,rgb,msb,yx,prime.. b3p,bgr,lsb,yx,prime.. b3p,bgr,msb,yx,prime.. b4,r,lsb,yx,prime   .. b4,r,msb,yx,prime   .. b4,g,lsb,yx,prime   .. b4,g,msb,yx,prime   .. file: OpenPGP Secret Key
+b4,b,lsb,yx,prime   .. b4,b,msb,yx,prime   .. b4,rgb,lsb,yx,prime .. file: OpenPGP Public Key
+b4,rgb,msb,yx,prime .. b4,bgr,lsb,yx,prime .. b4,bgr,msb,yx,prime .. b5,r,lsb,yx,prime   .. b5,r,msb,yx,prime   .. b5,g,lsb,yx,prime   .. b5,g,msb,yx,prime   .. b5,b,lsb,yx,prime   .. b5,b,msb,yx,prime   .. b5,rgb,lsb,yx,prime .. b5,rgb,msb,yx,prime .. b5,bgr,lsb,yx,prime .. b5,bgr,msb,yx,prime .. b5p,r,lsb,yx,prime  .. b5p,r,msb,yx,prime  .. b5p,g,lsb,yx,prime  .. b5p,g,msb,yx,prime  .. b5p,b,lsb,yx,prime  .. text: "y8=j\r'x\""
+b5p,b,msb,yx,prime  .. b5p,rgb,lsb,yx,prime.. b5p,rgb,msb,yx,prime.. b5p,bgr,lsb,yx,prime.. text: "\t.'z{A$R"
+b5p,bgr,msb,yx,prime.. b6,r,lsb,yx,prime   .. b6,r,msb,yx,prime   .. b6,g,lsb,yx,prime   .. b6,g,msb,yx,prime   .. b6,b,lsb,yx,prime   .. b6,b,msb,yx,prime   .. file: OpenPGP Secret Key
+b6,rgb,lsb,yx,prime .. b6,rgb,msb,yx,prime .. b6,bgr,lsb,yx,prime .. b6,bgr,msb,yx,prime .. b6p,r,lsb,yx,prime  .. b6p,r,msb,yx,prime  .. text: "{'}uk#<Z"
+b6p,g,lsb,yx,prime  .. b6p,g,msb,yx,prime  .. file: OpenPGP Public Key
+b6p,b,lsb,yx,prime  .. text: "/12.\t)v]"
+b6p,b,msb,yx,prime  .. file: OpenPGP Secret Key
+b6p,rgb,lsb,yx,prime.. b6p,rgb,msb,yx,prime.. b6p,bgr,lsb,yx,prime.. b6p,bgr,msb,yx,prime.. b7,r,lsb,yx,prime   .. b7,r,msb,yx,prime   .. b7,g,lsb,yx,prime   .. b7,g,msb,yx,prime   .. b7,b,lsb,yx,prime   .. b7,b,msb,yx,prime   .. b7,rgb,lsb,yx,prime .. text: "Q4mPl%Lq"
+b7,rgb,msb,yx,prime .. b7,bgr,lsb,yx,prime .. b7,bgr,msb,yx,prime .. b7p,r,lsb,yx,prime  .. b7p,r,msb,yx,prime  .. text: "wO{kVGy4"
+b7p,g,lsb,yx,prime  .. text: "Ly\"Y*P}$I6"
+b7p,g,msb,yx,prime  .. b7p,b,lsb,yx,prime  .. b7p,b,msb,yx,prime  .. text: "}c?)\r:=o"
+b7p,rgb,lsb,yx,prime.. b7p,rgb,msb,yx,prime.. b7p,bgr,lsb,yx,prime.. b7p,bgr,msb,yx,prime.. b8,r,lsb,yx,prime   .. b8,r,msb,yx,prime   .. b8,g,lsb,yx,prime   .. file: OpenPGP Public Key
+b8,g,msb,yx,prime   .. b8,b,lsb,yx,prime   .. file: OpenPGP Public Key
+b8,b,msb,yx,prime   .. b8,rgb,lsb,yx,prime .. b8,rgb,msb,yx,prime .. b8,bgr,lsb,yx,prime .. file: OpenPGP Public Key
+b8,bgr,msb,yx,prime .. b1,r,lsb,XY         .. b1,r,msb,XY         .. b1,g,lsb,XY         .. b1,g,msb,XY         .. b1,b,lsb,XY         .. b1,b,msb,XY         .. b1,rgb,lsb,XY       .. b1,rgb,msb,XY       .. b1,bgr,lsb,XY       .. b1,bgr,msb,XY       .. text: "&_p d46T"
+b2,r,lsb,XY         .. b2,r,msb,XY         .. b2,g,lsb,XY         .. b2,g,msb,XY         .. b2,b,lsb,XY         .. b2,b,msb,XY         .. b2,rgb,lsb,XY       .. b2,rgb,msb,XY       .. b2,bgr,lsb,XY       .. b2,bgr,msb,XY       .. b3,r,lsb,XY         .. text: "fHBMy`5i"
+b3,r,msb,XY         .. b3,g,lsb,XY         .. b3,g,msb,XY         .. b3,b,lsb,XY         .. b3,b,msb,XY         .. b3,rgb,lsb,XY       .. b3,rgb,msb,XY       .. b3,bgr,lsb,XY       .. b3,bgr,msb,XY       .. text: "d~%!}@\nQ,"
+b3p,r,lsb,XY        .. b3p,r,msb,XY        .. b3p,g,lsb,XY        .. b3p,g,msb,XY        .. b3p,b,lsb,XY        .. b3p,b,msb,XY        .. b3p,rgb,lsb,XY      .. b3p,rgb,msb,XY      .. b3p,bgr,lsb,XY      .. b3p,bgr,msb,XY      .. b4,r,lsb,XY         .. b4,r,msb,XY         .. b4,g,lsb,XY         .. b4,g,msb,XY         .. text: "nBUI<sR6"
+b4,b,lsb,XY         .. b4,b,msb,XY         .. b4,rgb,lsb,XY       .. b4,rgb,msb,XY       .. b4,bgr,lsb,XY       .. b4,bgr,msb,XY       .. b5,r,lsb,XY         .. b5,r,msb,XY         .. text: "b`@(/_*\t"
+b5,g,lsb,XY         .. b5,g,msb,XY         .. b5,b,lsb,XY         .. b5,b,msb,XY         .. b5,rgb,lsb,XY       .. b5,rgb,msb,XY       .. b5,bgr,lsb,XY       .. b5,bgr,msb,XY       .. b5p,r,lsb,XY        .. b5p,r,msb,XY        .. b5p,g,lsb,XY        .. b5p,g,msb,XY        .. text: "}DKR9gD-"
+b5p,b,lsb,XY        .. b5p,b,msb,XY        .. b5p,rgb,lsb,XY      .. b5p,rgb,msb,XY      .. b5p,bgr,lsb,XY      .. b5p,bgr,msb,XY      .. b6,r,lsb,XY         .. text: "W%tGsiODn"
+b6,r,msb,XY         .. b6,g,lsb,XY         .. b6,g,msb,XY         .. b6,b,lsb,XY         .. b6,b,msb,XY         .. b6,rgb,lsb,XY       .. b6,rgb,msb,XY       .. b6,bgr,lsb,XY       .. b6,bgr,msb,XY       .. b6p,r,lsb,XY        .. text: "3iaBEoU]"
+b6p,r,msb,XY        .. b6p,g,lsb,XY        .. b6p,g,msb,XY        .. text: "6zIVd2OH"
+b6p,b,lsb,XY        .. text: "u\"lHYT\\b"
+b6p,b,msb,XY        .. b6p,rgb,lsb,XY      .. text: "N{EJBtfu"
+b6p,rgb,msb,XY      .. text: "d6=j,zah"
+b6p,bgr,lsb,XY      .. text: "Y\\RBA! &"
+b6p,bgr,msb,XY      .. b7,r,lsb,XY         .. b7,r,msb,XY         .. b7,g,lsb,XY         .. b7,g,msb,XY         .. b7,b,lsb,XY         .. b7,b,msb,XY         .. b7,rgb,lsb,XY       .. b7,rgb,msb,XY       .. b7,bgr,lsb,XY       .. b7,bgr,msb,XY       .. b7p,r,lsb,XY        .. b7p,r,msb,XY        .. b7p,g,lsb,XY        .. text: "3z4CE36@<L-AE"
+b7p,g,msb,XY        .. b7p,b,lsb,XY        .. b7p,b,msb,XY        .. file: OpenPGP Secret Key
+b7p,rgb,lsb,XY      .. text: "z_m\\mp[6MO"
+b7p,rgb,msb,XY      .. text: "Im{UYuCQ"
+b7p,bgr,lsb,XY      .. b7p,bgr,msb,XY      .. file: OpenPGP Secret Key
+b8,r,lsb,XY         .. file: OpenPGP Secret Key
+b8,r,msb,XY         .. b8,g,lsb,XY         .. b8,g,msb,XY         .. b8,b,lsb,XY         .. text: "Q7XiiNCdZ_boVDUQh|]RZdFGS\\RM.5=66Lg`QQ?J38Gsh_;>9ZO\\OVT]G?7JEUJS;CCS^iSWeajpa[P\\N_\\Sf@nVRJH(_Y/BT_BAZS\\aPYYt"
+b8,b,msb,XY         .. b8,rgb,lsb,XY       .. file: OpenPGP Secret Key
+b8,rgb,msb,XY       .. b8,bgr,lsb,XY       .. b8,bgr,msb,XY       .. b1,r,lsb,XY,prime   .. b1,r,msb,XY,prime   .. b1,g,lsb,XY,prime   .. b1,g,msb,XY,prime   .. b1,b,lsb,XY,prime   .. b1,b,msb,XY,prime   .. b1,rgb,lsb,XY,prime .. text: "1ppt!hoc1"
+b1,rgb,msb,XY,prime .. b1,bgr,lsb,XY,prime .. b1,bgr,msb,XY,prime .. b2,r,lsb,XY,prime   .. text: "vbzjp/N0s"
+b2,r,msb,XY,prime   .. file: OpenPGP Secret Key
+b2,g,lsb,XY,prime   .. b2,g,msb,XY,prime   .. b2,b,lsb,XY,prime   .. b2,b,msb,XY,prime   .. b2,rgb,lsb,XY,prime .. b2,rgb,msb,XY,prime .. text: "IK\r~2H}y"
+b2,bgr,lsb,XY,prime .. b2,bgr,msb,XY,prime .. file: OpenPGP Public Key
+b3,r,lsb,XY,prime   .. b3,r,msb,XY,prime   .. b3,g,lsb,XY,prime   .. text: "5]@|ph^)D]"
+b3,g,msb,XY,prime   .. b3,b,lsb,XY,prime   .. b3,b,msb,XY,prime   .. b3,rgb,lsb,XY,prime .. b3,rgb,msb,XY,prime .. b3,bgr,lsb,XY,prime .. b3,bgr,msb,XY,prime .. b3p,r,lsb,XY,prime  .. b3p,r,msb,XY,prime  .. b3p,g,lsb,XY,prime  .. b3p,g,msb,XY,prime  .. b3p,b,lsb,XY,prime  .. text: "pSP;hH05y&"
+b3p,b,msb,XY,prime  .. b3p,rgb,lsb,XY,prime.. b3p,rgb,msb,XY,prime.. b3p,bgr,lsb,XY,prime.. b3p,bgr,msb,XY,prime.. b4,r,lsb,XY,prime   .. text: "c;>!G\tn&"
+b4,r,msb,XY,prime   .. b4,g,lsb,XY,prime   .. b4,g,msb,XY,prime   .. b4,b,lsb,XY,prime   .. text: "-&:M\rjH)L"
+b4,b,msb,XY,prime   .. b4,rgb,lsb,XY,prime .. b4,rgb,msb,XY,prime .. file: OpenPGP Secret Key
+b4,bgr,lsb,XY,prime .. b4,bgr,msb,XY,prime .. b5,r,lsb,XY,prime   .. b5,r,msb,XY,prime   .. b5,g,lsb,XY,prime   .. b5,g,msb,XY,prime   .. b5,b,lsb,XY,prime   .. b5,b,msb,XY,prime   .. b5,rgb,lsb,XY,prime .. b5,rgb,msb,XY,prime .. b5,bgr,lsb,XY,prime .. file: OpenPGP Public Key
+b5,bgr,msb,XY,prime .. b5p,r,lsb,XY,prime  .. b5p,r,msb,XY,prime  .. b5p,g,lsb,XY,prime  .. b5p,g,msb,XY,prime  .. b5p,b,lsb,XY,prime  .. b5p,b,msb,XY,prime  .. b5p,rgb,lsb,XY,prime.. b5p,rgb,msb,XY,prime.. b5p,bgr,lsb,XY,prime.. b5p,bgr,msb,XY,prime.. b6,r,lsb,XY,prime   .. b6,r,msb,XY,prime   .. b6,g,lsb,XY,prime   .. b6,g,msb,XY,prime   .. b6,b,lsb,XY,prime   .. b6,b,msb,XY,prime   .. b6,rgb,lsb,XY,prime .. b6,rgb,msb,XY,prime .. file: OpenPGP Public Key
+b6,bgr,lsb,XY,prime .. b6,bgr,msb,XY,prime .. b6p,r,lsb,XY,prime  .. b6p,r,msb,XY,prime  .. b6p,g,lsb,XY,prime  .. b6p,g,msb,XY,prime  .. b6p,b,lsb,XY,prime  .. b6p,b,msb,XY,prime  .. b6p,rgb,lsb,XY,prime.. b6p,rgb,msb,XY,prime.. file: OpenPGP Public Key
+b6p,bgr,lsb,XY,prime.. b6p,bgr,msb,XY,prime.. b7,r,lsb,XY,prime   .. b7,r,msb,XY,prime   .. b7,g,lsb,XY,prime   .. b7,g,msb,XY,prime   .. b7,b,lsb,XY,prime   .. b7,b,msb,XY,prime   .. b7,rgb,lsb,XY,prime .. b7,rgb,msb,XY,prime .. b7,bgr,lsb,XY,prime .. b7,bgr,msb,XY,prime .. b7p,r,lsb,XY,prime  .. b7p,r,msb,XY,prime  .. b7p,g,lsb,XY,prime  .. text: ",#/\"P4|Ne"
+b7p,g,msb,XY,prime  .. b7p,b,lsb,XY,prime  .. b7p,b,msb,XY,prime  .. b7p,rgb,lsb,XY,prime.. b7p,rgb,msb,XY,prime.. b7p,bgr,lsb,XY,prime.. b7p,bgr,msb,XY,prime.. b8,r,lsb,XY,prime   .. b8,r,msb,XY,prime   .. b8,g,lsb,XY,prime   .. file: OpenPGP Public Key
+b8,g,msb,XY,prime   .. file: OpenPGP Public Key
+b8,b,lsb,XY,prime   .. text: "XiNdoD|RG56Q8s>VJUSWa\\SJ_Sat"
+b8,b,msb,XY,prime   .. b8,rgb,lsb,XY,prime .. b8,rgb,msb,XY,prime .. b8,bgr,lsb,XY,prime .. b8,bgr,msb,XY,prime .. b1,r,lsb,YX         .. b1,r,msb,YX         .. b1,g,lsb,YX         .. b1,g,msb,YX         .. text: "^y\\_~~,f"
+b1,b,lsb,YX         .. file: PGP Secret Sub-key -
+b1,b,msb,YX         .. b1,rgb,lsb,YX       .. b1,rgb,msb,YX       .. text: "G~;4?rp|<"
+b1,bgr,lsb,YX       .. b1,bgr,msb,YX       .. b2,r,lsb,YX         .. b2,r,msb,YX         .. b2,g,lsb,YX         .. b2,g,msb,YX         .. b2,b,lsb,YX         .. b2,b,msb,YX         .. text: ",cqdUdQ0"
+b2,rgb,lsb,YX       .. b2,rgb,msb,YX       .. text: "436i&+k_xq"
+b2,bgr,lsb,YX       .. b2,bgr,msb,YX       .. b3,r,lsb,YX         .. b3,r,msb,YX         .. b3,g,lsb,YX         .. b3,g,msb,YX         .. b3,b,lsb,YX         .. b3,b,msb,YX         .. file: OpenPGP Secret Key
+b3,rgb,lsb,YX       .. b3,rgb,msb,YX       .. b3,bgr,lsb,YX       .. b3,bgr,msb,YX       .. b3p,r,lsb,YX        .. b3p,r,msb,YX        .. file: OpenPGP Secret Key
+b3p,g,lsb,YX        .. b3p,g,msb,YX        .. b3p,b,lsb,YX        .. b3p,b,msb,YX        .. b3p,rgb,lsb,YX      .. b3p,rgb,msb,YX      .. b3p,bgr,lsb,YX      .. b3p,bgr,msb,YX      .. b4,r,lsb,YX         .. b4,r,msb,YX         .. b4,g,lsb,YX         .. b4,g,msb,YX         .. b4,b,lsb,YX         .. b4,b,msb,YX         .. b4,rgb,lsb,YX       .. b4,rgb,msb,YX       .. b4,bgr,lsb,YX       .. b4,bgr,msb,YX       .. b5,r,lsb,YX         .. b5,r,msb,YX         .. b5,g,lsb,YX         .. b5,g,msb,YX         .. b5,b,lsb,YX         .. b5,b,msb,YX         .. b5,rgb,lsb,YX       .. b5,rgb,msb,YX       .. b5,bgr,lsb,YX       .. b5,bgr,msb,YX       .. b5p,r,lsb,YX        .. b5p,r,msb,YX        .. b5p,g,lsb,YX        .. b5p,g,msb,YX        .. b5p,b,lsb,YX        .. b5p,b,msb,YX        .. b5p,rgb,lsb,YX      .. b5p,rgb,msb,YX      .. b5p,bgr,lsb,YX      .. text: "R%;PLvS4"
+b5p,bgr,msb,YX      .. b6,r,lsb,YX         .. b6,r,msb,YX         .. b6,g,lsb,YX         .. b6,g,msb,YX         .. b6,b,lsb,YX         .. b6,b,msb,YX         .. b6,rgb,lsb,YX       .. b6,rgb,msb,YX       .. b6,bgr,lsb,YX       .. b6,bgr,msb,YX       .. b6p,r,lsb,YX        .. b6p,r,msb,YX        .. b6p,g,lsb,YX        .. b6p,g,msb,YX        .. b6p,b,lsb,YX        .. b6p,b,msb,YX        .. b6p,rgb,lsb,YX      .. text: "7t\\4%\tI4["
+b6p,rgb,msb,YX      .. b6p,bgr,lsb,YX      .. b6p,bgr,msb,YX      .. b7,r,lsb,YX         .. b7,r,msb,YX         .. b7,g,lsb,YX         .. b7,g,msb,YX         .. b7,b,lsb,YX         .. b7,b,msb,YX         .. file: OpenPGP Secret Key
+b7,rgb,lsb,YX       .. b7,rgb,msb,YX       .. b7,bgr,lsb,YX       .. b7,bgr,msb,YX       .. text: ";r+2RYJ,CM"
+b7p,r,lsb,YX        .. b7p,r,msb,YX        .. text: "N-[/w1y>u"
+b7p,g,lsb,YX        .. text: "0/*F?DNE99[npKb^i"
+b7p,g,msb,YX        .. b7p,b,lsb,YX        .. text: "kdynZbEz}t"
+b7p,b,msb,YX        .. b7p,rgb,lsb,YX      .. text: "pPCb]SqXRr"
+b7p,rgb,msb,YX      .. b7p,bgr,lsb,YX      .. text: "laZ=BMME["
+b7p,bgr,msb,YX      .. file: OpenPGP Secret Key
+b8,r,lsb,YX         .. file: OpenPGP Secret Key
+b8,r,msb,YX         .. b8,g,lsb,YX         .. b8,g,msb,YX         .. b8,b,lsb,YX         .. text: "QjrSTw{QMLKVAPaPJe]W8.FI62GOSAA;FLA7@0=@60-"
+b8,b,msb,YX         .. b8,rgb,lsb,YX       .. file: OpenPGP Secret Key
+b8,rgb,msb,YX       .. b8,bgr,lsb,YX       .. b8,bgr,msb,YX       .. b1,r,lsb,YX,prime   .. b1,r,msb,YX,prime   .. b1,g,lsb,YX,prime   .. b1,g,msb,YX,prime   .. b1,b,lsb,YX,prime   .. b1,b,msb,YX,prime   .. text: "R`y \n9gF"
+b1,rgb,lsb,YX,prime .. b1,rgb,msb,YX,prime .. b1,bgr,lsb,YX,prime .. b1,bgr,msb,YX,prime .. b2,r,lsb,YX,prime   .. b2,r,msb,YX,prime   .. b2,g,lsb,YX,prime   .. b2,g,msb,YX,prime   .. b2,b,lsb,YX,prime   .. text: "vL:QLh7t\\_Sb"
+b2,b,msb,YX,prime   .. b2,rgb,lsb,YX,prime .. b2,rgb,msb,YX,prime .. b2,bgr,lsb,YX,prime .. b2,bgr,msb,YX,prime .. b3,r,lsb,YX,prime   .. b3,r,msb,YX,prime   .. text: "PTfI&X+a"
+b3,g,lsb,YX,prime   .. b3,g,msb,YX,prime   .. b3,b,lsb,YX,prime   .. b3,b,msb,YX,prime   .. b3,rgb,lsb,YX,prime .. b3,rgb,msb,YX,prime .. b3,bgr,lsb,YX,prime .. text: "^`QniuJ%$"
+b3,bgr,msb,YX,prime .. b3p,r,lsb,YX,prime  .. b3p,r,msb,YX,prime  .. b3p,g,lsb,YX,prime  .. b3p,g,msb,YX,prime  .. b3p,b,lsb,YX,prime  .. b3p,b,msb,YX,prime  .. b3p,rgb,lsb,YX,prime.. b3p,rgb,msb,YX,prime.. b3p,bgr,lsb,YX,prime.. b3p,bgr,msb,YX,prime.. b4,r,lsb,YX,prime   .. file: PGP Secret Sub-key -
+b4,r,msb,YX,prime   .. b4,g,lsb,YX,prime   .. b4,g,msb,YX,prime   .. b4,b,lsb,YX,prime   .. b4,b,msb,YX,prime   .. b4,rgb,lsb,YX,prime .. file: PGP Secret Sub-key -
+b4,rgb,msb,YX,prime .. b4,bgr,lsb,YX,prime .. text: "WA!CQy]\n\\j*"
+b4,bgr,msb,YX,prime .. b5,r,lsb,YX,prime   .. b5,r,msb,YX,prime   .. b5,g,lsb,YX,prime   .. b5,g,msb,YX,prime   .. b5,b,lsb,YX,prime   .. file: OpenPGP Secret Key
+b5,b,msb,YX,prime   .. b5,rgb,lsb,YX,prime .. b5,rgb,msb,YX,prime .. b5,bgr,lsb,YX,prime .. file: OpenPGP Secret Key
+b5,bgr,msb,YX,prime .. b5p,r,lsb,YX,prime  .. b5p,r,msb,YX,prime  .. b5p,g,lsb,YX,prime  .. b5p,g,msb,YX,prime  .. b5p,b,lsb,YX,prime  .. b5p,b,msb,YX,prime  .. b5p,rgb,lsb,YX,prime.. b5p,rgb,msb,YX,prime.. b5p,bgr,lsb,YX,prime.. file: PGP Secret Sub-key -
+b5p,bgr,msb,YX,prime.. b6,r,lsb,YX,prime   .. b6,r,msb,YX,prime   .. b6,g,lsb,YX,prime   .. text: "EVPs !5w"
+b6,g,msb,YX,prime   .. b6,b,lsb,YX,prime   .. b6,b,msb,YX,prime   .. b6,rgb,lsb,YX,prime .. b6,rgb,msb,YX,prime .. b6,bgr,lsb,YX,prime .. b6,bgr,msb,YX,prime .. b6p,r,lsb,YX,prime  .. b6p,r,msb,YX,prime  .. b6p,g,lsb,YX,prime  .. b6p,g,msb,YX,prime  .. b6p,b,lsb,YX,prime  .. b6p,b,msb,YX,prime  .. b6p,rgb,lsb,YX,prime.. b6p,rgb,msb,YX,prime.. b6p,bgr,lsb,YX,prime.. b6p,bgr,msb,YX,prime.. text: "0k*W?$wL"
+b7,r,lsb,YX,prime   .. b7,r,msb,YX,prime   .. b7,g,lsb,YX,prime   .. b7,g,msb,YX,prime   .. b7,b,lsb,YX,prime   .. b7,b,msb,YX,prime   .. b7,rgb,lsb,YX,prime .. b7,rgb,msb,YX,prime .. b7,bgr,lsb,YX,prime .. b7,bgr,msb,YX,prime .. b7p,r,lsb,YX,prime  .. b7p,r,msb,YX,prime  .. b7p,g,lsb,YX,prime  .. text: "EX5,;_bf"
+b7p,g,msb,YX,prime  .. b7p,b,lsb,YX,prime  .. b7p,b,msb,YX,prime  .. b7p,rgb,lsb,YX,prime.. b7p,rgb,msb,YX,prime.. b7p,bgr,lsb,YX,prime.. b7p,bgr,msb,YX,prime.. text: "-`WT/~In"
+b8,r,lsb,YX,prime   .. b8,r,msb,YX,prime   .. file: PGP Secret Sub-key -
+b8,g,lsb,YX,prime   .. b8,g,msb,YX,prime   .. b8,b,lsb,YX,prime   .. text: "rSwQVPeWIA;00"
+b8,b,msb,YX,prime   .. b8,rgb,lsb,YX,prime .. b8,rgb,msb,YX,prime .. file: PGP Secret Sub-key -
+b8,bgr,lsb,YX,prime .. b8,bgr,msb,YX,prime .. b1,r,lsb,Xy         .. file: OpenPGP Public Key
+b1,r,msb,Xy         .. b1,g,lsb,Xy         .. text: "1#!c`p0p#`0ccc!#cc`$\""
+b1,g,msb,Xy         .. b1,b,lsb,Xy         .. text: "$&$l$l&$$&$$"
+b1,b,msb,Xy         .. text: "2p0$d$6$6d$$d$$pddd$D"
+b1,rgb,lsb,Xy       .. b1,rgb,msb,Xy       .. b1,bgr,lsb,Xy       .. b1,bgr,msb,Xy       .. b2,r,lsb,Xy         .. b2,r,msb,Xy         .. b2,g,lsb,Xy         .. b2,g,msb,Xy         .. b2,b,lsb,Xy         .. b2,b,msb,Xy         .. text: "K4\\1-1MiOu"
+b2,rgb,lsb,Xy       .. b2,rgb,msb,Xy       .. b2,bgr,lsb,Xy       .. b2,bgr,msb,Xy       .. b3,r,lsb,Xy         .. b3,r,msb,Xy         .. b3,g,lsb,Xy         .. b3,g,msb,Xy         .. b3,b,lsb,Xy         .. b3,b,msb,Xy         .. b3,rgb,lsb,Xy       .. b3,rgb,msb,Xy       .. b3,bgr,lsb,Xy       .. b3,bgr,msb,Xy       .. b3p,r,lsb,Xy        .. b3p,r,msb,Xy        .. b3p,g,lsb,Xy        .. b3p,g,msb,Xy        .. b3p,b,lsb,Xy        .. b3p,b,msb,Xy        .. b3p,rgb,lsb,Xy      .. b3p,rgb,msb,Xy      .. b3p,bgr,lsb,Xy      .. b3p,bgr,msb,Xy      .. b4,r,lsb,Xy         .. file: OpenPGP Public Key
+b4,r,msb,Xy         .. b4,g,lsb,Xy         .. text: " %]t^6JA"
+b4,g,msb,Xy         .. b4,b,lsb,Xy         .. b4,b,msb,Xy         .. b4,rgb,lsb,Xy       .. b4,rgb,msb,Xy       .. b4,bgr,lsb,Xy       .. b4,bgr,msb,Xy       .. b5,r,lsb,Xy         .. b5,r,msb,Xy         .. b5,g,lsb,Xy         .. b5,g,msb,Xy         .. b5,b,lsb,Xy         .. text: "7\r^4s?El"
+b5,b,msb,Xy         .. b5,rgb,lsb,Xy       .. b5,rgb,msb,Xy       .. b5,bgr,lsb,Xy       .. b5,bgr,msb,Xy       .. b5p,r,lsb,Xy        .. b5p,r,msb,Xy        .. b5p,g,lsb,Xy        .. b5p,g,msb,Xy        .. b5p,b,lsb,Xy        .. file: OpenPGP Secret Key
+b5p,b,msb,Xy        .. b5p,rgb,lsb,Xy      .. b5p,rgb,msb,Xy      .. b5p,bgr,lsb,Xy      .. file: OpenPGP Secret Key
+b5p,bgr,msb,Xy      .. b6,r,lsb,Xy         .. b6,r,msb,Xy         .. b6,g,lsb,Xy         .. b6,g,msb,Xy         .. b6,b,lsb,Xy         .. b6,b,msb,Xy         .. b6,rgb,lsb,Xy       .. b6,rgb,msb,Xy       .. b6,bgr,lsb,Xy       .. b6,bgr,msb,Xy       .. b6p,r,lsb,Xy        .. b6p,r,msb,Xy        .. b6p,g,lsb,Xy        .. b6p,g,msb,Xy        .. text: "njwhh8? "
+b6p,b,lsb,Xy        .. text: " YMt:/3\\"
+b6p,b,msb,Xy        .. b6p,rgb,lsb,Xy      .. b6p,rgb,msb,Xy      .. b6p,bgr,lsb,Xy      .. text: "opmX\\DNN"
+b6p,bgr,msb,Xy      .. b7,r,lsb,Xy         .. b7,r,msb,Xy         .. b7,g,lsb,Xy         .. b7,g,msb,Xy         .. b7,b,lsb,Xy         .. b7,b,msb,Xy         .. b7,rgb,lsb,Xy       .. b7,rgb,msb,Xy       .. b7,bgr,lsb,Xy       .. b7,bgr,msb,Xy       .. b7p,r,lsb,Xy        .. b7p,r,msb,Xy        .. b7p,g,lsb,Xy        .. text: "THM>pg\\G"
+b7p,g,msb,Xy        .. text: "]UnQQq~A"
+b7p,b,lsb,Xy        .. text: "?:->*rBk.(C9:$Ban\\"
+b7p,b,msb,Xy        .. b7p,rgb,lsb,Xy      .. b7p,rgb,msb,Xy      .. b7p,bgr,lsb,Xy      .. text: ",N?)*dshCQkW/"
+b7p,bgr,msb,Xy      .. b8,r,lsb,Xy         .. b8,r,msb,Xy         .. file: PGP Secret Sub-key -
+b8,g,lsb,Xy         .. b8,g,msb,Xy         .. b8,b,lsb,Xy         .. b8,b,msb,Xy         .. b8,rgb,lsb,Xy       .. b8,rgb,msb,Xy       .. file: PGP Secret Sub-key -
+b8,bgr,lsb,Xy       .. b8,bgr,msb,Xy       .. b1,r,lsb,Xy,prime   .. b1,r,msb,Xy,prime   .. b1,g,lsb,Xy,prime   .. b1,g,msb,Xy,prime   .. b1,b,lsb,Xy,prime   .. b1,b,msb,Xy,prime   .. b1,rgb,lsb,Xy,prime .. b1,rgb,msb,Xy,prime .. b1,bgr,lsb,Xy,prime .. b1,bgr,msb,Xy,prime .. b2,r,lsb,Xy,prime   .. file: OpenPGP Public Key
+b2,r,msb,Xy,prime   .. b2,g,lsb,Xy,prime   .. text: "Up=A`7YP%V"
+b2,g,msb,Xy,prime   .. b2,b,lsb,Xy,prime   .. b2,b,msb,Xy,prime   .. b2,rgb,lsb,Xy,prime .. b2,rgb,msb,Xy,prime .. b2,bgr,lsb,Xy,prime .. b2,bgr,msb,Xy,prime .. b3,r,lsb,Xy,prime   .. b3,r,msb,Xy,prime   .. b3,g,lsb,Xy,prime   .. b3,g,msb,Xy,prime   .. b3,b,lsb,Xy,prime   .. b3,b,msb,Xy,prime   .. b3,rgb,lsb,Xy,prime .. b3,rgb,msb,Xy,prime .. b3,bgr,lsb,Xy,prime .. b3,bgr,msb,Xy,prime .. b3p,r,lsb,Xy,prime  .. file: OpenPGP Public Key
+b3p,r,msb,Xy,prime  .. text: "L;|aB|<>"
+b3p,g,lsb,Xy,prime  .. b3p,g,msb,Xy,prime  .. b3p,b,lsb,Xy,prime  .. b3p,b,msb,Xy,prime  .. b3p,rgb,lsb,Xy,prime.. b3p,rgb,msb,Xy,prime.. b3p,bgr,lsb,Xy,prime.. b3p,bgr,msb,Xy,prime.. b4,r,lsb,Xy,prime   .. b4,r,msb,Xy,prime   .. file: PGP Secret Sub-key -
+b4,g,lsb,Xy,prime   .. text: "{?gVK1y';D~?>c"
+b4,g,msb,Xy,prime   .. b4,b,lsb,Xy,prime   .. b4,b,msb,Xy,prime   .. b4,rgb,lsb,Xy,prime .. b4,rgb,msb,Xy,prime .. b4,bgr,lsb,Xy,prime .. b4,bgr,msb,Xy,prime .. b5,r,lsb,Xy,prime   .. b5,r,msb,Xy,prime   .. b5,g,lsb,Xy,prime   .. b5,g,msb,Xy,prime   .. b5,b,lsb,Xy,prime   .. b5,b,msb,Xy,prime   .. b5,rgb,lsb,Xy,prime .. b5,rgb,msb,Xy,prime .. b5,bgr,lsb,Xy,prime .. b5,bgr,msb,Xy,prime .. b5p,r,lsb,Xy,prime  .. b5p,r,msb,Xy,prime  .. b5p,g,lsb,Xy,prime  .. b5p,g,msb,Xy,prime  .. b5p,b,lsb,Xy,prime  .. b5p,b,msb,Xy,prime  .. b5p,rgb,lsb,Xy,prime.. b5p,rgb,msb,Xy,prime.. text: "1_osWC?/;"
+b5p,bgr,lsb,Xy,prime.. b5p,bgr,msb,Xy,prime.. text: "*OpdH[ -1"
+b6,r,lsb,Xy,prime   .. b6,r,msb,Xy,prime   .. b6,g,lsb,Xy,prime   .. b6,g,msb,Xy,prime   .. b6,b,lsb,Xy,prime   .. b6,b,msb,Xy,prime   .. file: OpenPGP Public Key
+b6,rgb,lsb,Xy,prime .. b6,rgb,msb,Xy,prime .. b6,bgr,lsb,Xy,prime .. b6,bgr,msb,Xy,prime .. b6p,r,lsb,Xy,prime  .. b6p,r,msb,Xy,prime  .. b6p,g,lsb,Xy,prime  .. b6p,g,msb,Xy,prime  .. b6p,b,lsb,Xy,prime  .. text: "#\nM=L8K3"
+b6p,b,msb,Xy,prime  .. b6p,rgb,lsb,Xy,prime.. b6p,rgb,msb,Xy,prime.. b6p,bgr,lsb,Xy,prime.. text: "i.=n.K^\r"
+b6p,bgr,msb,Xy,prime.. b7,r,lsb,Xy,prime   .. b7,r,msb,Xy,prime   .. b7,g,lsb,Xy,prime   .. b7,g,msb,Xy,prime   .. b7,b,lsb,Xy,prime   .. b7,b,msb,Xy,prime   .. b7,rgb,lsb,Xy,prime .. b7,rgb,msb,Xy,prime .. b7,bgr,lsb,Xy,prime .. b7,bgr,msb,Xy,prime .. b7p,r,lsb,Xy,prime  .. b7p,r,msb,Xy,prime  .. b7p,g,lsb,Xy,prime  .. text: "W{Yt\"jvi"
+b7p,g,msb,Xy,prime  .. b7p,b,lsb,Xy,prime  .. text: "BE@#?:70*OD251Dn4E$"
+b7p,b,msb,Xy,prime  .. b7p,rgb,lsb,Xy,prime.. b7p,rgb,msb,Xy,prime.. b7p,bgr,lsb,Xy,prime.. text: "<BHD6@,\""
+b7p,bgr,msb,Xy,prime.. b8,r,lsb,Xy,prime   .. b8,r,msb,Xy,prime   .. b8,g,lsb,Xy,prime   .. b8,g,msb,Xy,prime   .. text: "5CccSC#=-"
+b8,b,lsb,Xy,prime   .. file: OpenPGP Secret Key
+b8,b,msb,Xy,prime   .. b8,rgb,lsb,Xy,prime .. b8,rgb,msb,Xy,prime .. b8,bgr,lsb,Xy,prime .. file: OpenPGP Secret Key
+b8,bgr,msb,Xy,prime .. b1,r,lsb,yX         .. b1,r,msb,yX         .. b1,g,lsb,yX         .. text: "iMWhP>\n7Y"
+b1,g,msb,yX         .. b1,b,lsb,yX         .. b1,b,msb,yX         .. b1,rgb,lsb,yX       .. b1,rgb,msb,yX       .. b1,bgr,lsb,yX       .. b1,bgr,msb,yX       .. b2,r,lsb,yX         .. b2,r,msb,yX         .. b2,g,lsb,yX         .. b2,g,msb,yX         .. b2,b,lsb,yX         .. b2,b,msb,yX         .. b2,rgb,lsb,yX       .. b2,rgb,msb,yX       .. b2,bgr,lsb,yX       .. b2,bgr,msb,yX       .. b3,r,lsb,yX         .. b3,r,msb,yX         .. b3,g,lsb,yX         .. b3,g,msb,yX         .. b3,b,lsb,yX         .. b3,b,msb,yX         .. b3,rgb,lsb,yX       .. b3,rgb,msb,yX       .. b3,bgr,lsb,yX       .. b3,bgr,msb,yX       .. b3p,r,lsb,yX        .. b3p,r,msb,yX        .. b3p,g,lsb,yX        .. b3p,g,msb,yX        .. text: "jP,iEb.9"
+b3p,b,lsb,yX        .. b3p,b,msb,yX        .. b3p,rgb,lsb,yX      .. b3p,rgb,msb,yX      .. b3p,bgr,lsb,yX      .. b3p,bgr,msb,yX      .. b4,r,lsb,yX         .. b4,r,msb,yX         .. b4,g,lsb,yX         .. b4,g,msb,yX         .. b4,b,lsb,yX         .. b4,b,msb,yX         .. b4,rgb,lsb,yX       .. b4,rgb,msb,yX       .. b4,bgr,lsb,yX       .. b4,bgr,msb,yX       .. b5,r,lsb,yX         .. b5,r,msb,yX         .. b5,g,lsb,yX         .. b5,g,msb,yX         .. file: PGP Secret Sub-key -
+b5,b,lsb,yX         .. b5,b,msb,yX         .. b5,rgb,lsb,yX       .. b5,rgb,msb,yX       .. b5,bgr,lsb,yX       .. b5,bgr,msb,yX       .. b5p,r,lsb,yX        .. b5p,r,msb,yX        .. b5p,g,lsb,yX        .. b5p,g,msb,yX        .. b5p,b,lsb,yX        .. b5p,b,msb,yX        .. b5p,rgb,lsb,yX      .. b5p,rgb,msb,yX      .. b5p,bgr,lsb,yX      .. file: OpenPGP Secret Key
+b5p,bgr,msb,yX      .. b6,r,lsb,yX         .. b6,r,msb,yX         .. b6,g,lsb,yX         .. b6,g,msb,yX         .. b6,b,lsb,yX         .. b6,b,msb,yX         .. b6,rgb,lsb,yX       .. b6,rgb,msb,yX       .. b6,bgr,lsb,yX       .. b6,bgr,msb,yX       .. b6p,r,lsb,yX        .. b6p,r,msb,yX        .. b6p,g,lsb,yX        .. b6p,g,msb,yX        .. b6p,b,lsb,yX        .. b6p,b,msb,yX        .. b6p,rgb,lsb,yX      .. text: "[4I\t%4\\t7"
+b6p,rgb,msb,yX      .. b6p,bgr,lsb,yX      .. b6p,bgr,msb,yX      .. b7,r,lsb,yX         .. b7,r,msb,yX         .. b7,g,lsb,yX         .. b7,g,msb,yX         .. b7,b,lsb,yX         .. b7,b,msb,yX         .. b7,rgb,lsb,yX       .. b7,rgb,msb,yX       .. b7,bgr,lsb,yX       .. b7,bgr,msb,yX       .. b7p,r,lsb,yX        .. b7p,r,msb,yX        .. text: "u>y1w/[-"
+b7p,g,lsb,yX        .. text: ";=CnAWKXU5?PiUKKu"
+b7p,g,msb,yX        .. b7p,b,lsb,yX        .. text: "u|{DbZoxek"
+b7p,b,msb,yX        .. b7p,rgb,lsb,yX      .. text: "rRXqS]bCPp"
+b7p,rgb,msb,yX      .. b7p,bgr,lsb,yX      .. text: "cB(<S1=J7Pz"
+b7p,bgr,msb,yX      .. b8,r,lsb,yX         .. b8,r,msb,yX         .. file: PGP Secret Sub-key -
+b8,g,lsb,yX         .. b8,g,msb,yX         .. b8,b,lsb,yX         .. text: "a_IAT_Keuymh\\IC1!"
+b8,b,msb,yX         .. file: Berkeley vfont data
+b8,rgb,lsb,yX       .. b8,rgb,msb,yX       .. file: PGP Secret Sub-key -
+b8,bgr,lsb,yX       .. b8,bgr,msb,yX       .. b1,r,lsb,yX,prime   .. b1,r,msb,yX,prime   .. b1,g,lsb,yX,prime   .. text: "sdF^?Zmaq"
+b1,g,msb,yX,prime   .. b1,b,lsb,yX,prime   .. b1,b,msb,yX,prime   .. b1,rgb,lsb,yX,prime .. text: "W$p?Y>A>"
+b1,rgb,msb,yX,prime .. b1,bgr,lsb,yX,prime .. b1,bgr,msb,yX,prime .. b2,r,lsb,yX,prime   .. b2,r,msb,yX,prime   .. b2,g,lsb,yX,prime   .. b2,g,msb,yX,prime   .. b2,b,lsb,yX,prime   .. b2,b,msb,yX,prime   .. b2,rgb,lsb,yX,prime .. b2,rgb,msb,yX,prime .. b2,bgr,lsb,yX,prime .. b2,bgr,msb,yX,prime .. text: ".RN?xY\\n0"
+b3,r,lsb,yX,prime   .. b3,r,msb,yX,prime   .. b3,g,lsb,yX,prime   .. b3,g,msb,yX,prime   .. b3,b,lsb,yX,prime   .. b3,b,msb,yX,prime   .. b3,rgb,lsb,yX,prime .. b3,rgb,msb,yX,prime .. file: OpenPGP Public Key
+b3,bgr,lsb,yX,prime .. text: "2I_x5kz>"
+b3,bgr,msb,yX,prime .. file: OpenPGP Public Key
+b3p,r,lsb,yX,prime  .. b3p,r,msb,yX,prime  .. b3p,g,lsb,yX,prime  .. b3p,g,msb,yX,prime  .. b3p,b,lsb,yX,prime  .. b3p,b,msb,yX,prime  .. b3p,rgb,lsb,yX,prime.. b3p,rgb,msb,yX,prime.. b3p,bgr,lsb,yX,prime.. b3p,bgr,msb,yX,prime.. b4,r,lsb,yX,prime   .. b4,r,msb,yX,prime   .. b4,g,lsb,yX,prime   .. b4,g,msb,yX,prime   .. b4,b,lsb,yX,prime   .. b4,b,msb,yX,prime   .. b4,rgb,lsb,yX,prime .. b4,rgb,msb,yX,prime .. b4,bgr,lsb,yX,prime .. b4,bgr,msb,yX,prime .. b5,r,lsb,yX,prime   .. b5,r,msb,yX,prime   .. b5,g,lsb,yX,prime   .. b5,g,msb,yX,prime   .. b5,b,lsb,yX,prime   .. b5,b,msb,yX,prime   .. b5,rgb,lsb,yX,prime .. b5,rgb,msb,yX,prime .. b5,bgr,lsb,yX,prime .. b5,bgr,msb,yX,prime .. b5p,r,lsb,yX,prime  .. b5p,r,msb,yX,prime  .. b5p,g,lsb,yX,prime  .. b5p,g,msb,yX,prime  .. b5p,b,lsb,yX,prime  .. b5p,b,msb,yX,prime  .. b5p,rgb,lsb,yX,prime.. b5p,rgb,msb,yX,prime.. b5p,bgr,lsb,yX,prime.. b5p,bgr,msb,yX,prime.. b6,r,lsb,yX,prime   .. b6,r,msb,yX,prime   .. b6,g,lsb,yX,prime   .. b6,g,msb,yX,prime   .. b6,b,lsb,yX,prime   .. text: "W]@a1,\tu"
+b6,b,msb,yX,prime   .. b6,rgb,lsb,yX,prime .. b6,rgb,msb,yX,prime .. file: OpenPGP Secret Key
+b6,bgr,lsb,yX,prime .. b6,bgr,msb,yX,prime .. file: PGP Secret Sub-key -
+b6p,r,lsb,yX,prime  .. b6p,r,msb,yX,prime  .. b6p,g,lsb,yX,prime  .. b6p,g,msb,yX,prime  .. b6p,b,lsb,yX,prime  .. b6p,b,msb,yX,prime  .. b6p,rgb,lsb,yX,prime.. b6p,rgb,msb,yX,prime.. b6p,bgr,lsb,yX,prime.. b6p,bgr,msb,yX,prime.. b7,r,lsb,yX,prime   .. b7,r,msb,yX,prime   .. b7,g,lsb,yX,prime   .. b7,g,msb,yX,prime   .. text: "gTH4r+yJ"
+b7,b,lsb,yX,prime   .. b7,b,msb,yX,prime   .. b7,rgb,lsb,yX,prime .. text: "C5\"b:nDC"
+b7,rgb,msb,yX,prime .. b7,bgr,lsb,yX,prime .. b7,bgr,msb,yX,prime .. text: "ey}%kA5w"
+b7p,r,lsb,yX,prime  .. b7p,r,msb,yX,prime  .. b7p,g,lsb,yX,prime  .. text: "fl&0,?NXmE/,oq"
+b7p,g,msb,yX,prime  .. b7p,b,lsb,yX,prime  .. b7p,b,msb,yX,prime  .. b7p,rgb,lsb,yX,prime.. b7p,rgb,msb,yX,prime.. b7p,bgr,lsb,yX,prime.. b7p,bgr,msb,yX,prime.. b8,r,lsb,yX,prime   .. b8,r,msb,yX,prime   .. b8,g,lsb,yX,prime   .. b8,g,msb,yX,prime   .. b8,b,lsb,yX,prime   .. text: "@0L;OPLSj"
+b8,b,msb,yX,prime   .. b8,rgb,lsb,yX,prime .. b8,rgb,msb,yX,prime .. b8,bgr,lsb,yX,prime .. b8,bgr,msb,yX,prime .. b1,r,lsb,xY         .. b1,r,msb,xY         .. b1,g,lsb,xY         .. text: "`K~RjK8h3"
+b1,g,msb,xY         .. b1,b,lsb,xY         .. text: "ay[3;I'/"
+b1,b,msb,xY         .. b1,rgb,lsb,xY       .. b1,rgb,msb,xY       .. b1,bgr,lsb,xY       .. text: "fd4o1B-J"
+b1,bgr,msb,xY       .. b2,r,lsb,xY         .. b2,r,msb,xY         .. b2,g,lsb,xY         .. b2,g,msb,xY         .. b2,b,lsb,xY         .. file: OpenPGP Public Key
+b2,b,msb,xY         .. b2,rgb,lsb,xY       .. b2,rgb,msb,xY       .. b2,bgr,lsb,xY       .. b2,bgr,msb,xY       .. b3,r,lsb,xY         .. b3,r,msb,xY         .. file: OpenPGP Secret Key
+b3,g,lsb,xY         .. text: ",h,9Km$3Q6"
+b3,g,msb,xY         .. b3,b,lsb,xY         .. b3,b,msb,xY         .. b3,rgb,lsb,xY       .. b3,rgb,msb,xY       .. b3,bgr,lsb,xY       .. b3,bgr,msb,xY       .. b3p,r,lsb,xY        .. text: "7V}4Fgwo"
+b3p,r,msb,xY        .. b3p,g,lsb,xY        .. text: "G_C!}RGV|"
+b3p,g,msb,xY        .. b3p,b,lsb,xY        .. b3p,b,msb,xY        .. b3p,rgb,lsb,xY      .. b3p,rgb,msb,xY      .. b3p,bgr,lsb,xY      .. b3p,bgr,msb,xY      .. b4,r,lsb,xY         .. b4,r,msb,xY         .. b4,g,lsb,xY         .. b4,g,msb,xY         .. b4,b,lsb,xY         .. text: "QD.\"K\n+F2"
+b4,b,msb,xY         .. b4,rgb,lsb,xY       .. file: GeoSwath RDF
+b4,rgb,msb,xY       .. text: "@i\t^h5G<Rf"
+b4,bgr,lsb,xY       .. b4,bgr,msb,xY       .. text: "iX>eLW2hF"
+b5,r,lsb,xY         .. file: OpenPGP Public Key
+b5,r,msb,xY         .. b5,g,lsb,xY         .. b5,g,msb,xY         .. b5,b,lsb,xY         .. b5,b,msb,xY         .. b5,rgb,lsb,xY       .. file: OpenPGP Public Key
+b5,rgb,msb,xY       .. b5,bgr,lsb,xY       .. b5,bgr,msb,xY       .. b5p,r,lsb,xY        .. file: OpenPGP Public Key Version 7, Created Thu May  1 15:28:55 1997, Unknown Algorithm (0xe9)
+b5p,r,msb,xY        .. b5p,g,lsb,xY        .. b5p,g,msb,xY        .. b5p,b,lsb,xY        .. b5p,b,msb,xY        .. b5p,rgb,lsb,xY      .. b5p,rgb,msb,xY      .. b5p,bgr,lsb,xY      .. b5p,bgr,msb,xY      .. b6,r,lsb,xY         .. b6,r,msb,xY         .. b6,g,lsb,xY         .. text: "fu:ozKfv"
+b6,g,msb,xY         .. b6,b,lsb,xY         .. b6,b,msb,xY         .. b6,rgb,lsb,xY       .. b6,rgb,msb,xY       .. b6,bgr,lsb,xY       .. b6,bgr,msb,xY       .. b6p,r,lsb,xY        .. text: "`,C=rB$o"
+b6p,r,msb,xY        .. b6p,g,lsb,xY        .. b6p,g,msb,xY        .. b6p,b,lsb,xY        .. b6p,b,msb,xY        .. file: PGP Secret Sub-key -
+b6p,rgb,lsb,xY      .. b6p,rgb,msb,xY      .. text: "haz,j=6d"
+b6p,bgr,lsb,xY      .. b6p,bgr,msb,xY      .. file: PGP Secret Sub-key -
+b7,r,lsb,xY         .. b7,r,msb,xY         .. b7,g,lsb,xY         .. b7,g,msb,xY         .. b7,b,lsb,xY         .. b7,b,msb,xY         .. b7,rgb,lsb,xY       .. b7,rgb,msb,xY       .. text: "X.2;uA?I"
+b7,bgr,lsb,xY       .. b7,bgr,msb,xY       .. b7p,r,lsb,xY        .. b7p,r,msb,xY        .. b7p,g,lsb,xY        .. text: "Cd-[}1NK"
+b7p,g,msb,xY        .. b7p,b,lsb,xY        .. b7p,b,msb,xY        .. b7p,rgb,lsb,xY      .. text: "OM6[pm\\m_z"
+b7p,rgb,msb,xY      .. text: "QCuYU{mI"
+b7p,bgr,lsb,xY      .. b7p,bgr,msb,xY      .. b8,r,lsb,xY         .. b8,r,msb,xY         .. b8,g,lsb,xY         .. b8,g,msb,xY         .. b8,b,lsb,xY         .. text: "zmrbTajWOWO65,CMD7<5FTf"
+b8,b,msb,xY         .. b8,rgb,lsb,xY       .. b8,rgb,msb,xY       .. b8,bgr,lsb,xY       .. b8,bgr,msb,xY       .. b1,r,lsb,xY,prime   .. b1,r,msb,xY,prime   .. b1,g,lsb,xY,prime   .. b1,g,msb,xY,prime   .. b1,b,lsb,xY,prime   .. b1,b,msb,xY,prime   .. b1,rgb,lsb,xY,prime .. b1,rgb,msb,xY,prime .. b1,bgr,lsb,xY,prime .. b1,bgr,msb,xY,prime .. b2,r,lsb,xY,prime   .. b2,r,msb,xY,prime   .. file: executable (RISC System/6000 V3.1) or obj module not stripped
+b2,g,lsb,xY,prime   .. b2,g,msb,xY,prime   .. b2,b,lsb,xY,prime   .. b2,b,msb,xY,prime   .. b2,rgb,lsb,xY,prime .. b2,rgb,msb,xY,prime .. b2,bgr,lsb,xY,prime .. b2,bgr,msb,xY,prime .. b3,r,lsb,xY,prime   .. b3,r,msb,xY,prime   .. b3,g,lsb,xY,prime   .. b3,g,msb,xY,prime   .. b3,b,lsb,xY,prime   .. text: "h\rVl+&%4"
+b3,b,msb,xY,prime   .. b3,rgb,lsb,xY,prime .. b3,rgb,msb,xY,prime .. b3,bgr,lsb,xY,prime .. b3,bgr,msb,xY,prime .. b3p,r,lsb,xY,prime  .. b3p,r,msb,xY,prime  .. b3p,g,lsb,xY,prime  .. text: "_B-]}\"<Y"
+b3p,g,msb,xY,prime  .. b3p,b,lsb,xY,prime  .. b3p,b,msb,xY,prime  .. text: "hQ)g&LD!"
+b3p,rgb,lsb,xY,prime.. b3p,rgb,msb,xY,prime.. text: "~EW\\#L'}X["
+b3p,bgr,lsb,xY,prime.. text: ";D6H>?ha\te"
+b3p,bgr,msb,xY,prime.. b4,r,lsb,xY,prime   .. b4,r,msb,xY,prime   .. b4,g,lsb,xY,prime   .. b4,g,msb,xY,prime   .. b4,b,lsb,xY,prime   .. b4,b,msb,xY,prime   .. b4,rgb,lsb,xY,prime .. b4,rgb,msb,xY,prime .. b4,bgr,lsb,xY,prime .. b4,bgr,msb,xY,prime .. b5,r,lsb,xY,prime   .. b5,r,msb,xY,prime   .. b5,g,lsb,xY,prime   .. b5,g,msb,xY,prime   .. b5,b,lsb,xY,prime   .. b5,b,msb,xY,prime   .. b5,rgb,lsb,xY,prime .. b5,rgb,msb,xY,prime .. b5,bgr,lsb,xY,prime .. b5,bgr,msb,xY,prime .. b5p,r,lsb,xY,prime  .. b5p,r,msb,xY,prime  .. b5p,g,lsb,xY,prime  .. b5p,g,msb,xY,prime  .. b5p,b,lsb,xY,prime  .. b5p,b,msb,xY,prime  .. b5p,rgb,lsb,xY,prime.. b5p,rgb,msb,xY,prime.. file: x86 executable not stripped
+b5p,bgr,lsb,xY,prime.. b5p,bgr,msb,xY,prime.. b6,r,lsb,xY,prime   .. b6,r,msb,xY,prime   .. b6,g,lsb,xY,prime   .. b6,g,msb,xY,prime   .. b6,b,lsb,xY,prime   .. b6,b,msb,xY,prime   .. b6,rgb,lsb,xY,prime .. b6,rgb,msb,xY,prime .. b6,bgr,lsb,xY,prime .. b6,bgr,msb,xY,prime .. b6p,r,lsb,xY,prime  .. b6p,r,msb,xY,prime  .. b6p,g,lsb,xY,prime  .. b6p,g,msb,xY,prime  .. b6p,b,lsb,xY,prime  .. b6p,b,msb,xY,prime  .. b6p,rgb,lsb,xY,prime.. text: "vj`B}bt`"
+b6p,rgb,msb,xY,prime.. b6p,bgr,lsb,xY,prime.. b6p,bgr,msb,xY,prime.. b7,r,lsb,xY,prime   .. file: OpenPGP Secret Key
+b7,r,msb,xY,prime   .. b7,g,lsb,xY,prime   .. b7,g,msb,xY,prime   .. b7,b,lsb,xY,prime   .. b7,b,msb,xY,prime   .. b7,rgb,lsb,xY,prime .. b7,rgb,msb,xY,prime .. b7,bgr,lsb,xY,prime .. b7,bgr,msb,xY,prime .. b7p,r,lsb,xY,prime  .. b7p,r,msb,xY,prime  .. b7p,g,lsb,xY,prime  .. text: "\r%#.XMjtN,ZV"
+b7p,g,msb,xY,prime  .. b7p,b,lsb,xY,prime  .. b7p,b,msb,xY,prime  .. b7p,rgb,lsb,xY,prime.. b7p,rgb,msb,xY,prime.. b7p,bgr,lsb,xY,prime.. b7p,bgr,msb,xY,prime.. b8,r,lsb,xY,prime   .. b8,r,msb,xY,prime   .. b8,g,lsb,xY,prime   .. b8,g,msb,xY,prime   .. b8,b,lsb,xY,prime   .. text: "rbaW6,75"
+b8,b,msb,xY,prime   .. b8,rgb,lsb,xY,prime .. b8,rgb,msb,xY,prime .. b8,bgr,lsb,xY,prime .. b8,bgr,msb,xY,prime .. b1,r,lsb,Yx         .. b1,r,msb,Yx         .. b1,g,lsb,Yx         .. b1,g,msb,Yx         .. b1,b,lsb,Yx         .. b1,b,msb,Yx         .. b1,rgb,lsb,Yx       .. b1,rgb,msb,Yx       .. b1,bgr,lsb,Yx       .. b1,bgr,msb,Yx       .. b2,r,lsb,Yx         .. b2,r,msb,Yx         .. b2,g,lsb,Yx         .. b2,g,msb,Yx         .. b2,b,lsb,Yx         .. b2,b,msb,Yx         .. b2,rgb,lsb,Yx       .. b2,rgb,msb,Yx       .. file: OpenPGP Public Key
+b2,bgr,lsb,Yx       .. b2,bgr,msb,Yx       .. b3,r,lsb,Yx         .. b3,r,msb,Yx         .. b3,g,lsb,Yx         .. b3,g,msb,Yx         .. b3,b,lsb,Yx         .. b3,b,msb,Yx         .. b3,rgb,lsb,Yx       .. b3,rgb,msb,Yx       .. b3,bgr,lsb,Yx       .. b3,bgr,msb,Yx       .. b3p,r,lsb,Yx        .. b3p,r,msb,Yx        .. b3p,g,lsb,Yx        .. b3p,g,msb,Yx        .. b3p,b,lsb,Yx        .. b3p,b,msb,Yx        .. b3p,rgb,lsb,Yx      .. b3p,rgb,msb,Yx      .. b3p,bgr,lsb,Yx      .. b3p,bgr,msb,Yx      .. b4,r,lsb,Yx         .. text: "(l'1jLO T\n"
+b4,r,msb,Yx         .. b4,g,lsb,Yx         .. b4,g,msb,Yx         .. b4,b,lsb,Yx         .. b4,b,msb,Yx         .. b4,rgb,lsb,Yx       .. b4,rgb,msb,Yx       .. text: "d:\t'twBW"
+b4,bgr,lsb,Yx       .. b4,bgr,msb,Yx       .. b5,r,lsb,Yx         .. file: OpenPGP Public Key
+b5,r,msb,Yx         .. file: OpenPGP Public Key
+b5,g,lsb,Yx         .. b5,g,msb,Yx         .. b5,b,lsb,Yx         .. b5,b,msb,Yx         .. b5,rgb,lsb,Yx       .. file: OpenPGP Public Key
+b5,rgb,msb,Yx       .. b5,bgr,lsb,Yx       .. b5,bgr,msb,Yx       .. b5p,r,lsb,Yx        .. b5p,r,msb,Yx        .. b5p,g,lsb,Yx        .. b5p,g,msb,Yx        .. b5p,b,lsb,Yx        .. b5p,b,msb,Yx        .. b5p,rgb,lsb,Yx      .. b5p,rgb,msb,Yx      .. b5p,bgr,lsb,Yx      .. b5p,bgr,msb,Yx      .. b6,r,lsb,Yx         .. b6,r,msb,Yx         .. b6,g,lsb,Yx         .. b6,g,msb,Yx         .. b6,b,lsb,Yx         .. b6,b,msb,Yx         .. b6,rgb,lsb,Yx       .. b6,rgb,msb,Yx       .. b6,bgr,lsb,Yx       .. b6,bgr,msb,Yx       .. b6p,r,lsb,Yx        .. text: "8pLgR~@l\r"
+b6p,r,msb,Yx        .. b6p,g,lsb,Yx        .. b6p,g,msb,Yx        .. b6p,b,lsb,Yx        .. b6p,b,msb,Yx        .. b6p,rgb,lsb,Yx      .. text: "=S1zvaQ<"
+b6p,rgb,msb,Yx      .. b6p,bgr,lsb,Yx      .. b6p,bgr,msb,Yx      .. file: PGP Secret Sub-key -
+b7,r,lsb,Yx         .. b7,r,msb,Yx         .. b7,g,lsb,Yx         .. b7,g,msb,Yx         .. b7,b,lsb,Yx         .. b7,b,msb,Yx         .. b7,rgb,lsb,Yx       .. b7,rgb,msb,Yx       .. b7,bgr,lsb,Yx       .. b7,bgr,msb,Yx       .. b7p,r,lsb,Yx        .. b7p,r,msb,Yx        .. b7p,g,lsb,Yx        .. text: ">StzIBgPfv:JJm"
+b7p,g,msb,Yx        .. b7p,b,lsb,Yx        .. b7p,b,msb,Yx        .. b7p,rgb,lsb,Yx      .. b7p,rgb,msb,Yx      .. b7p,bgr,lsb,Yx      .. text: "aI5;$i]W;'8Yt"
+b7p,bgr,msb,Yx      .. b8,r,lsb,Yx         .. b8,r,msb,Yx         .. b8,g,lsb,Yx         .. b8,g,msb,Yx         .. b8,b,lsb,Yx         .. text: "m\\UZyZ\\7"
+b8,b,msb,Yx         .. b8,rgb,lsb,Yx       .. b8,rgb,msb,Yx       .. text: "{%Nwu~/M~_="
+b8,bgr,lsb,Yx       .. text: "EY6_n@eyS|"
+b8,bgr,msb,Yx       .. text: ";N%{~uw~M/"
+b1,r,lsb,Yx,prime   .. file: OpenPGP Secret Key
+b1,r,msb,Yx,prime   .. b1,g,lsb,Yx,prime   .. b1,g,msb,Yx,prime   .. b1,b,lsb,Yx,prime   .. b1,b,msb,Yx,prime   .. b1,rgb,lsb,Yx,prime .. b1,rgb,msb,Yx,prime .. b1,bgr,lsb,Yx,prime .. b1,bgr,msb,Yx,prime .. b2,r,lsb,Yx,prime   .. b2,r,msb,Yx,prime   .. text: "\tYo*m=Q*"
+b2,g,lsb,Yx,prime   .. b2,g,msb,Yx,prime   .. b2,b,lsb,Yx,prime   .. b2,b,msb,Yx,prime   .. b2,rgb,lsb,Yx,prime .. b2,rgb,msb,Yx,prime .. b2,bgr,lsb,Yx,prime .. b2,bgr,msb,Yx,prime .. b3,r,lsb,Yx,prime   .. b3,r,msb,Yx,prime   .. b3,g,lsb,Yx,prime   .. b3,g,msb,Yx,prime   .. file: OpenPGP Secret Key
+b3,b,lsb,Yx,prime   .. b3,b,msb,Yx,prime   .. b3,rgb,lsb,Yx,prime .. b3,rgb,msb,Yx,prime .. b3,bgr,lsb,Yx,prime .. b3,bgr,msb,Yx,prime .. b3p,r,lsb,Yx,prime  .. b3p,r,msb,Yx,prime  .. b3p,g,lsb,Yx,prime  .. b3p,g,msb,Yx,prime  .. file: OpenPGP Secret Key
+b3p,b,lsb,Yx,prime  .. b3p,b,msb,Yx,prime  .. b3p,rgb,lsb,Yx,prime.. b3p,rgb,msb,Yx,prime.. b3p,bgr,lsb,Yx,prime.. b3p,bgr,msb,Yx,prime.. b4,r,lsb,Yx,prime   .. b4,r,msb,Yx,prime   .. b4,g,lsb,Yx,prime   .. b4,g,msb,Yx,prime   .. b4,b,lsb,Yx,prime   .. b4,b,msb,Yx,prime   .. b4,rgb,lsb,Yx,prime .. b4,rgb,msb,Yx,prime .. b4,bgr,lsb,Yx,prime .. b4,bgr,msb,Yx,prime .. b5,r,lsb,Yx,prime   .. b5,r,msb,Yx,prime   .. file: OpenPGP Public Key
+b5,g,lsb,Yx,prime   .. b5,g,msb,Yx,prime   .. b5,b,lsb,Yx,prime   .. b5,b,msb,Yx,prime   .. b5,rgb,lsb,Yx,prime .. b5,rgb,msb,Yx,prime .. b5,bgr,lsb,Yx,prime .. b5,bgr,msb,Yx,prime .. b5p,r,lsb,Yx,prime  .. b5p,r,msb,Yx,prime  .. b5p,g,lsb,Yx,prime  .. b5p,g,msb,Yx,prime  .. b5p,b,lsb,Yx,prime  .. b5p,b,msb,Yx,prime  .. b5p,rgb,lsb,Yx,prime.. b5p,rgb,msb,Yx,prime.. b5p,bgr,lsb,Yx,prime.. b5p,bgr,msb,Yx,prime.. b6,r,lsb,Yx,prime   .. b6,r,msb,Yx,prime   .. b6,g,lsb,Yx,prime   .. text: "I5~cG*w+nR"
+b6,g,msb,Yx,prime   .. b6,b,lsb,Yx,prime   .. b6,b,msb,Yx,prime   .. b6,rgb,lsb,Yx,prime .. b6,rgb,msb,Yx,prime .. b6,bgr,lsb,Yx,prime .. b6,bgr,msb,Yx,prime .. file: OpenPGP Secret Key
+b6p,r,lsb,Yx,prime  .. b6p,r,msb,Yx,prime  .. b6p,g,lsb,Yx,prime  .. b6p,g,msb,Yx,prime  .. b6p,b,lsb,Yx,prime  .. b6p,b,msb,Yx,prime  .. b6p,rgb,lsb,Yx,prime.. b6p,rgb,msb,Yx,prime.. b6p,bgr,lsb,Yx,prime.. b6p,bgr,msb,Yx,prime.. file: OpenPGP Secret Key
+b7,r,lsb,Yx,prime   .. b7,r,msb,Yx,prime   .. b7,g,lsb,Yx,prime   .. b7,g,msb,Yx,prime   .. text: "6i9[G)-:"
+b7,b,lsb,Yx,prime   .. b7,b,msb,Yx,prime   .. text: "t:<*[,'v"
+b7,rgb,lsb,Yx,prime .. file: OpenPGP Public Key
+b7,rgb,msb,Yx,prime .. b7,bgr,lsb,Yx,prime .. b7,bgr,msb,Yx,prime .. b7p,r,lsb,Yx,prime  .. file: OpenPGP Public Key
+b7p,r,msb,Yx,prime  .. b7p,g,lsb,Yx,prime  .. text: "%IEMHdic"
+b7p,g,msb,Yx,prime  .. b7p,b,lsb,Yx,prime  .. b7p,b,msb,Yx,prime  .. b7p,rgb,lsb,Yx,prime.. b7p,rgb,msb,Yx,prime.. b7p,bgr,lsb,Yx,prime.. b7p,bgr,msb,Yx,prime.. b8,r,lsb,Yx,prime   .. b8,r,msb,Yx,prime   .. b8,g,lsb,Yx,prime   .. b8,g,msb,Yx,prime   .. b8,b,lsb,Yx,prime   .. text: "[t+<4-|lS3!"
+b8,b,msb,Yx,prime   .. b8,rgb,lsb,Yx,prime .. b8,rgb,msb,Yx,prime .. b8,bgr,lsb,Yx,prime .. b8,bgr,msb,Yx,prime ..                     

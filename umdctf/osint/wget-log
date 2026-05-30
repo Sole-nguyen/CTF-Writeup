@@ -1,0 +1,13 @@
+--2026-04-25 10:23:23--  https://umdctf2026-uploads.storage.googleapis.com/uploads/549b455d5f917e43a913689a7d808996e0e20a190005cb74dd7a5b8513d15ab5/hades_export.json
+Resolving umdctf2026-uploads.storage.googleapis.com (umdctf2026-uploads.storage.googleapis.com)... 142.250.71.187, 142.250.199.251, 142.250.197.91, ...
+Connecting to umdctf2026-uploads.storage.googleapis.com (umdctf2026-uploads.storage.googleapis.com)|142.250.71.187|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 110904 (108K) [application/json]
+Saving to: ‘hades_export.json’
+
+     0K .......... .......... .......... .......... .......... 46% 29.1K 2s
+    50K .......... .......... .......... .......... .......... 92%  116K 0s
+   100K ........                                              100% 42.5K=2.3s
+
+2026-04-25 10:31:02 (46.2 KB/s) - ‘hades_export.json’ saved [110904/110904]
+

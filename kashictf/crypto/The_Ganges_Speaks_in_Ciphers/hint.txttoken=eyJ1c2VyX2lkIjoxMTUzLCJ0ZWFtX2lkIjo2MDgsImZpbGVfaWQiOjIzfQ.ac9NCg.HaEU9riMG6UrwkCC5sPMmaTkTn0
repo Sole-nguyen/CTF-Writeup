@@ -1,0 +1,3 @@
+hint.txt → "The key is 128 bits. The IV changes every time. Or does it? 
+            Each message was carefully obfuscated before transmission.
+            Flag format: kashiCTF{...}"

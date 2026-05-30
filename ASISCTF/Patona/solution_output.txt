@@ -1,0 +1,39 @@
+File size: 1210560 bytes
+
+Top 20 byte values:
+  0x7F (127): 321998 times - .
+  0x6A (106):  69972 times - j
+  0x94 (148):  69918 times - .
+  0x36 ( 54):  69868 times - 6
+  0xC8 (200):  69676 times - .
+  0xD2 (210):  69624 times - .
+  0x56 ( 86):  69502 times - V
+  0x2C ( 44):  69366 times - ,
+  0xA8 (168):  69310 times - .
+  0xBA (186):  69192 times - .
+  0x44 ( 68):  68972 times - D
+  0xD8 (216):  68872 times - .
+  0x26 ( 38):  68698 times - &
+  0x84 (132):   1142 times - .
+  0x75 (117):   1074 times - u
+  0x89 (137):    990 times - .
+  0x7C (124):    974 times - |
+  0x8E (142):    936 times - .
+  0x95 (149):    918 times - .
+  0x70 (112):    884 times - p
+
+
+Total characters: 1105174
+Unique characters: 333
+
+All unique characters (sorted by frequency):
+  0. '' (U+007F) : 321998 times <- likely SPACE or most common letter
+Traceback (most recent call last):
+  File "C:\Users\duynh\Documents\Code\CTF\ASISCTF\Patona\decode_complete.py", line 137, in <module>
+    main()
+  File "C:\Users\duynh\Documents\Code\CTF\ASISCTF\Patona\decode_complete.py", line 39, in main
+    print(f"{i:3d}. '{ch}' (U+{ord(ch):04X}) : {count:6d} times", end='')
+  File "C:\msys64\ucrt64\lib\python3.11\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\ufffd' in position 6: character maps to <undefined>

@@ -1,0 +1,11 @@
+[*] Connecting...
+[*] Finding working parameters...
+[+] Found working parameters: block=63, pad=2
+[*] Extracting flag...
+Start: uoftctf{
+
+Byte 8: X
+
+[+] FINAL FLAG: uoftctf{
+
+uoftctf{

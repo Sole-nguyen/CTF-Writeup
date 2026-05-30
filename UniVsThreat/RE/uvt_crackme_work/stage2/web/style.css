@@ -1,0 +1,45 @@
+:root {
+  --bg: #0b0f14;
+  --fg: #dbe7ff;
+  --muted: #9db0d4;
+  --accent: #8df0c7;
+  --panel: rgba(255,255,255,0.06);
+}
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: radial-gradient(1200px 800px at 20% 10%, rgba(141,240,199,0.12), transparent 60%),
+              radial-gradient(900px 600px at 80% 30%, rgba(219,231,255,0.10), transparent 55%),
+              var(--bg);
+  color: var(--fg);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+main {
+  max-width: 860px;
+  margin: 48px auto;
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+  box-shadow: 0 30px 90px rgba(0,0,0,0.45);
+}
+h1 { margin: 0 0 10px 0; font-size: 28px; letter-spacing: 0.3px; }
+p { margin: 10px 0; color: var(--muted); }
+.hint { color: var(--fg); }
+button {
+  margin-top: 14px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(141,240,199,0.12);
+  color: var(--fg);
+  cursor: pointer;
+}
+pre {
+  margin-top: 14px;
+  padding: 12px;
+  background: rgba(0,0,0,0.25);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.10);
+  overflow: auto;
+}

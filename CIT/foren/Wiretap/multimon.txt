@@ -1,0 +1,1 @@
+Enabled demodulators: CLIPFSK FMSFSK AFSK1200 AFSK2400

@@ -1,0 +1,39 @@
+
+╔═══════════════════════════════════════════════════════════════╗
+║                    🐉 DRAGON SLAYER 🗡️                        ║
+║         Defeat the Ancient Dragon using Nimber Magic!         ║
+╚═══════════════════════════════════════════════════════════════╝
+
+🔮 Before entering the dragon's lair, prove your worth!
+Find a string S such that SHA256('sc7f7sq5' + S) starts with 4 zeros
+Challenge: sc7f7sq5
+Your proof: 
+[*] Prefix: sc7f7sq5
+[*] PoW: 159768
+✅ Proof accepted! The dragon's lair opens...
+
+⚔️ Your Magic Power: 6017999930425762531273663374656449004619572164067966003018884791339408708286873243809441314754472490679742145666737040639649165632198231120782933666481511
+🔥 The Ancient Dragon appears! Cast your spells wisely!
+
+━━━ Spell Cast #1/4 ━━━
+🐉 Dragon's Life Force: 11337412552201131786783970481927813094555780712747311751468325827667528833904179838713638038000353527908090928652285172194292835165634141726474006516370279
+⚡ Spell Intensity> 
+[*] Solving...
+[*] Computing powers 0-2047...
+[*] Building 2-combo map...
+    0/2047
+    400/2047
+    800/2047
+    1200/2047
+    1600/2047
+    2000/2047
+[*] Map size: 2096129
+[*] Searching...
+[*] Trying 3-spell...
+    0/2047
+    400/2047
+    800/2047
+    1200/2047
+    1600/2047
+    2000/2047
+[!] Failed

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,
+        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+            <text y='.9em' font-size='90'>🌽</text>
+        </svg>">
+    <link rel="stylesheet" href="style.css">
+    <title>CornHub - A better place for exclusive and spicy corns</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">🌽 CornHub</h1>
+                <p class="tagline">A better place for exclusive and spicy corns</p>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h3>API Endpoints</h3>
+                </div>
+                <nav class="api-menu">
+                    <button class="menu-item active" onclick="openWorkspace('login-div')">
+                        <span class="endpoint-label">POST</span>
+                        <span class="endpoint-path">/login</span>
+                    </button>
+                    <button class="menu-item" onclick="internalOnly('/forgot_password')">
+                        <span class="endpoint-label">POST</span>
+                        <span class="endpoint-path">/forgot_password</span>
+                    </button>
+                    <button class="menu-item" onclick="internalOnly('/update_password')">
+                        <span class="endpoint-label">POST</span>
+                        <span class="endpoint-path">/update_password</span>
+                    </button>
+                    <button class="menu-item" onclick="showProtectedSection('status')">
+                        <span class="endpoint-label">POST</span>
+                        <span class="endpoint-path">/debug</span>
+                    </button>
+                    <button class="menu-item" onclick="showProtectedSection('read-file')">
+                        <span class="endpoint-label">POST</span>
+                        <span class="endpoint-path">/documents</span>
+                    </button>
+                </nav>
+
+                <div class="sidebar-section">
+                    <h3>Account</h3>
+                    <button class="menu-item" onclick="handleLogout()">
+                        <span class="endpoint-label">Option</span>
+                        <span class="endpoint-path">Logout</span>
+                    </button>
+                </div>
+            </aside>
+
+            <main class="content-area">
+                <div id="login-div" class="workspace active">
+                    <div class="workspace-header">
+                        <h2>Login</h2>
+                        <p class="workspace-desc">Access your exclusive corn collection</p>
+                    </div>
+                    <div class="workspace-body">
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label for="login-username">Username:</label>
+                                <input type="text" id="login-username" placeholder="admin" value="admin">
+                            </div>
+                            <div class="form-group">
+                                <label for="login-password">Password:</label>
+                                <input type="password" id="login-password" placeholder="Password">
+                            </div>
+                            <button class="btn btn-primary" onclick="handleLogin()">Login to CornHub</button>
+                        </div>
+                        <div id="login-response" class="file-viewer" style="margin-top: 20px; max-height: none; overflow-y: visible; min-height: auto;">
+                            <p class="placeholder">Response will appear here...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="update-password" class="workspace">
+                    <div class="workspace-header">
+                        <h2>Update Password</h2>
+                        <p class="workspace-desc">Change your corn account password</p>
+                    </div>
+                    <div class="workspace-body">
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label for="update-new">New Password:</label>
+                                <input type="password" id="update-new" placeholder="New password">
+                            </div>
+                            <button class="btn btn-primary">Update Password</button>
+                            <div id="update-status" class="status-message"></div>
+                        </div>
+                        <div id="update-response" class="file-viewer" style="margin-top: 20px; max-height: none; overflow-y: visible; min-height: auto;">
+                            <p class="placeholder">Response will appear here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="forgot-password-div" class="workspace">
+                    <div class="workspace-header">
+                        <h2>Forgot Password</h2>
+                        <p class="workspace-desc">Reset your corn account password</p>
+                    </div>
+                    <div class="workspace-body">
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label for="forgot-email">Email Address:</label>
+                                <input type="email" id="forgot-email" placeholder="admin@cornhub.corn">
+                            </div>
+                            <button class="btn btn-primary">Send Reset Link</button>
+                            <div id="forgot-status" class="status-message"></div>
+                        </div>
+                        <div id="forgot-response" class="file-viewer" style="margin-top: 20px; max-height: none; overflow-y: visible; min-height: auto;">
+                            <p class="placeholder">Response</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="status" class="workspace">
+                    <div class="workspace-header">
+                        <h2>POST /debug</h2>
+                        <p class="workspace-desc">Debug endpoint - Inspect HTTP requests and responses</p>
+                    </div>
+                    <div class="workspace-body">
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label for="debug-data">Request Data:</label>
+                                <textarea id="debug-data" rows="8" placeholder='Raw request data or JSON' style="font-family:monospace;"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="debug-headers">Headers (JSON, optional):</label>
+                                <textarea id="debug-headers" rows="4" placeholder='{"Content-Type": "application/json"}' style="font-family:monospace;"></textarea>
+                            </div>
+                            <button class="btn btn-primary" onclick="handleDebugRequest()">Send Debug Request</button>
+                        </div>
+                        <div id="debug-result" class="file-viewer" style="margin-top: 20px; max-height: none; overflow-y: visible; min-height: auto;">
+                            <p class="placeholder">Debug result will appear here...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="read-file" class="workspace">
+                    <div class="workspace-header">
+                        <h2>Corn Archive</h2>
+                        <p class="workspace-desc">Browse your exclusive corn files</p>
+                    </div>
+                    <div class="workspace-body">
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label for="file-path">File Path:</label>
+                                <input type="text" id="file-path" placeholder="/path/to/corn">
+                            </div>
+                            <div class="quick-buttons">
+                                <button class="btn btn-secondary btn-small" onclick="setFilePath('secret_1.jpg')">Secret 1</button>
+                                <button class="btn btn-secondary btn-small" onclick="setFilePath('secret_2.jpg')">Secret 2</button>
+                                <button class="btn btn-secondary btn-small" onclick="setFilePath('secret_3.jpg')">Secret 3</button>
+                            </div>
+                            <button class="btn btn-primary" onclick="handleReadFile()">Browse File</button>
+                        </div>
+                        <div id="file-content" class="file-viewer">
+                            <p class="placeholder">File content will appear here...</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </main>
+        </div>
+    </div>
+
+    <script>
+        function internalOnly(endpoint) {
+            alert(`Endpoint ${endpoint} is internal use only.`);
+        }
+
+        function openWorkspace(workspaceId) {
+            const workspaces = document.querySelectorAll('.workspace');
+            workspaces.forEach(ws => ws.classList.remove('active'));
+
+            const selected = document.getElementById(workspaceId);
+            if (selected) {
+                selected.classList.add('active');
+            }
+
+            const menuItems = document.querySelectorAll('.menu-item');
+            menuItems.forEach(item => item.classList.remove('active'));
+            if (event && event.target) {
+                const menuItem = event.target.closest('.menu-item');
+                if (menuItem) menuItem.classList.add('active');
+            }
+        }
+
+        function showProtectedSection(sectionId) {
+            let token = localStorage.getItem('access_token') || '';
+            if (!token) {
+                const endpointName = sectionId === 'status' ? '/debug' : '/documents';
+                const entered = window.prompt(`Enter access token (Bearer) to use ${endpointName}:`);
+                if (entered && entered.trim()) {
+                    localStorage.setItem('access_token', entered.trim());
+                } else {
+                    openWorkspace('login-div');
+                    return;
+                }
+            }
+            openWorkspace(sectionId);
+        }
+
+        function setFilePath(path) {
+            document.getElementById('file-path').value = path;
+        }
+
+        function handleLogin() {
+            const responseDiv = document.getElementById('login-response');
+            const username = document.getElementById('login-username').value;
+            const password = document.getElementById('login-password').value;
+            
+            if (!username || !password) {
+                responseDiv.textContent = 'Username and password required';
+                responseDiv.className = 'file-viewer error';
+                return;
+            }
+            
+            const params = new URLSearchParams();
+            params.append('username', username);
+            params.append('password', password);
+            
+            responseDiv.textContent = '[INFO] Logging in...';
+            
+            fetch('/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+                body: params.toString()
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data && data.access_token) {
+                    localStorage.setItem('access_token', data.access_token);
+                }
+                responseDiv.textContent = JSON.stringify(data, null, 2);
+                responseDiv.className = 'file-viewer';
+            })
+            .catch(error => {
+                responseDiv.textContent = error.message;
+                responseDiv.className = 'file-viewer error';
+            });
+        }
+
+        function handleReadFile() {
+            const filePath = document.getElementById('file-path').value;
+            const fileContent = document.getElementById('file-content');
+            
+            if (!filePath) {
+                fileContent.textContent = 'File path required';
+                fileContent.className = 'file-viewer error';
+                return;
+            }
+            
+            let token = localStorage.getItem('access_token') || '';
+            if (!token) {
+                fileContent.textContent = 'Missing access_token. Please login first.';
+                fileContent.className = 'file-viewer error';
+                return;
+            }
+            
+            fileContent.textContent = '[INFO] Loading file...';
+            fileContent.className = 'file-viewer';
+            
+            const params = new URLSearchParams();
+            params.append('file_name', filePath); 
+            params.append('access_token', token);
+            
+            fetch('/documents', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+                body: params.toString()
+            })
+            .then(res => res.json())
+            .then(data => {
+                const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.bmp'];
+                const isImage = imageExtensions.some(ext => filePath.toLowerCase().endsWith(ext));
+                
+                if (isImage && data.content) {
+                    fileContent.innerHTML = '';
+                    const img = document.createElement('img');
+                    img.src = 'data:image/png;base64,' + data.content;
+                    img.style.maxWidth = '100%';
+                    img.style.height = 'auto';
+                    fileContent.appendChild(img);
+                } else {
+                    fileContent.textContent = JSON.stringify(data, null, 2);
+                }
+                fileContent.className = 'file-viewer';
+            })
+            .catch(error => {
+                fileContent.textContent = error.message;
+                fileContent.className = 'file-viewer error';
+            });
+        }
+
+        function handleDebugRequest() {
+            const resultDiv = document.getElementById('debug-result');
+            const data = document.getElementById('debug-data').value;
+            const headers = document.getElementById('debug-headers').value;
+
+            if (!data.trim()) {
+                resultDiv.textContent = 'Request data is required';
+                resultDiv.className = 'file-viewer error';
+                return;
+            }
+
+            let token = localStorage.getItem('access_token') || '';
+            if (!token) {
+                resultDiv.textContent = 'Missing access_token. Please login first.';
+                resultDiv.className = 'file-viewer error';
+                return;
+            }
+
+            resultDiv.textContent = '[INFO] Sending debug request...';
+            resultDiv.className = 'file-viewer';
+
+            const params = new URLSearchParams();
+            params.append('data', data);
+            if (headers.trim()) {
+                params.append('headers', headers);
+            }
+            params.append('access_token', token);
+
+            fetch('/debug', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+                body: params.toString()
+            })
+            .then(res => res.json())
+            .then(responseData => {
+                resultDiv.textContent = JSON.stringify(responseData, null, 2);
+                resultDiv.className = 'file-viewer';
+            })
+            .catch(error => {
+                resultDiv.textContent = error.message;
+                resultDiv.className = 'file-viewer error';
+            });
+        }
+
+        function handleLogout() {
+            try { localStorage.removeItem('access_token'); } catch {}
+            alert('Logged out: cleared access token');
+            openWorkspace('login-div');
+        }
+
+    </script>
+</body>
+</html>

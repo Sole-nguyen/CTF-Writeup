@@ -1,0 +1,22 @@
+Let me think about "original script" differently...
+
+Maybe "script" means:
+1. A screenplay/script adaptation?
+2. A Python/programming script that generates this text?
+3. The original manuscript?
+4. Something posted on GitHub as a script file?
+
+The challenge says "apply OSINT tools to find who authors that original script"
+
+Let me search GitHub for this specific text or related lipogram scripts...
+
+Key search terms:
+- "Augustus" + "bad night" + "lipogram"
+- "Noon rings out" + "wasp"
+- This exact passage in code repositories
+- Lipogram generators or scripts
+
+Could also be:
+- Someone who created a lipogram script/tool
+- An author who wrote code to generate this specific text
+- A different adaptation or translation

@@ -1,0 +1,16 @@
+First Name: Benjamin David
+Surname: Harrison
+Nickname: Ben
+Birthdate (DDMMYYYY): 12071982
+
+Partner's Name: Olivia Marie Harrison
+Partner's Nickname: Liv
+Partner's Birthdate (DDMMYYYY): 05081984
+
+Child's Name 1: Emma Grace Harrison
+Child's Nickname 1: Em
+Child's Birthdate 1 (DDMMYYYY): 15052014
+
+Pet's Name 1: Maxwell ("Max")
+
+Company Name: TechWave Inc.

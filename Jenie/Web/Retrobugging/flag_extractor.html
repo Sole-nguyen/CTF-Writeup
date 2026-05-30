@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Flag Extractor</title>
+</head>
+<body>
+    <h1>Galactic Invaders - Flag Extractor</h1>
+    <p>Loading game...</p>
+    <iframe id="gameFrame" src="aliens.html" width="850" height="800" style="border: 2px solid #ccc;"></iframe>
+    
+    <div id="status">Waiting for game to load...</div>
+    <button id="winBtn" onclick="autoWin()">AUTO WIN - Get Flag</button>
+    
+    <script>
+        function autoWin() {
+            try {
+                const iframe = document.getElementById('gameFrame');
+                const gameWindow = iframe.contentWindow;
+                
+                document.getElementById('status').innerHTML = "Injecting win script...";
+                
+                // Wait a bit for game to initialize
+                setTimeout(() => {
+                    // Inject the winning code
+                    const script = gameWindow.document.createElement('script');
+                    script.textContent = `
+                        console.log("=== AUTO WIN EXPLOIT STARTING ===");
+                        console.log("Initial score:", typeof score !== 'undefined' ? score : 'undefined');
+                        console.log("Initial previousScore:", typeof previousScore !== 'undefined' ? previousScore : 'undefined');
+                        
+                        // Fast increment to 1 million with proper previousScore tracking
+                        function fastWin() {
+                            if (typeof score === 'undefined' || typeof previousScore === 'undefined') {
+                                console.error("Game variables not available yet!");
+                                return;
+                            }
+                            
+                            console.log("Starting fast increment...");
+                            let targetScore = 1000000;
+                            let count = 0;
+                            
+                            const winInterval = setInterval(() => {
+                                if (score >= targetScore) {
+                                    clearInterval(winInterval);
+                                    console.log("=== REACHED 1 MILLION ===");
+                                    console.log("Final score:", score);
+                                    console.log("Final previousScore:", previousScore);
+                                    console.log("Anti-cheat check:", score > 999999 && score == (previousScore + 10));
+                                    return;
+                                }
+                                
+                                // Proper order: previousScore first, then increment
+                                previousScore = score;
+                                score += 10;
+                                count++;
+                                
+                                // Update HUD
+                                const hs = document.getElementById("hud-score");
+                                if (hs && count % 100 === 0) {
+                                    hs.innerText = String(score);
+                                }
+                                
+                                if (count % 10000 === 0) {
+                                    console.log(\`Progress: \${score} / \${targetScore}\`);
+                                }
+                            }, 0); // Run as fast as possible
+                        }
+                        
+                        // Start after a short delay to ensure game is ready
+                        setTimeout(fastWin, 1000);
+                    `;
+                    gameWindow.document.body.appendChild(script);
+                    document.getElementById('status').innerHTML = "Script injected! Check browser console for progress...";
+                }, 2000);
+            } catch (e) {
+                document.getElementById('status').innerHTML = "Error: " + e.message + "<br>Try opening aliens.html directly and paste the console code.";
+                console.error(e);
+            }
+        }
+        
+        // Auto-run after page load
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                console.log("Auto-running win exploit...");
+                autoWin();
+            }, 3000);
+        });
+    </script>
+    
+    <h2>Manual Method:</h2>
+    <p>If iframe doesn't work (CORS issues), open <a href="aliens.html" target="_blank">aliens.html</a> and paste this in the console:</p>
+    <textarea id="manualCode" style="width: 100%; height: 300px; font-family: monospace;" readonly>
+// Auto-win exploit
+(function() {
+    console.log("=== AUTO WIN EXPLOIT ===");
+    
+    // Wait for game variables to be available
+    if (typeof score === 'undefined') {
+        console.error("Game not loaded yet! Wait a few seconds and try again.");
+        return;
+    }
+    
+    console.log("Starting fast increment to 1 million...");
+    let targetScore = 1000000;
+    let count = 0;
+    
+    const winInterval = setInterval(() => {
+        if (score >= targetScore) {
+            clearInterval(winInterval);
+            console.log("=== REACHED 1 MILLION ===");
+            console.log("Score:", score);
+            console.log("PreviousScore:", previousScore);
+            console.log("Anti-cheat passes:", score > 999999 && score == (previousScore + 10));
+            console.log("Waiting for flag...");
+            return;
+        }
+        
+        // Critical: Set previousScore BEFORE incrementing score
+        previousScore = score;
+        score += 10;
+        count++;
+        
+        // Update display occasionally
+        if (count % 100 === 0) {
+            const hs = document.getElementById("hud-score");
+            if (hs) hs.innerText = String(score);
+        }
+        
+        // Progress logging
+        if (count % 10000 === 0) {
+            console.log(`Progress: ${score.toLocaleString()} / ${targetScore.toLocaleString()}`);
+        }
+    }, 0);
+})();
+    </textarea>
+    <button onclick="navigator.clipboard.writeText(document.getElementById('manualCode').value).then(() => alert('Copied! Paste in console.'))">Copy Code</button>
+</body>
+</html>

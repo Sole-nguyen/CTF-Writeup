@@ -1,0 +1,5 @@
+[*] Extracting with thorough search...
+Start: uoftctf{
+
+Byte 8:
+  ...checked 0 blocks

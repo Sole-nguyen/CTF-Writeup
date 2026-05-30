@@ -1,0 +1,6 @@
+#include <iostream>
+#include <string>
+
+#define hehe void
+#define hehehe int
+#define hehehehe return

@@ -1,0 +1,5 @@
+HTTP/1.1 302 Found
+Location: /notes
+Set-Cookie: SESSION=%7B%22token%22%3A%22eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1MTc3NTIwNTMyMSIsImlhdCI6MTc3NTIwNTMyNCwiZXhwIjoxNzc1MjA1NTA0fQ.jM_d6ytUlj-j4-i_msMSk_8OedS24jHU-eXZYwKVb1E%22%7D; Max-Age=36000; Expires=Fri, 03 Apr 2026 18:35:24 GMT; Path=/; HttpOnly; $x-enc=URI_ENCODING
+Content-Length: 0
+

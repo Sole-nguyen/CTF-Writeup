@@ -1,0 +1,31 @@
+🔍 KEYWORDS ĐỂ TÌM KIẾM:
+
+1. Tìm trên Google:
+   ✅ "Augustus" + "bad night" + "lipogram"
+   ✅ "Noon rings out" + "wasp" + "no letter e"
+   ✅ "A Void" + "Gilbert Adair"
+   ✅ "La Disparition" + "Georges Perec"
+
+2. Tìm trên GitHub (quan trọng!):
+   ✅ Repository: "BritishNationalCipherChallenge"
+   ✅ User: themaddoctor
+   ✅ Path: 2001/4/solution.txt
+   ✅ Link: https://github.com/themaddoctor/BritishNationalCipherChallenge/blob/master/2001/4/solution.txt
+
+3. Các tên có thể đúng:
+   - Georges Perec (tác giả gốc tiếng Pháp)
+   - Gilbert Adair (người dịch tiếng Anh) ← đã thử nhưng sai
+   - ??? (có thể là tên khác hoặc cách viết khác)
+
+🎯 GỢI Ý:
+- Challenge nói "original script" - có thể ám chỉ tác giả gốc
+- Hoặc có thể là tên trong repository GitHub
+- Thử các biến thể: first_last, firstname_lastname, full name
+- Kiểm tra README hoặc các file khác trong repo
+
+📌 CÁC BƯỚC TỰ TÌM:
+1. Mở GitHub và tìm repo: themaddoctor/BritishNationalCipherChallenge
+2. Đọc file solution.txt trong folder 2001/4/
+3. Xem README.md của repo để tìm thêm thông tin
+4. Search Google về "A Void" để biết thêm chi tiết
+5. Thử các tên theo format: txsaw{first_last}

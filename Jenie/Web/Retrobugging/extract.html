@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FLAG EXTRACTOR - Galactic Invaders</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: #1a1a2e;
+            color: #16f;
+            padding: 20px;
+        }
+        h1 {
+            color: #0ff;
+            text-shadow: 0 0 10px #0ff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .status {
+            background: #0a0a1e;
+            padding: 20px;
+            border: 2px solid #16f;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        button {
+            background: #16f;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #0ff;
+            color: #000;
+        }
+        .flag {
+            font-size: 24px;
+            color: #0f0;
+            text-shadow: 0 0 10px #0f0;
+            padding: 20px;
+            background: #000;
+            border: 3px solid #0f0;
+            display: none;
+            margin: 20px 0;
+        }
+        #progress {
+            color: #ff0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 GALACTIC INVADERS - FLAG EXTRACTOR 🚀</h1>
+        
+        <div class="status">
+            <h2>Status:</h2>
+            <div id="status">Ready to extract flag...</div>
+            <div id="progress"></div>
+        </div>
+        
+        <button id="extractBtn" onclick="extractFlag()">🎯 EXTRACT FLAG NOW</button>
+        
+        <div id="flagDisplay" class="flag"></div>
+        
+        <div class="status">
+            <h3>Instructions:</h3>
+            <p>1. Click the "EXTRACT FLAG NOW" button</p>
+            <p>2. The script will automatically increment score to 1,000,000</p>
+            <p>3. The flag will be displayed above</p>
+            <p>4. If no flag appears, check the browser console (F12)</p>
+        </div>
+    </div>
+    
+    <script src="aliens.js"></script>
+    <script>
+        // Wait for game to initialize
+        setTimeout(() => {
+            document.getElementById('status').innerHTML = '<strong style="color:#0f0">✓ Game loaded and ready!</strong>';
+        }, 1000);
+        
+        function extractFlag() {
+            document.getElementById('extractBtn').disabled = true;
+            document.getElementById('extractBtn').textContent = 'EXTRACTING...';
+            document.getElementById('status').innerHTML = '<strong style="color:#ff0">⚡ Exploit running...</strong>';
+            
+            // Check if game variables exist
+            if (typeof score === 'undefined' || typeof previousScore === 'undefined') {
+                document.getElementById('status').innerHTML = '<strong style="color:#f00">✗ Error: Game not loaded properly. Refresh and try again.</strong>';
+                document.getElementById('extractBtn').disabled = false;
+                document.getElementById('extractBtn').textContent = '🎯 EXTRACT FLAG NOW';
+                return;
+            }
+            
+            console.log("="=".repeat(60));
+            console.log("GALACTIC INVADERS - FLAG EXTRACTION EXPLOIT");
+            console.log("="=".repeat(60));
+            console.log(`Initial score: ${score}`);
+            console.log(`Initial previousScore: ${previousScore}`);
+            
+            let targetScore = 1000000;
+            let count = 0;
+            let startTime = Date.now();
+            
+            // Rapid increment
+            const winInterval = setInterval(() => {
+                if (score >= targetScore) {
+                    clearInterval(winInterval);
+                    
+                    let elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
+                    
+                    console.log("\\n" + "="=".repeat(60));
+                    console.log("✓ REACHED 1 MILLION POINTS!");
+                    console.log("="=".repeat(60));
+                    console.log(`Final score: ${score}`);
+                    console.log(`Final previousScore: ${previousScore}`);
+                    console.log(`Anti-cheat check (score > 999999): ${score > 999999}`);
+                    console.log(`Anti-cheat check (score == previousScore + 10): ${score == (previousScore + 10)}`);
+                    console.log(`Overall anti-cheat PASSED: ${score > 999999 && score == (previousScore + 10)}`);
+                    console.log(`Time taken: ${elapsed} seconds`);
+                    console.log("="=".repeat(60));
+                    
+                    document.getElementById('status').innerHTML = `
+                        <strong style="color:#0f0">✓ Successfully reached 1,000,000 points!</strong><br>
+                        <span style="color:#0ff">Anti-cheat check: ${score > 999999 && score == (previousScore + 10) ? 'PASSED ✓' : 'FAILED ✗'}</span><br>
+                        <span>Time: ${elapsed}s</span>
+                    `;
+                    
+                    document.getElementById('extractBtn').textContent = '✓ EXTRACTION COMPLETE';
+                    
+                    // Wait for flag to appear
+                    setTimeout(() => {
+                        // Try to find flag in the page
+                        let bodyText = document.body.innerText;
+                        let htmlText = document.documentElement.innerHTML;
+                        
+                        // Check for various flag formats
+                        let flagPatterns = [
+                            /flag\{[^}]+\}/gi,
+                            /FLAG\{[^}]+\}/g,
+                            /jdh\{[^}]+\}/gi,
+                            /JDH\{[^}]+\}/g,
+                            /CTF\{[^}]+\}/gi
+                        ];
+                        
+                        let foundFlags = [];
+                        for (let pattern of flagPatterns) {
+                            let matches = htmlText.match(pattern);
+                            if (matches) {
+                                foundFlags = foundFlags.concat(matches);
+                            }
+                        }
+                        
+                        if (foundFlags.length > 0) {
+                            let uniqueFlags = [...new Set(foundFlags)];
+                            let flagHtml = uniqueFlags.map(f => `<div>${f}</div>`).join('');
+                            document.getElementById('flagDisplay').innerHTML = `
+                                <h2>🎉 FLAG FOUND! 🎉</h2>
+                                ${flagHtml}
+                            `;
+                            document.getElementById('flagDisplay').style.display = 'block';
+                            console.log("\\n🎉 FLAG FOUND:");
+                            uniqueFlags.forEach(f => console.log(f));
+                        } else {
+                            document.getElementById('status').innerHTML += `
+                                <br><br><strong style="color:#ff0">⚠ Flag not found in page HTML</strong><br>
+                                <span style="color:#888">Check browser console for obfuscated flag display</span>
+                            `;
+                            console.log("\\n⚠ Flag not found in page HTML. Check for dynamically generated content.");
+                            console.log("Checking localStorage...");
+                            console.log("localStorage items:", Object.keys(localStorage));
+                            for (let i = 0; i < localStorage.length; i++) {
+                                let key = localStorage.key(i);
+                                console.log(`  ${key}: ${localStorage.getItem(key)}`);
+                            }
+                        }
+                    }, 3000);
+                    
+                    return;
+                }
+                
+                // CRITICAL: Update previousScore BEFORE incrementing score
+                // This is the bug fix!
+                previousScore = score;
+                score += 10;
+                count++;
+                
+                // Update progress
+                if (count % 1000 === 0) {
+                    let percent = ((score / targetScore) * 100).toFixed(1);
+                    document.getElementById('progress').textContent = 
+                        `Progress: ${score.toLocaleString()} / ${targetScore.toLocaleString()} (${percent}%)`;
+                }
+                
+                // Log progress
+                if (count % 10000 === 0) {
+                    console.log(`Progress: ${score.toLocaleString()} / ${targetScore.toLocaleString()}`);
+                }
+            }, 0); // Run as fast as possible
+        }
+    </script>
+</body>
+</html>

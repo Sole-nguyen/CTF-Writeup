@@ -1,0 +1,97 @@
+[*] Using optimal parameters from previous run
+Start: uoftctf{
+
+Byte 8: X
+  Current: 
+
+Byte 9: X
+  Current: 
+
+Byte 10: X
+  Current: 
+
+Byte 11: X
+  Current: 
+
+Byte 12: X
+  Current: 
+
+Byte 13: X
+  Current: 
+
+Byte 14: X
+  Current: 
+
+Byte 15: X
+  Current: 
+
+Byte 16: X
+  Current: 
+
+Byte 17: X
+  Current: 
+
+Byte 18: X
+  Current: 
+
+Byte 19: X
+  Current: 
+
+Byte 20: X
+  Current: 
+
+Byte 21: X
+  Current: 
+
+Byte 22: X
+  Current: 
+
+Byte 23: X
+  Current: 
+
+Byte 24: X
+  Current: 
+
+Byte 25: X
+  Current: 
+
+Byte 26: X
+  Current: 
+
+Byte 27: X
+  Current: 
+
+Byte 28: X
+  Current: 
+
+Byte 29: X
+  Current: 
+
+Byte 30: X
+  Current: 
+
+Byte 31: X
+  Current: 
+
+Byte 32: X
+  Current: 
+
+Byte 33: X
+  Current: 
+
+Byte 34: X
+  Current: 
+
+Byte 35: X
+  Current: 
+
+Byte 36: X
+  Current: 
+
+Byte 37: X
+  Current: 
+
+Byte 38: X
+  Current: 
+
+Byte 39: 

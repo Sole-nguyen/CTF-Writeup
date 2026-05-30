@@ -1,0 +1,27 @@
+   1   1
+   1   2   1
+   1   3   3   1
+   1   4   6   4   1
+   1   5  10  10   5   1
+   1   6  15  20  15   6   1
+   1   7  21  35  35  21   7   1
+   1   8  28  56  70  56  28   8   1
+
+Pascal knew about triangles.
+Fibonacci knew about rabbits.
+
+But the Queen prefers a Russian mathematician
+who knew about polynomials and approximation.
+
+His polynomials satisfy a beautiful identity:
+  T_m(T_n(x)) = T_{m·n}(x)
+
+And they are defined by:
+  T_0(x) = 1
+  T_1(x) = x
+  T_{k+1}(x) = 2x · T_k(x) − T_{k−1}(x)
+
+--- This file is intentionally placed deep. ---
+--- If you found it, you're on the right track. ---
+--- But knowing the name isn't enough. ---
+--- You still need to break the lock. ---
