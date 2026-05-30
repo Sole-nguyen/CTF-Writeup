@@ -1,0 +1,3 @@
+[x] Opening connection to chall.0xfun.org on port 33968
+[x] Opening connection to chall.0xfun.org on port 33968: Trying 54.252.8.23
+[+] Opening connection to chall.0xfun.org on port 33968: Done
