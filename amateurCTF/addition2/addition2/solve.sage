@@ -1,0 +1,172 @@
+############################################################
+# solve_addition2.sage  –  FULL WORKING BIVARIATE SOLVER
+# Uses Herrmann–May Coppersmith for f(x,y) small roots.
+############################################################
+
+from sage.all import *
+import itertools
+
+
+############################################################
+# INPUT (EDIT YOUR n AND c HERE)
+############################################################
+
+n = 20208311177184955115090511124032781035588652056167893153014009193147898261283806397554633353719561364953849093964365829379459528406187640621730278804693650261355808998286005576922276522762093384142330171089449945579570853297445218436133938465380253710514422860657716248721992152157377786589049627758418737504652399013446808199529340789089738787056806161373273856407267595106676357974943665783132619472007420711554756417686959607708566357635889440646987454108257969334947105522421824052640766647126994826438887689113271991182023497470808782588760123317440194180043365928897967217016966486686598615073351195355132011789
+
+c = 5945295878929624318056442026872120996186586311691756371781073234153373217828542852768828412651995382426227734569504519632508281353488279652194803208393882546985975714316156509838457171721084678314762654604603429086617506681410936454240228890140752882468705406816109627145877267709157313869838088501318617717384156084003159323676361769952188332955585451527942099788479230631164629494020537894498417606701420063901904092608026708732278838327590524626389305459531235198303777939096897417458204111529343513562803324661027773480100455212044520601794594662763848862816237379652027495148064085087775744315277339918052945277
+
+
+############################################################
+# BUILD POLYNOMIAL f(x,y) = (2^256 y + x)^3 - c (mod n)
+############################################################
+
+N = Integer(n)
+C = Integer(c)
+
+X = 2^256       # bound for random r
+Y = 2^576       # bound for 72-byte flag
+
+PR.<x,y> = PolynomialRing(Zmod(N))
+SHIFT = 2^256
+
+f = (SHIFT * y + x)^3 - C
+
+print("[*] f(x,y) degree =", f.total_degree())
+
+
+############################################################
+# BIVARIATE COPPERSMITH IMPLEMENTATION
+############################################################
+
+def coppersmith_2var(f, X, Y, m):
+    """
+    Herrmann–May bivariate Coppersmith implementation.
+    Looks for small |x| < X, |y| < Y such that f(x,y) = 0 mod N.
+    """
+    R = f.base_ring()
+    modulus = Integer(R.cardinality())
+
+    # Convert to integer poly
+    Rxy = PolynomialRing(ZZ, f.variables(), order='lex')
+    varsZ = Rxy.gens()
+
+    fZ = Rxy(
+        sum(int(c) * prod(v**e for v,e in zip(varsZ, mon))
+            for mon,c in f.dict().items())
+    )
+
+    xZ, yZ = varsZ
+    d = fZ.total_degree()
+
+    # Build lattice basis
+    print(f"[*] Building lattice for m={m} ...")
+
+    G = []
+    for k in range(m+1):
+        base = (modulus^(m-k)) * (fZ^k)
+        for i in range(d):
+            for j in range(d-i):
+                G.append(base * (xZ^i) * (yZ^j))
+
+    # Collect monomials
+    monos = sorted(
+        {mono for g in G for mono in g.monomials()},
+        key=lambda M: (M.degree(), M)
+    )
+
+    rows = len(G)
+    cols = len(monos)
+    print(f"[*] Lattice size = {rows} x {cols}")
+
+    B = Matrix(ZZ, rows, cols)
+    for r, g in enumerate(G):
+        coeffs = g.dict()
+        for c, mono in enumerate(monos):
+            B[r,c] = coeffs.get(mono, 0)
+
+    # Scale columns by X^i Y^j
+    scale = []
+    for mono in monos:
+        ex = mono.exponents()[0]
+        factor = (X^ex[0]) * (Y^ex[1])
+        scale.append(factor)
+
+    for c, factor in enumerate(scale):
+        B.rescale_col(c, factor)
+
+    print("[*] Running LLL ...")
+    B = B.LLL()
+
+    # Unscale (rational OK)
+    B = B.change_ring(QQ)
+    for c, factor in enumerate(scale):
+        B.rescale_col(c, 1/factor)
+
+    # Try solving
+    RxyQ = Rxy.change_ring(QQ)
+
+    print("[*] Searching for roots ...")
+
+    for row in B.rows():
+        h = RxyQ(sum(row[c] * monos[c] for c in range(cols)))
+        if h == 0: 
+            continue
+
+        try:
+            I = ideal([fZ, h])
+            sols = I.variety(ring=ZZ)
+        except Exception:
+            continue
+
+        if sols:
+            return sols
+
+    return []
+
+
+############################################################
+# RUN SOLVER WITH m = 3,4,5
+############################################################
+
+for m in [3,4,5]:
+    print(f"\n======================")
+    print(f"Trying m = {m}")
+    print("======================")
+
+    sols = coppersmith_2var(f, X, Y, m)
+
+    if sols:
+        print("[+] Found roots =", sols)
+        break
+    else:
+        print("[!] No root for m =", m)
+
+if not sols:
+    print("[!!!] FAILED. Try increasing m or check parameters.")
+    exit()
+
+
+############################################################
+# EXTRACT FLAG
+############################################################
+
+(x0, y0) = next(iter(sols)).values()
+
+flag_int = int(y0)
+
+def int_to_bytes(v):
+    bl = (v.bit_length() + 7) // 8
+    return int(v).to_bytes(bl, 'big')
+
+flag_bytes = int_to_bytes(flag_int)
+
+print("\n======================")
+print("FLAG BYTES:")
+print(flag_bytes)
+print("======================\n")
+
+try:
+    print("FLAG ASCII:")
+    print(flag_bytes.decode())
+except:
+    print("(not ascii printable)")
